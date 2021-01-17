@@ -1,0 +1,43 @@
+title: Kjetil Andresen
+email: kjetil.andrese@gmail.com
+author_name: "Kjetil Andresen"
+logo_url: https://avatars2.githubusercontent.com/u/4138151?s=460&u=e802eb83dacf71a9c2ae4274238a647876ab1855&v=4
+description: >-
+  Programming, vinyl and coffee.
+github_username: kjetand
+
+sass:
+  style: compact
+
+remote_theme: heiswayi/the-plain
+
+# Site Settings
+timezone: Europe/Oslo
+mathjax: false
+
+# Site Build
+highlighter: rouge
+markdown: redcarpet
+
+# Other Params
+exclude: [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "null"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

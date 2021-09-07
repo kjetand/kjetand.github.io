@@ -17,7 +17,6 @@ mathjax: false
 
 # Site Build
 highlighter: rouge
-markdown: redcarpet
 future: true
 
 # Other Params

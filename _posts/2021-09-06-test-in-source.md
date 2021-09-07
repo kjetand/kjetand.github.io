@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Combine header, source and tests in C++"
-date: 2021-02-22
+title: "Source-only applications in C++"
+date: 2021-10-12
 categories: programming c++20 modules
 ---
 
@@ -9,10 +9,10 @@ How do you write and organize your APIs and unit tests in C++? For me, I usually
 shared (or static) libraries, exposing public API headers that my main executable and unit test executable includes and
 links to. What my projects usually ends up with are lots of header files, source files, test source files, and most
 annoyingly:
-boilerplate code. - Ok, it's not that bad, because I love to program in C++, but can the experience be better? By using
-C++20 modules and some simple build switches (macros), I will show you a technique of writing all your production code
-in source files only, together with the corresponding unit tests. That's right! We go from the need of _three_ files to
-actually needing to write just _one_.
+boilerplate code. - Ok, it's not that bad, but can the experience be better? By using C++20 modules and some simple
+build switches (macros), I will show you a technique of writing all your production code in source files only, together
+with the corresponding unit tests. That's right! We go from the need of _three_ files to actually needing to write
+just _one_.
 
 ## Motivation
 
@@ -225,8 +225,8 @@ All tests passed (2 assertions in 2 test cases)
 ## TL;DR
 
 If you just want to look at the code, and compile it, visit a sample project on my
-[GitHub](https://github.com/kjetand/test-in-source/). The code should compile with CMake and newer GCC, Clang and MSVC
-compilers.
+[GitHub](https://github.com/kjetand/test-in-source/). The code should compile with CMake and newer MSVC compilers (I've
+tested on MSVC 19.29.30133.0).
 
 ## Conclusion
 
@@ -239,16 +239,18 @@ With these techniques in mind, I can see the following positives:
 - The obvious: eliminates lots of boilerplate code.
 - Hides implementation details in modules, but still enables us to write unit tests for it. Another way of putting it is
   that we finally can forget the use of `detail`-namespaces to "hide" implementation details.
-- All other positives with modules.
-- We probably never need to change `main.cpp` nor `test.hpp` again, and we can focus on writing the actual code.
+- All other positives with modules. 
+
+> **NOTE** we probably never need to change `main.cpp` nor `test.hpp` again, and we can focus on writing the actual code.
 
 But there are for sure some questions to be asked, and possible negatives:
 
 - The code base must be compiled at minimum twice, one for the application and again for the unit test suite. However,
   there may be better ways to do it.
-- Does it scale? Build time in large projects may suffer.
-- How will big development teams handle this technique? There is no known _large applications_ implemented using this
-  pattern.
+- Does it scale?
+  - Build time in large projects may suffer.
+  - How will big development teams handle this technique?
+  - There is no known _large applications_ implemented proving this pattern.
 - We needed to use two macros that are included everywhere: `APP_BUILD_TESTS` and `UNIT_TESTS`. Please tell me if you
   find a better way :)
 - Today we don't have good support for C++20 modules, both in compilers and in build tools like CMake. I got it to work
@@ -256,7 +258,7 @@ But there are for sure some questions to be asked, and possible negatives:
 
 ## References
 
-- Complete source code: https://github.com/kjetand/test-in-source/
+- Complete source code: [github.com/kjetand/test-in-source](https://github.com/kjetand/test-in-source/)
 - Great introduction to modules: [vector-of-bool.github.io](https://vector-of-bool.github.io/2019/03/10/modules-1.html)
 - `catch2`: [github.com/catchorg/Catch2](https://github.com/catchorg/Catch2)
 - `fmt`: [github.com/fmtlib/fmt](https://github.com/fmtlib/fmt)

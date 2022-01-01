@@ -2,6 +2,10 @@
 layout: page
 ---
 
+<a href="vinyl">Jazz Vinyl Collection</a>&nbsp;&nbsp;&nbsp;
+<a href="about">About</a>
+<br/><br/>
+
 {% for post in site.posts %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p>{{ post.excerpt }}</p>

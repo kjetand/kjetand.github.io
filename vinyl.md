@@ -4,7 +4,9 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-## &#9835; "Glass Bead Games" by _Clifford Jordan_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+_**Last updated:** 2nd of January, 2021_
+
+## "Glass Bead Games" by _Clifford Jordan_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'74</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -16,9 +18,25 @@ permalink: /vinyl/
 | ![](/images/glassbead/back.jpg "Back cover") | ![](/images/glassbead/side1A.jpg "Label side 1") | ![](/images/glassbead/side1B.jpg "Label side 2")
 | ![](/images/glassbead/gatefold.jpg "Inside gatefold") | ![](/images/glassbead/side2A.jpg "Label side 1") | ![](/images/glassbead/side2B.jpg "Label side 2")
 
+| Personell                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------|
+| **CLIFFORD JORDAN, tenor sax; BILLY HIGGINS, drums; BILL LEE and SAM JONES, bass; CEDAR WALTON and STANLEY COWELL, piano.** |
 
+| Quality                                                                       |
+|-------------------------------------------------------------------------------|
+| Amazing bass sound, great tones and room feel. Vinyls are dead flat. Comes with thick laminated gatefold cover. A quality release and a *must-have*.
+ <span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; &#9835;</span> |
 
-## &#9835; "The Sidewinder" by _Lee Morgan_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+| Rarity / Value                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------|
+| Found this in my local record store. Haven't seen it around, and few available copies are available on discogs. The price for this original in good condition is a bit steep (as a discogs user writes: *"I paid an arm and a leg for this"*). But, the good news is that there exist more affordable re-issues.
+<span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span></span> |
+
+| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This is one of those albums that takes you on a journey from start to finish. The opening track takes you right in with a beautiful melodic intro which for some reason reminded me a lot of *Lee Morgan's* intro to "Search For The New Land". As the album progress, Jordan moves with melodic Hard Bop music into a mix with modal that presents more challenging tunes for us non-musicians. A highlight on this album for me was the song "John Coltrane" written by the bassists Bill Lee and Clif Lee, where suprisingly Jordan, B.Lee and Higgins sings. I was impressed how Jordan gives the other musicians space and attention, which makes for a balanced album. All-in-all, one of the great ones in my book.
+
+## "The Sidewinder" by _Lee Morgan_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'64</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -30,7 +48,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; "Exultation!" by _Booker Ervin_ <code class="language-plaintext highlighter-rouge">Prestige</code>
+## "Exultation!" by _Booker Ervin_ <code class="language-plaintext highlighter-rouge">Prestige</code>
 
 <code class="language-plaintext highlighter-rouge">'63</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -42,7 +60,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; "Gettin' Around" by _Dexter Gordon_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## "Gettin' Around" by _Dexter Gordon_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'66</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -54,7 +72,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'73</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -66,7 +84,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; _Marion Brown Quartet_ <code class="language-plaintext highlighter-rouge">ESP Disk</code>
+## _Marion Brown Quartet_ <code class="language-plaintext highlighter-rouge">ESP Disk</code>
 
 <code class="language-plaintext highlighter-rouge">'66</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -78,7 +96,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; "Zodiac" by _Cecil Payne_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## "Zodiac" by _Cecil Payne_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'73</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -91,7 +109,7 @@ permalink: /vinyl/
 
 
 
-## &#9835; "Boss Horn" by _Blue Mitchell_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## "Boss Horn" by _Blue Mitchell_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'67</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>

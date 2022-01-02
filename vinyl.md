@@ -6,7 +6,7 @@ permalink: /vinyl/
 
 _**Last updated:** 2nd of January, 2021_
 
-## "Glass Bead Games" by _Clifford Jordan_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## "Glass Bead Games" by _Clifford Jordan Quartet_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'74</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>

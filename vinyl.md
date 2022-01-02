@@ -4,7 +4,7 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-## "Glass Bead Games" by _Clifford Jordan_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## &#9835; "Glass Bead Games" by _Clifford Jordan_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'74</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -18,7 +18,7 @@ permalink: /vinyl/
 
 
 
-## "The Sidewinder" by _Lee Morgan_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## &#9835; "The Sidewinder" by _Lee Morgan_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'64</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -30,7 +30,7 @@ permalink: /vinyl/
 
 
 
-## "Exultation!" by _Booker Ervin_ <code class="language-plaintext highlighter-rouge">Prestige</code>
+## &#9835; "Exultation!" by _Booker Ervin_ <code class="language-plaintext highlighter-rouge">Prestige</code>
 
 <code class="language-plaintext highlighter-rouge">'63</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -42,7 +42,7 @@ permalink: /vinyl/
 
 
 
-## "Gettin' Around" by _Dexter Gordon_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## &#9835; "Gettin' Around" by _Dexter Gordon_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'66</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>
@@ -54,7 +54,7 @@ permalink: /vinyl/
 
 
 
-## "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## &#9835; "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'73</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -66,7 +66,7 @@ permalink: /vinyl/
 
 
 
-## _Marion Brown Quartet_ <code class="language-plaintext highlighter-rouge">ESP Disk</code>
+## &#9835; _Marion Brown Quartet_ <code class="language-plaintext highlighter-rouge">ESP Disk</code>
 
 <code class="language-plaintext highlighter-rouge">'66</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -78,7 +78,7 @@ permalink: /vinyl/
 
 
 
-## "Zodiac" by _Cecil Payne_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
+## &#9835; "Zodiac" by _Cecil Payne_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
 <code class="language-plaintext highlighter-rouge">'73</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>
@@ -91,7 +91,7 @@ permalink: /vinyl/
 
 
 
-## "Boss Horn" by _Blue Mitchell_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## &#9835; "Boss Horn" by _Blue Mitchell_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'67</code>
 <code class="language-plaintext highlighter-rouge">Stereo</code>

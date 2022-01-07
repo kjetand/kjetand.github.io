@@ -4,7 +4,7 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-_**Last updated:** 2nd of January, 2021_
+_**Last updated:** 7th of January 2022_
 
 ## "Glass Bead Games" by _Clifford Jordan Quartet_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
@@ -27,7 +27,7 @@ _**Last updated:** 2nd of January, 2021_
 | Amazing bass sound, great tones and room feel. Vinyls are dead flat. Comes with thick laminated gatefold cover. A quality release and a *must-have*.
  <span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; &#9835;</span> |
 
-| Rarity / Value                                                                                                      |
+| Rarity
 |---------------------------------------------------------------------------------------------------------------------|
 | Found this in my local record store. Haven't seen it around, and few available copies are available on discogs. The price for this original in good condition is a bit steep (as a discogs user writes: *"I paid an arm and a leg for this"*). But, the good news is that there exist more affordable re-issues.
 <span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span></span> |
@@ -46,6 +46,23 @@ _**Last updated:** 2nd of January, 2021_
 
 | ![](/images/sidewinder/back.jpg "Back cover") | ![](/images/sidewinder/side1.jpg "Label side 1") | ![](/images/sidewinder/side2.jpg "Label side 2")
 
+| Personell                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------|
+| **LEE MORGAN, trumpet; JOE HENDERSON, tenor sax; BARRY HARRIS, piano; BOB CRANSHAW, bass; BILLY HIGGINS, drums.** |
+
+| Quality                                                                       |
+|-------------------------------------------------------------------------------|
+| Punchy Blue Note sound with driving bass lines and drums. Nice sound overall as most Blue Notes originals, however I found the horns a bit noisy. Nothing major, but on my speaker system and with my copy it wasn't perfect... only great :) _Note: it would be nice to compare against Classic series version from 2020._
+<span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span></span> |
+
+| Rarity
+|---------------------------------------------------------------------------------------------------------------------|
+| Not a particular rare record, even original mono, but sometimes expensive for a VG+ to NM copy. My copy was bought on Discogs and is VG+/VG+.
+<span style="font-size: 1.6em">&#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span> <span style="color: lightgrey">&#9835;</span></span> |
+
+| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lee Morgan is by far one of my favorite trumpet players. He had amazing tone and his solo'ing was off the charts good. "The Sidewinder" is one of his more popular albums, and I can understand why. The tunes are catchy, and in many ways it's dance music and not the advanced nerdy jazz that your friends can't stand. The title track starts the album and takes you right in to the blues with pretty straight forward melodies that catch the listeners ear. Most of the songs appear to contain large elements of blues, but there are mixed in some Latin rythms and melodies, and the album finishes with a quite standard swing jazz tune. A "typical" Blue Note date that contains a little bit for everybody. My personal favorite on this album is the song "Boy, what a night". Just awesome!
 
 
 ## "Exultation!" by _Booker Ervin_ <code class="language-plaintext highlighter-rouge">Prestige</code>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Source-only applications in C++"
+title: "Source-file-only development in C++"
 date: 2021-10-12
 categories: programming c++20 modules
 ---
@@ -18,37 +18,51 @@ just _one_.
 
 As a C++ programmer, I want to write my code in the structure illustrated below:
 
+### _app.cpp_ &#128526;
 ```c++
-// app.cpp
-<Definitions and source code here>
-<unit test code here>
+<Definitions>
+<Source code>
+<Unit test code>
 ```
 
-instead of the usual pattern that may look like this:
+Instead of the usual pattern that may look like this:
 
+### _app.hpp_ &#128528;
 ```c++
-// app.hpp
-<Definitions here>
-
-// app.cpp
+<Definitions>
+```
+### _app.cpp_ &#128529;
+```c++
 #include "app.hpp"
-<source code here>
-
-// app_test.cpp
+<Source code>
+```
+### _app_test.cpp_ &#128530;
+```c++
 #include "app.hpp"
-#include <catch2/catch.hpp>
-<unit test code here>
+#include "test.hpp"
+<Unit test code>
 ```
 
 > **NOTE** in the _Rust_ programming language, it's already common to write unit tests in the same file as the corresponding production code. One can say that the approach described in this blog post is inspired by this.
 
+## Example
+
+In order to illustrate the hopefully motivating end-goal, we will explore a simple application that calculate some numbers and prints the result to the user.
+The example is not very interesting by itself, but the technique described may be interesting.
+
+## TL;DR
+
+If you just want to look at the code, and compile it, visit a sample project on my
+[GitHub](https://github.com/kjetand/test-in-source/).
+The code should compile with CMake and newer MSVC and GCC compilers (I've tested on MSVC 19.29.30133.0 and GCC 11).
+
 ## First module: `math`
 
-In the source below we define a math-module for addition and multiplication.
+In the source below we define a math-module for addition and multiplication, where addition is _public_ and multiplication is _private_.
+
+### _math.cpp_
 
 ```c++
-// math.cpp
-
 export module math;
 
 namespace math {
@@ -57,7 +71,7 @@ export int add(const int a, const int b) { return a + b; }
 
 int multiply(const int n, const int x) { return n * x; }
 
-}  // namespace math
+}
 ```
 
 There are two new keywords that we need to get familiar with:
@@ -73,9 +87,9 @@ Our application is defined by the `app` module below, with the main entry point 
 will only print out a simple calculation using the `math` module, and the external `fmt` library for formatting and
 printing strings.
 
-```c++
-// app.cpp
+### _app.cpp_
 
+```c++
 module;
 
 #include <fmt/format.h>
@@ -91,7 +105,7 @@ export int main() {
   return 0;
 }
 
-}  // namespace app
+}
 ```
 
 There are a few new items to this code we need to understand:
@@ -100,19 +114,16 @@ There are a few new items to this code we need to understand:
   to define a module, but before we do so, we want to do some "non-modular things", e.g. including non-modular code.
 - `import math;`:  Imports a module into the current module. Note that others importing the `app` module will not see what is
   exported by `math`. In order to do this you have to "export the import" like so: `export import math;`.
-- `export int main()`: The reason I put a main function inside a module is because I like to have _all_ logic in the
+- `export int main()`: The reason I put the app-main function inside a module is because I like to have _all_ logic in the
   libraries, making it possible to unit test everything.
-
-> **NOTE** in the future we don't need the global module fragment for including `fmt`.
-> Ideally we should write e.g. "`import fmt.format;`" inside the `app` module.
 
 ## Main (first version)
 
 We create the executable with a main function calling the `app::main()` to start the application.
 
-```c++
-// main.cpp
+### _main.cpp_
 
+```c++
 import app;
 
 int main() { return app::main(); }
@@ -136,9 +147,9 @@ called `APP_BUILD_TESTS`. When this macro is defined, we compile the code base a
 
 For unit testing we're going to use `catch2`, and we define a test header that we can utilize in the project:
 
-```c++
-// test.hpp
+### _test.hpp_
 
+```c++
 #pragma once
 
 #ifdef APP_BUILD_TESTS
@@ -155,9 +166,9 @@ and outputs nothing.
 
 By using `test.hpp`, we can extend `math.cpp` with some unit tests:
 
-```c++
-// math.cpp
+### _app.cpp_
 
+```c++
 module;
 
 #include "test.hpp"
@@ -170,7 +181,7 @@ export int add(const int a, const int b) { return a + b; }
 
 int multiply(const int n, const int x) { return n * x; }
 
-}  // namespace math
+}
 
 UNIT_TESTS(
 
@@ -178,8 +189,8 @@ TEST_CASE("Two plus three equals five", "[math]") {
   REQUIRE(math::add(2, 3) == 5);
 }
 
-TEST_CASE("Two times three equals six", "[math]") {
-  REQUIRE(math::multiply(2, 3) == 6);
+TEST_CASE("Two times three equals five", "[math]") {
+  REQUIRE(math::multiply(2, 3) == 5); // This will hopefully fail
 }
 
 )
@@ -189,22 +200,22 @@ In the above code, if `APP_BUILD_TESTS` is defined the compiler will include all
 the production code in the same binary.
 
 Lets try to compile it.
-
-## Main (final version)
-
 Without `APP_BUILD_TESTS` defined, compiling the current source code works great. However, in the other case the linker
-will scream errors. The reason for this is that `catch2` needs to define its own main function like this:
+will scream errors related to `catch2`.
+The reason for this is that `catch2` needs to define its own main function, e.g. like this:
 
 ```c++
 #define CATCH_CONFIG_MAIN
 #include <catch2/catch.hpp>
 ```
 
+## Main (final version)
+
 I earlier made the design choice to compile either as application or test suite, hence I controversially implement our `main.cpp` as follows:
 
-```c++
-// main.cpp
+### main.cpp
 
+```c++
 import app;
 
 #ifdef APP_BUILD_TESTS
@@ -218,15 +229,21 @@ int main() { return app::main(); }
 Now everything works! If we run the application we'll get `2 + 3 equals 5`, while running the test suite we get something like this:
 
 ```text
-===============================================
-All tests passed (2 assertions in 2 test cases)
+-------------------------------------------------------
+Two times three equals five
+-------------------------------------------------------
+C:\test-in\source\src\math.cpp(22)
+.......................................................
+
+C:\test-in\source\src\math.cpp(22): FAILED:
+  REQUIRE( math::multiply(2, 3) == 5 )
+with expansion:
+  6 == 5
+
+=======================================================
+test cases: 2 | 1 passed | 1 failed
+assertions: 2 | 1 passed | 1 failed
 ```
-
-## TL;DR
-
-If you just want to look at the code, and compile it, visit a sample project on my
-[GitHub](https://github.com/kjetand/test-in-source/). The code should compile with CMake and newer MSVC compilers (I've
-tested on MSVC 19.29.30133.0).
 
 ## Conclusion
 
@@ -241,20 +258,16 @@ With these techniques in mind, I can see the following positives:
   that we finally can forget the use of `detail`-namespaces to "hide" implementation details.
 - All other positives with modules. 
 
-> **NOTE** we probably never need to change `main.cpp` nor `test.hpp` again, and we can focus on writing the actual code.
+> **NOTE** if we keep all the code in our library modules, we probably never need to change `main.cpp` nor `test.hpp` ever again.
+> We can focus on writing the actual code rather than finding ways to stitch the code together to make it testable.
 
 But there are for sure some questions to be asked, and possible negatives:
 
 - The code base must be compiled at minimum twice, one for the application and again for the unit test suite. However,
   there may be better ways to do it.
-- Does it scale?
-  - Build time in large projects may suffer.
-  - How will big development teams handle this technique?
-  - There is no known _large applications_ implemented proving this pattern.
-- We needed to use two macros that are included everywhere: `APP_BUILD_TESTS` and `UNIT_TESTS`. Please tell me if you
-  find a better way :)
-- Today we don't have good support for C++20 modules, both in compilers and in build tools like CMake. I got it to work
-  kinda.
+- Does it scale? Build time in large projects may suffer. The technique may be difficult to implement with bigger development teams.
+- In general we don't like macros, right? We needed to use two macros that are included everywhere: `APP_BUILD_TESTS` and `UNIT_TESTS`. Please tell me if you find a better way.
+- Today we don't have good support for C++20 modules, both in compilers and in build tools like CMake. I got it to work, kinda... using some CMake black magic.
 
 ## References
 

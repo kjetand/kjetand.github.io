@@ -75,6 +75,23 @@ _**Last updated:** 7th of January 2022_
 
 | ![](/images/exultation/back.jpg "Back cover") | ![](/images/exultation/side1.jpg "Label side 1") | ![](/images/exultation/side2.jpg "Label side 2")
 
+| Personell                                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------------|
+| **BOOKER ERVIN, tenor sax; FRANK STROZIER, alto sax; HORACE PARLAN, piano; BUTCH WARREN, bass; WALTER PERKINS, drums.** |
+
+| Quality                                                                       |
+|-------------------------------------------------------------------------------|
+| The sound stage is pretty good. However, on my copy there is a constant background noise, even though I have a visual VG+ copy. I think the noise is particular annoying on the ballads. Anyways, the recording is very good. I think the drive is there which compliments Booker's style very well. For some reason I also like the cover image, very jazzy. |
+<span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span></span> |
+
+| Rarity                                                                                                                                                                                                                                                               
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This record is starting to get more and more rare. Difficult to find a clean copy, and the price is getting higher. I got mine in my home town Oslo for half of the price it goes for online in this condition. Very pleased, but will look for a even cleaner copy. |
+ <span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span></span>                                                                                                            |
+
+| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| I was first introduced to Booker Ervin through the excellent YouTube channel "The jazz basement" by Jason. I later realized that Booker played in one of Charles Mingus bands. "Exultation!" is my _first_ and at the moment my _only_ Booker Ervin record. I was immediately impressed by his technical playing style. He can play really fast, and slow, but the common part for all his songs are great melodies and feel for the song. I will definitively look for the original mono of "That's It!". |
 
 
 ## "Gettin' Around" by _Dexter Gordon_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
@@ -87,6 +104,23 @@ _**Last updated:** 7th of January 2022_
 
 | ![](/images/gettinaround/back.jpg "Back cover") | ![](/images/gettinaround/side1.jpg "Label side 1") | ![](/images/gettinaround/side2.jpg "Label side 2")
 
+| Personell                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------|
+| **DEXTER GORDON, tenor sax; BOBBY HUTCHERSON, vibes; BARRY HARRIS, piano; BOB CRANSHAW, bass; BILLY HIGGINS, drums.** |
+
+| Quality                                                                       |
+|-------------------------------------------------------------------------------|
+| Wow, just wow! Really great sound in mono. Beautiful sax, and perfect mastering, in my opinion. My copy is NM for record, and EX cover. |
+<span style="font-size: 1.6em">&#9835; &#9835; &#9835; &#9835; &#9835;</span> |
+
+| Rarity                                                                                                                                                                                                         
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| One of the more accessible Dexter Gordon originals on blue note. It's expensive in good condition, as all original mono Blue Note's. Found my on the wall in my hometown record store, _Råkk & Rålls_ in Oslo. |
+ <span style="font-size: 1.6em">&#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span> <span style="color: lightgrey">&#9835;</span></span>                                                      |
+
+| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actually, Dexter Gordon's record "Go!" was the first ever jazz album I ever liked. I think the first song that catched my ears was "Cheese Cake". From what I've heard of Dexter, his style is very simplistic in a catchy way. Long clean tones. Beautiful harmonies. Music you can dig and dance to. On this particular album, Dexter mix bossa nova with delicate ballads. A very easy listen, and something to put on when you have guests over for social events. In my opinion, a record that should be in all jazz collections. |
 
 
 ## "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>

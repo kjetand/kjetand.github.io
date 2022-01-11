@@ -4,7 +4,7 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-_**Last updated:** 7th of January 2022_
+_**Last updated:** 11th of January 2022_
 
 ## "Glass Bead Games" by _Clifford Jordan Quartet_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 

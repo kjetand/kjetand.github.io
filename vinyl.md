@@ -4,7 +4,68 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-_**Last updated:** 11th of January 2022_
+_**Last updated:** 29th of January 2022_
+
+## "Outward Bound" by _Eric Dolphy_ <code class="language-plaintext highlighter-rouge">New Jazz</code>
+
+<code class="language-plaintext highlighter-rouge">'60</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">NJLP-8236</code>
+
+| ![](/images/outwardbound/front_alternative.jpg "Front cover")
+
+| ![](/images/outwardbound/back.jpg "Back cover")
+
+| ![](/images/outwardbound/front.jpg "Front cover") | ![](/images/outwardbound/side1.jpg "Label side 1") | ![](/images/outwardbound/side2.jpg "Label side 2")
+
+## "2 Trumpets" by _Art Farmer & Donald Byrd_ <code class="language-plaintext highlighter-rouge">Prestige</code>
+
+<code class="language-plaintext highlighter-rouge">'56</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">LP 7062</code>
+
+| ![](/images/twotrumpets/front.jpg "Front cover")
+
+| ![](/images/twotrumpets/back.jpg "Back cover") | ![](/images/twotrumpets/side1.jpg "Label side 1") | ![](/images/twotrumpets/side2.jpg "Label side 2")
+
+## "The Night of the Cookers Volume 2" by _Freddie Hubbard_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'66</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">BNST-84208</code>
+
+| ![](/images/nightcookers2/front.jpg "Front cover")
+
+| ![](/images/nightcookers2/back.jpg "Back cover") | ![](/images/nightcookers2/side1.jpg "Label side 1") | ![](/images/nightcookers2/side2.jpg "Label side 2")
+
+## "The Night of the Cookers Volume 1" by _Freddie Hubbard_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'65</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">BNST-84207</code>
+
+| ![](/images/nightcookers1/front.jpg "Front cover")
+
+| ![](/images/nightcookers1/back.jpg "Back cover") | ![](/images/nightcookers1/side1.jpg "Label side 1") | ![](/images/nightcookers1/side2.jpg "Label side 2")
+
+## "Stick-Up!" by _Bobby Hutcherson_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'68</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">BNST-84244</code>
+
+| ![](/images/stickup/front.jpg "Front cover")
+
+| ![](/images/stickup/back.jpg "Back cover") | ![](/images/stickup/side1.jpg "Label side 1") | ![](/images/stickup/side2.jpg "Label side 2")
+
+## "Consciousness" by _Pat Martino_ <code class="language-plaintext highlighter-rouge">Muse</code>
+
+<code class="language-plaintext highlighter-rouge">'74</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+
+| ![](/images/conciousness/front.jpg "Front cover")
+
+| ![](/images/conciousness/back.jpg "Back cover") | ![](/images/conciousness/side1.jpg "Label side 1") | ![](/images/conciousness/side2.jpg "Label side 2")
 
 ## "Glass Bead Games" by _Clifford Jordan Quartet_ <code class="language-plaintext highlighter-rouge">Strata-East</code>
 
@@ -118,9 +179,9 @@ _**Last updated:** 11th of January 2022_
 | One of the more accessible Dexter Gordon originals on blue note. It's expensive in good condition, as all original mono Blue Note's. Found my on the wall in my hometown record store, _Råkk & Rålls_ in Oslo. |
  <span style="font-size: 1.6em">&#9835; &#9835; &#9835; <span style="color: lightgrey">&#9835;</span> <span style="color: lightgrey">&#9835;</span></span>                                                      |
 
-| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Actually, Dexter Gordon's record "Go!" was the first ever jazz album I ever liked. I think the first song that catched my ears was "Cheese Cake". From what I've heard of Dexter, his style is very simplistic in a catchy way. Long clean tones. Beautiful harmonies. Music you can dig and dance to. On this particular album, Dexter mix bossa nova with delicate ballads. A very easy listen, and something to put on when you have guests over for social events. In my opinion, a record that should be in all jazz collections. |
+| Review                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actually, Dexter Gordon's record "Go!" was the first ever jazz album I ever liked. I think the first song that catched my ears was "Cheese Cake". From what I've heard of Dexter, his style is very simplistic in a catchy way. Long clean tones. Beautiful harmonies. Music you can dig and dance to. On this particular album, Dexter mix bossa nova with delicate ballads. A very easy listen, and something to put on when you have guests over for dinner. In my opinion, a record that should be in all jazz collections. |
 
 
 ## "Capra Black" by _Billy Harper_ <code class="language-plaintext highlighter-rouge">Strata-East</code>

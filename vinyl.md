@@ -78,7 +78,7 @@ _**Last updated:** 26th of February 2022_
 
 | ![](/images/components/back.jpg "Back cover") | ![](/images/components/side1.jpg "Label side 1") | ![](/images/components/side2.jpg "Label side 2")
 
-## "At the Jazz Corner of the World" by _Art Blakey & The Jazz Messengers_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+## "At the Jazz Corner of the World Vol.2" by _Art Blakey & The Jazz Messengers_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
 
 <code class="language-plaintext highlighter-rouge">'60</code>
 <code class="language-plaintext highlighter-rouge">Mono</code>

@@ -4,7 +4,99 @@ title: Jazz Vinyl Collection
 permalink: /vinyl/
 ---
 
-_**Last updated:** 29th of January 2022_
+_**Last updated:** 26th of February 2022_
+
+## "The Trio Vol.1" by _Hampton Hawes_ <code class="language-plaintext highlighter-rouge">Contemporary</code>
+
+<code class="language-plaintext highlighter-rouge">'55</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">C3505</code>
+
+| ![](/images/hamptonhawestrio/front.jpg "Front cover")
+
+| ![](/images/hamptonhawestrio/back.jpg "Back cover") | ![](/images/hamptonhawestrio/side1.jpg "Label side 1") | ![](/images/hamptonhawestrio/side2.jpg "Label side 2")
+
+## "Jazz på Ryska" by _Jan Johansson_ <code class="language-plaintext highlighter-rouge">Megafon</code>
+
+<code class="language-plaintext highlighter-rouge">'67</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">MFLP-S-10</code>
+
+| ![](/images/ryska/front.jpg "Front cover")
+
+| ![](/images/ryska/back.jpg "Back cover") | ![](/images/ryska/side1.jpg "Label side 1") | ![](/images/ryska/side2.jpg "Label side 2")
+
+## "Grovin' at Small Paradise Vol.1" by _Jimmy Smith_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'58</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">BLP-1585</code>
+
+| ![](/images/jimmysmithvol1/front.jpg "Front cover")
+
+| ![](/images/jimmysmithvol1/back.jpg "Back cover") | ![](/images/jimmysmithvol1/side1.jpg "Label side 1") | ![](/images/jimmysmithvol1/side2.jpg "Label side 2")
+
+## "Live at the Montmatre Club - Jazz Exchange Vol.2" by _Warne Marsh & Lee Konitz Quartet_ <code class="language-plaintext highlighter-rouge">Storyville</code>
+
+<code class="language-plaintext highlighter-rouge">'77</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">SLP-1020</code>
+
+| ![](/images/konitzmarsh/front.jpg "Front cover")
+
+| ![](/images/konitzmarsh/back.jpg "Back cover")
+
+| ![](/images/konitzmarsh/side1.jpg "Label side 1") | ![](/images/konitzmarsh/side2.jpg "Label side 2")
+
+## "Kelly Great" by _Wynton Kelly Trio_ <code class="language-plaintext highlighter-rouge">Vee Jay</code>
+
+<code class="language-plaintext highlighter-rouge">'64</code>
+<code class="language-plaintext highlighter-rouge">Stereo</code>
+<code class="language-plaintext highlighter-rouge">VJLP-3004</code>
+
+| ![](/images/kellygreat/front.jpg "Front cover")
+
+| ![](/images/kellygreat/back.jpg "Back cover") | ![](/images/kellygreat/side1.jpg "Label side 1") | ![](/images/kellygreat/side2.jpg "Label side 2")
+
+## "Barritone Sax" by _Lars Gullin_ <code class="language-plaintext highlighter-rouge">Atlantic</code>
+
+<code class="language-plaintext highlighter-rouge">'56</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">1246</code>
+
+| ![](/images/gullin/front.jpg "Front cover")
+
+| ![](/images/gullin/back.jpg "Back cover") | ![](/images/gullin/side1.jpg "Label side 1") | ![](/images/gullin/side2.jpg "Label side 2")
+
+## "Components" by _Bobby Hutcherson_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'66</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">BLP-4213</code>
+
+| ![](/images/components/front.jpg "Front cover")
+
+| ![](/images/components/back.jpg "Back cover") | ![](/images/components/side1.jpg "Label side 1") | ![](/images/components/side2.jpg "Label side 2")
+
+## "At the Jazz Corner of the World" by _Art Blakey & The Jazz Messengers_ <code class="language-plaintext highlighter-rouge">Blue Note</code>
+
+<code class="language-plaintext highlighter-rouge">'60</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">BLP-4015</code>
+
+| ![](/images/blakeyvol2/front.jpg "Front cover")
+
+| ![](/images/blakeyvol2/back.jpg "Back cover") | ![](/images/blakeyvol2/side1.jpg "Label side 1") | ![](/images/blakeyvol2/side2.jpg "Label side 2")
+
+## "Big Stuff" by _Gil Evans_ <code class="language-plaintext highlighter-rouge">New Jazz</code>
+
+<code class="language-plaintext highlighter-rouge">'59</code>
+<code class="language-plaintext highlighter-rouge">Mono</code>
+<code class="language-plaintext highlighter-rouge">NJLP-8215</code>
+
+| ![](/images/bigstuff/front.jpg "Front cover")
+
+| ![](/images/bigstuff/back.jpg "Back cover") | ![](/images/bigstuff/side1.jpg "Label side 1") | ![](/images/bigstuff/side2.jpg "Label side 2")
 
 ## "Outward Bound" by _Eric Dolphy_ <code class="language-plaintext highlighter-rouge">New Jazz</code>
 

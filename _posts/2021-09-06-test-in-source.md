@@ -1,24 +1,40 @@
 ---
 layout: post
 title: "Source-file-only development in C++"
-date: 2021-10-12
+date: 2021-09-06
 categories: programming c++20 modules
 ---
 
-How do you write and organize your APIs and unit tests in C++? For me, I usually organize my code in one or several
-shared (or static) libraries, exposing public API headers that my main executable and unit test executable includes and
-links to. What my projects usually ends up with are lots of header files, source files, test source files, and most
-annoyingly:
-boilerplate code. - Ok, it's not that bad, but can the experience be better? By using C++20 modules and some simple
-build switches (macros), I will show you a technique of writing all your production code in source files only, together
-with the corresponding unit tests. That's right! We go from the need of _three_ files to actually needing to write
+How do you write and organize your APIs and unit tests in C++?
+For me, I usually organize code into groups of three files:
+a _header-file_ containing shared definitions,
+a _source-file_ containing the production code,
+and a _test-file_ containing corresponding unit tests.
+This way of dividing code into so many files feels unnecessary and "boilerplaty".
+By using C++20 modules and some simple build switches,
+it's possible to write code in separate self-contained files
+containing all definitions, business logic and unit tests.
+That's right! Go away from the need of _three_ files to actually needing to write
 just _one_.
+
+## TL;DR
+
+By using a combination of C++20 modules and a simple "unit test on/off"-macro,
+it's in theory possible to implement all your C++ code in source files only,
+i.e. merging `foo.cpp` `foo.hpp` `foo_test.cpp` into just `foo.cpp`.
+
+If you want to look at the code, and compile it, visit a sample project on my
+[GitHub](https://github.com/kjetand/test-in-source/).
+The code should compile with CMake and newer MSVC and GCC compilers
+(I've tested on MSVC 19.29.30133.0 and GCC 11).
 
 ## Motivation
 
-As a C++ programmer, I want to write my code in the structure illustrated below:
+To recap the end-goal of this article:
+As a C++ programmer, I want to write my code in the structure illustrated below.
 
 ### _app.cpp_ &#128526;
+
 ```c++
 <Definitions>
 <Source code>
@@ -28,37 +44,39 @@ As a C++ programmer, I want to write my code in the structure illustrated below:
 Instead of the usual pattern that may look like this:
 
 ### _app.hpp_ &#128528;
+
 ```c++
 <Definitions>
 ```
+
 ### _app.cpp_ &#128529;
+
 ```c++
 #include "app.hpp"
 <Source code>
 ```
+
 ### _app_test.cpp_ &#128530;
+
 ```c++
 #include "app.hpp"
 #include "test.hpp"
 <Unit test code>
 ```
 
-> **NOTE** in the _Rust_ programming language, it's already common to write unit tests in the same file as the corresponding production code. One can say that the approach described in this blog post is inspired by this.
+> **NOTE** in the _Rust_ programming language, it's already common to write
+> unit tests in the same file as the corresponding production code.
+> One can say that the approach described in this blog post is inspired by this.
 
-## Example
-
-In order to illustrate the hopefully motivating end-goal, we will explore a simple application that calculate some numbers and prints the result to the user.
-The example is not very interesting by itself, but the technique described may be interesting.
-
-## TL;DR
-
-If you just want to look at the code, and compile it, visit a sample project on my
-[GitHub](https://github.com/kjetand/test-in-source/).
-The code should compile with CMake and newer MSVC and GCC compilers (I've tested on MSVC 19.29.30133.0 and GCC 11).
+In order to illustrate the hopefully motivating end-goal,
+we will explore a simple application that calculate some numbers and prints the
+result to the user. The example is not very interesting by itself, but the technique
+described may be interesting.
 
 ## First module: `math`
 
-In the source below we define a math-module for addition and multiplication, where addition is _public_ and multiplication is _private_.
+In the source below we define a math-module for addition and multiplication,
+where addition is _public_ and multiplication is _private_.
 
 ### _math.cpp_
 
@@ -67,9 +85,13 @@ export module math;
 
 namespace math {
 
-export int add(const int a, const int b) { return a + b; }
-
-int multiply(const int n, const int x) { return n * x; }
+  export int add(const int a, const int b) {
+    return a + b;
+  }
+  
+  int multiply(const int n, const int x) {
+    return n * x;
+  }
 
 }
 ```
@@ -91,19 +113,17 @@ printing strings.
 
 ```c++
 module;
-
 #include <fmt/format.h>
-
 export module app;
 
 import math;
 
 namespace app {
 
-export int main() {
-  fmt::print("2 + 3 equals {}", math::add(2, 3));
-  return 0;
-}
+  export int main() {
+    fmt::print("2 + 3 equals {}", math::add(2, 3));
+    return 0;
+  }
 
 }
 ```
@@ -126,7 +146,9 @@ We create the executable with a main function calling the `app::main()` to start
 ```c++
 import app;
 
-int main() { return app::main(); }
+int main() {
+  return app::main();
+}
 ```
 
 The output of the program above should be `2 + 3 equals 5`.
@@ -170,28 +192,30 @@ By using `test.hpp`, we can extend `math.cpp` with some unit tests:
 
 ```c++
 module;
-
 #include "test.hpp"
-
 export module math;
 
 namespace math {
 
-export int add(const int a, const int b) { return a + b; }
-
-int multiply(const int n, const int x) { return n * x; }
+  export int add(const int a, const int b) {
+    return a + b;
+  }
+  
+  int multiply(const int n, const int x) {
+    return n * x;
+  }
 
 }
 
 UNIT_TESTS(
 
-TEST_CASE("Two plus three equals five", "[math]") {
-  REQUIRE(math::add(2, 3) == 5);
-}
-
-TEST_CASE("Two times three equals five", "[math]") {
-  REQUIRE(math::multiply(2, 3) == 5); // This will hopefully fail
-}
+  TEST_CASE("Two plus three equals five", "[math]") {
+    REQUIRE(math::add(2, 3) == 5);
+  }
+  
+  TEST_CASE("Two times three equals five", "[math]") {
+    REQUIRE(math::multiply(2, 3) == 5); // This will hopefully fail
+  }
 
 )
 ```
@@ -219,14 +243,21 @@ I earlier made the design choice to compile either as application or test suite,
 import app;
 
 #ifdef APP_BUILD_TESTS
+
 #define CATCH_CONFIG_MAIN
 #include <catch2/catch.hpp>
+
 #else
-int main() { return app::main(); }
+
+int main() {
+  return app::main();
+}
+
 #endif
 ```
 
-Now everything works! If we run the application we'll get `2 + 3 equals 5`, while running the test suite we get something like this:
+Now everything works! If we run the application we'll get `2 + 3 equals 5`,
+while running the test suite we get something like this:
 
 ```text
 -------------------------------------------------------
@@ -256,7 +287,7 @@ With these techniques in mind, I can see the following positives:
 - The obvious: eliminates lots of boilerplate code.
 - Hides implementation details in modules, but still enables us to write unit tests for it. Another way of putting it is
   that we finally can forget the use of `detail`-namespaces to "hide" implementation details.
-- All other positives with modules. 
+- All other positives with modules.
 
 > **NOTE** if we keep all the code in our library modules, we probably never need to change `main.cpp` nor `test.hpp` ever again.
 > We can focus on writing the actual code rather than finding ways to stitch the code together to make it testable.

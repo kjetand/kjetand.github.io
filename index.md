@@ -2,7 +2,6 @@
 layout: page
 ---
 
-<a href="vinyl">Jazz Vinyl Collection</a>&nbsp;&nbsp;&nbsp;
 <a href="about">About</a>
 <br/><br/>
 

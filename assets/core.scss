@@ -3,15 +3,39 @@
 
 @import 'main';
 @import 'syntax';
-@import 'https://fonts.googleapis.com/css2?family=Lora&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 body {
-  font-family: 'Lora', sans-serif !important;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+article p {
+  font-size: 20px !important;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+article li {
+  font-size: 20px !important;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 28px !important;
+}
+
+h2 {
+  font-size: 24px !important;
+}
+
+h3 {
+  font-size: 20px !important;
 }
 
 code {
   font-family: 'Fira Code',  sans-serif !important;
+  font-size: 14px !important;
 }
 
 img {

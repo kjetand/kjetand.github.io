@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi there!
 My name is Kjetil Andresen, and welcome to my website.
-I got three passions in my life that I want to share:
+I got three passion interests in my life that I want to share:
 
 - **Jazz vinyl collecting:** I've early on in my life had great interest in music,
   and in the last 5 years especially _Jazz_.
@@ -19,4 +19,5 @@ I got three passions in my life that I want to share:
   
 ## Contact
 
-You can contact me through my instagram: [@northernjazzcollector](https://www.instagram.com/northernjazzcollector/)
+You can contact me through my instagram [@northernjazzcollector](https://www.instagram.com/northernjazzcollector/)
+and [Discogs](https://www.discogs.com/user/kjetand).

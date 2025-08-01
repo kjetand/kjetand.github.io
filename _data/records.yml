@@ -1,0 +1,43 @@
+- title: "Miles Davis – Kind of Blue"
+  description: "Bla bla bla"
+  condition_vinyl: "EX"
+  condition_cover: "VG+"
+  price: 20
+  sold: false
+  group: rec1
+  front_image: "https://vinylspot.nl/cdn/shop/files/IMG_1978.jpg?v=1753223553&width=720"
+  other_images:
+    - "https://vinylspot.nl/cdn/shop/files/IMG_1979.jpg?v=1753223553&width=720"
+
+- title: "John Coltrane – A Love Supreme"
+  description: "Bla bla bla"
+  condition_vinyl: "EX"
+  condition_cover: "VG+"
+  price: 25
+  sold: false
+  group: rec2
+  front_image: "https://vinylspot.nl/cdn/shop/files/IMG_1981.jpg?v=1753223552&width=720"
+  other_images:
+    - "https://vinylspot.nl/cdn/shop/files/IMG_1982.jpg?v=1753223551&width=720"
+
+- title: "Herbie Hancock – Maiden Voyage"
+  description: "Bla bla bla"
+  condition_vinyl: "EX"
+  condition_cover: "VG+"
+  price: 0
+  sold: true
+  group: rec3
+  front_image: "https://vinylspot.nl/cdn/shop/files/IMG_1978.jpg?v=1753223553&width=720"
+  other_images:
+    - "https://vinylspot.nl/cdn/shop/files/IMG_1979.jpg?v=1753223553&width=720"
+
+- title: "Charles Mingus – Mingus Ah Um"
+  description: "Bla bla bla"
+  condition_vinyl: "EX"
+  condition_cover: "VG+"
+  price: 18
+  sold: false
+  group: rec4
+  front_image: "https://vinylspot.nl/cdn/shop/files/IMG_1978.jpg?v=1753223553&width=720"
+  other_images:
+    - "https://vinylspot.nl/cdn/shop/files/IMG_1979.jpg?v=1753223553&width=720"

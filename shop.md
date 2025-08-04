@@ -32,6 +32,15 @@ if you want to buy records from me or have any questions.
   {% endfor %}
 </div>
 
+## Shipping
+
+**Buyer pays shipping.**
+Price for international buyers outside Norway may vary from approximately `€20-30`.
+I ship records in their inner and outer sleeve.
+Record is on the outside of cover to prevent splits.
+I use bubble wrap and good outside cardboard material designed for shipping vinyl.
+Records are not moving inside my packages!
+
 ## Grading
 
 Currently I use the _Goldmine Standard_ for grading vinyl

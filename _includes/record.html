@@ -19,8 +19,11 @@
     {% endif %}
   </div>
   <div style="padding-top: 6px; font-size: 0.9em; color: #333; font-family: monospace;">
-    <b>{{ include.title }}</b><br/>
-    {{ include.description }}<br/><br/>
+    <b>{{ include.title }}</b>
+    <br/>
     [{{ include.condition_vinyl }}/{{ include.condition_cover }}]
+    [<a href="{{ include.discogs_url }}" target="_blank">Discogs</a>]
+    <br/><br/>
+    {{ include.description }}
   </div>
 </div>

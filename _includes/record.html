@@ -4,12 +4,14 @@
        style="display: block; text-decoration: none; border: none;">
       <img src="{{ include.front_image }}" alt="{{ include.title }}"
            style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover;" />
+      {% if include.for_sale %}
       <div style="position: absolute; bottom: 8px; right: 8px;
                   background: {% if include.sold %}#ef4444{% else %}#22c55e{% endif %};
                   color: white; font-size: 1em; padding: 4px 10px; border-radius: 6px;
                   font-family: monospace;">
-        {% if include.sold %}SOLD{% else %}€{{ include.price }}{% endif %}
+          {% if include.sold %}SOLD{% else %}€{{ include.price }}{% endif %}
       </div>
+      {% endif %}
     </a>
     {% if include.other_images %}
       {% for image in include.other_images %}
@@ -21,9 +23,9 @@
   <div style="padding-top: 6px; font-size: 0.9em; color: #333; font-family: monospace;">
     <b>{{ include.title }}</b>
     <br/>
+    {{ include.description }}
+    <br/><br/>
     [{{ include.condition_vinyl }}/{{ include.condition_cover }}]
     [<a href="{{ include.discogs_url }}" target="_blank">Discogs</a>]
-    <br/><br/>
-    {{ include.description }}
   </div>
 </div>

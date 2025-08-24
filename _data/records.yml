@@ -15,6 +15,25 @@
     - "/assets/the_straight_horn_of_steve_lacy/3.jpg"
     - "/assets/the_straight_horn_of_steve_lacy/4.jpg"
     - "/assets/the_straight_horn_of_steve_lacy/5.jpg"
+
+- title: Eric Dolphy With Booker Little - Far Cry
+  description: ''
+  condition_vinyl: VG+
+  condition_cover: NM
+  price: 500
+  sold: false
+  for_sale: false
+  label: New Jazz, New Jazz
+  catalog: NJ 8270, NJLP 8270
+  year: 1962
+  discogs_url: https://www.discogs.com/release/4232992
+  front_image: /assets/far_cry/1.jpg
+  other_images:
+  - /assets/far_cry/2.jpg
+  - /assets/far_cry/3.jpg
+  - /assets/far_cry/4.jpg
+  - /assets/far_cry/5.jpg
+
 # - title: Albert Mangelsdorff Quintet - One Tension
 #   description: ''
 #   condition_vinyl: VG+
@@ -1715,23 +1734,6 @@
 #   - /assets/out_there/3.jpg
 #   - /assets/out_there/4.jpg
 #   - /assets/out_there/5.jpg
-# - title: Eric Dolphy With Booker Little - Far Cry
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: NM
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: New Jazz, New Jazz
-#   catalog: NJ 8270, NJLP 8270
-#   year: 1962
-#   discogs_url: https://www.discogs.com/release/4232992
-#   front_image: /assets/far_cry/1.jpg
-#   other_images:
-#   - /assets/far_cry/2.jpg
-#   - /assets/far_cry/3.jpg
-#   - /assets/far_cry/4.jpg
-#   - /assets/far_cry/5.jpg
 # - title: Steve Lacy With Don Cherry - Evidence
 #   description: ''
 #   condition_vinyl: VG+

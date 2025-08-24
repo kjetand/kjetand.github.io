@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jazz shop
+title: Jazz Shop
 permalink: /shop/
 ---
 

@@ -1,12 +1,2499 @@
-- title: "The straight horn of Steve Lacy"
+- title: "Steve Lacy - The straight horn of Steve Lacy"
   description: "First press '62 stereo. Very clean vinyl with just a few light scuffs and labels with no spindle marks. Cover has seam wear on all sides. Age staining and small pen writing on back."
-  condition_vinyl: "EX"
-  condition_cover: "VG"
+  condition_vinyl: EX
+  condition_cover: VG
   price: 120
   sold: false
+  for_sale: true
+  discogs_url: https://www.discogs.com/release/3786882
+  label: Candid
+  catalog: CJM 8007
+  year: 1962
   front_image: "/assets/the_straight_horn_of_steve_lacy/1.jpg"
   other_images:
     - "/assets/the_straight_horn_of_steve_lacy/2.jpg"
     - "/assets/the_straight_horn_of_steve_lacy/3.jpg"
     - "/assets/the_straight_horn_of_steve_lacy/4.jpg"
     - "/assets/the_straight_horn_of_steve_lacy/5.jpg"
+# - title: Albert Mangelsdorff Quintet - One Tension
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Amiga
+#   catalog: 8 50 038
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/568156
+#   front_image: /assets/one_tension/1.jpg
+#   other_images:
+#   - /assets/one_tension/2.jpg
+#   - /assets/one_tension/3.jpg
+#   - /assets/one_tension/4.jpg
+#   - /assets/one_tension/5.jpg
+# - title: The Jazztet - At Birdhouse
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Argo (6), Argo (6), Argo (6)
+#   catalog: DJLP-688, LP 688, LP-688
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/6829198
+#   front_image: /assets/at_birdhouse/1.jpg
+#   other_images:
+#   - /assets/at_birdhouse/2.jpg
+#   - /assets/at_birdhouse/3.jpg
+#   - /assets/at_birdhouse/4.jpg
+#   - /assets/at_birdhouse/5.jpg
+# - title: Ornette Coleman - The Shape Of Jazz To Come
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Atlantic
+#   catalog: SD 1317
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/13825618
+#   front_image: /assets/the_shape_of_jazz_to_come/1.jpg
+#   other_images:
+#   - /assets/the_shape_of_jazz_to_come/2.jpg
+#   - /assets/the_shape_of_jazz_to_come/3.jpg
+#   - /assets/the_shape_of_jazz_to_come/4.jpg
+#   - /assets/the_shape_of_jazz_to_come/5.jpg
+# - title: Milt Jackson & John Coltrane - Bags & Trane
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Atlantic
+#   catalog: SD 1368
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/20724349
+#   front_image: /assets/bags_trane/1.jpg
+#   other_images:
+#   - /assets/bags_trane/2.jpg
+#   - /assets/bags_trane/3.jpg
+#   - /assets/bags_trane/4.jpg
+#   - /assets/bags_trane/5.jpg
+# - title: Rahsaan Roland Kirk & The Vibration Society - Rahsaan Rahsaan
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Atlantic, Atlantic
+#   catalog: SD 1575, SD1575
+#   year: 1970
+#   discogs_url: https://www.discogs.com/release/1249358
+#   front_image: /assets/rahsaan_rahsaan/1.jpg
+#   other_images:
+#   - /assets/rahsaan_rahsaan/2.jpg
+#   - /assets/rahsaan_rahsaan/3.jpg
+#   - /assets/rahsaan_rahsaan/4.jpg
+#   - /assets/rahsaan_rahsaan/5.jpg
+# - title: Howard McGhee - The Return Of Howard McGhee
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Bethlehem Records
+#   catalog: BCP-42
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/8661864
+#   front_image: /assets/the_return_of_howard_mcghee/1.jpg
+#   other_images:
+#   - /assets/the_return_of_howard_mcghee/2.jpg
+#   - /assets/the_return_of_howard_mcghee/3.jpg
+#   - /assets/the_return_of_howard_mcghee/4.jpg
+#   - /assets/the_return_of_howard_mcghee/5.jpg
+# - title: Stan Getz - Voyage
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: BlackHawk Records
+#   catalog: BKH 51101
+#   year: 1986
+#   discogs_url: https://www.discogs.com/release/1187110
+#   front_image: /assets/voyage/1.jpg
+#   other_images:
+#   - /assets/voyage/2.jpg
+#   - /assets/voyage/3.jpg
+#   - /assets/voyage/4.jpg
+#   - /assets/voyage/5.jpg
+# - title: Johnny Griffin - Chicago Calling / Mil Dew
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: 45-1639
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/7173532
+#   front_image: /assets/chicago_calling_mil_dew/1.jpg
+#   other_images:
+#   - /assets/chicago_calling_mil_dew/2.jpg
+#   - /assets/chicago_calling_mil_dew/3.jpg
+#   - /assets/chicago_calling_mil_dew/4.jpg
+#   - /assets/chicago_calling_mil_dew/5.jpg
+# - title: Sonny Clark - Cool Struttin', Pt. 1 / Cool Struttin', Pt. 2
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: 45-1714
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/7198302
+#   front_image: /assets/cool_struttin_pt_cool_struttin_pt/1.jpg
+#   other_images:
+#   - /assets/cool_struttin_pt_cool_struttin_pt/2.jpg
+#   - /assets/cool_struttin_pt_cool_struttin_pt/3.jpg
+#   - /assets/cool_struttin_pt_cool_struttin_pt/4.jpg
+#   - /assets/cool_struttin_pt_cool_struttin_pt/5.jpg
+# - title: John Coltrane, Sonny Clark - Speak Low / Softly As In A Morning Sunrise
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: 45-1719
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/14736891
+#   front_image: /assets/speak_low_softly_as_in_a_morning_sunrise/1.jpg
+#   other_images:
+#   - /assets/speak_low_softly_as_in_a_morning_sunrise/2.jpg
+#   - /assets/speak_low_softly_as_in_a_morning_sunrise/3.jpg
+#   - /assets/speak_low_softly_as_in_a_morning_sunrise/4.jpg
+#   - /assets/speak_low_softly_as_in_a_morning_sunrise/5.jpg
+# - title: Hank Mobley - Remember / Dig Dis
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: 45-1797
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/2032616
+#   front_image: /assets/remember_dig_dis/1.jpg
+#   other_images:
+#   - /assets/remember_dig_dis/2.jpg
+#   - /assets/remember_dig_dis/3.jpg
+#   - /assets/remember_dig_dis/4.jpg
+#   - /assets/remember_dig_dis/5.jpg
+# - title: Art Taylor - Cookoo & Fungi
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: 45-1800
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/6604023
+#   front_image: /assets/cookoo_fungi/1.jpg
+#   other_images:
+#   - /assets/cookoo_fungi/2.jpg
+#   - /assets/cookoo_fungi/3.jpg
+#   - /assets/cookoo_fungi/4.jpg
+#   - /assets/cookoo_fungi/5.jpg
+# - title: Thad Jones - Detroit-New York Junction
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 1513
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/3366337
+#   front_image: /assets/detroitnew_york_junction/1.jpg
+#   other_images:
+#   - /assets/detroitnew_york_junction/2.jpg
+#   - /assets/detroitnew_york_junction/3.jpg
+#   - /assets/detroitnew_york_junction/4.jpg
+#   - /assets/detroitnew_york_junction/5.jpg
+# - title: Thad Jones - The Magnificent Thad Jones
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 1527
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/3366345
+#   front_image: /assets/the_magnificent_thad_jones/1.jpg
+#   other_images:
+#   - /assets/the_magnificent_thad_jones/2.jpg
+#   - /assets/the_magnificent_thad_jones/3.jpg
+#   - /assets/the_magnificent_thad_jones/4.jpg
+#   - /assets/the_magnificent_thad_jones/5.jpg
+# - title: Bud Powell - The Amazing Bud Powell, Vol. 4 - Time Waits
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 1598
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/3388029
+#   front_image: /assets/the_amazing_bud_powell_vol_time_waits/1.jpg
+#   other_images:
+#   - /assets/the_amazing_bud_powell_vol_time_waits/2.jpg
+#   - /assets/the_amazing_bud_powell_vol_time_waits/3.jpg
+#   - /assets/the_amazing_bud_powell_vol_time_waits/4.jpg
+#   - /assets/the_amazing_bud_powell_vol_time_waits/5.jpg
+# - title: Sonny Rollins - Newk's Time
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4001
+#   year: 1959
+#   discogs_url: https://www.discogs.com/release/1102218
+#   front_image: /assets/newks_time/1.jpg
+#   other_images:
+#   - /assets/newks_time/2.jpg
+#   - /assets/newks_time/3.jpg
+#   - /assets/newks_time/4.jpg
+#   - /assets/newks_time/5.jpg
+# - title: Jackie McLean - Swing, Swang, Swingin'
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4024
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/1248488
+#   front_image: /assets/swing_swang_swingin/1.jpg
+#   other_images:
+#   - /assets/swing_swang_swingin/2.jpg
+#   - /assets/swing_swang_swingin/3.jpg
+#   - /assets/swing_swang_swingin/4.jpg
+#   - /assets/swing_swang_swingin/5.jpg
+# - title: Freddie Hubbard - Goin' Up
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4056
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/3395209
+#   front_image: /assets/goin_up/1.jpg
+#   other_images:
+#   - /assets/goin_up/2.jpg
+#   - /assets/goin_up/3.jpg
+#   - /assets/goin_up/4.jpg
+#   - /assets/goin_up/5.jpg
+# - title: Freddie Hubbard - Hub Cap
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4073
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/3395220
+#   front_image: /assets/hub_cap/1.jpg
+#   other_images:
+#   - /assets/hub_cap/2.jpg
+#   - /assets/hub_cap/3.jpg
+#   - /assets/hub_cap/4.jpg
+#   - /assets/hub_cap/5.jpg
+# - title: Hank Mobley - Workout
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4080
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/10542346
+#   front_image: /assets/workout/1.jpg
+#   other_images:
+#   - /assets/workout/2.jpg
+#   - /assets/workout/3.jpg
+#   - /assets/workout/4.jpg
+#   - /assets/workout/5.jpg
+# - title: Dexter Gordon - Dexter Calling . . .
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4083
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/2187498
+#   front_image: /assets/dexter_calling/1.jpg
+#   other_images:
+#   - /assets/dexter_calling/2.jpg
+#   - /assets/dexter_calling/3.jpg
+#   - /assets/dexter_calling/4.jpg
+#   - /assets/dexter_calling/5.jpg
+# - title: Ike Quebec - It Might As Well Be Spring
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4105
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/2109718
+#   front_image: /assets/it_might_as_well_be_spring/1.jpg
+#   other_images:
+#   - /assets/it_might_as_well_be_spring/2.jpg
+#   - /assets/it_might_as_well_be_spring/3.jpg
+#   - /assets/it_might_as_well_be_spring/4.jpg
+#   - /assets/it_might_as_well_be_spring/5.jpg
+# - title: Jackie McLean - Let Freedom Ring
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4106
+#   year: 1963
+#   discogs_url: https://www.discogs.com/release/3376711
+#   front_image: /assets/let_freedom_ring/1.jpg
+#   other_images:
+#   - /assets/let_freedom_ring/2.jpg
+#   - /assets/let_freedom_ring/3.jpg
+#   - /assets/let_freedom_ring/4.jpg
+#   - /assets/let_freedom_ring/5.jpg
+# - title: Dexter Gordon - Go!
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4112
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/3380665
+#   front_image: /assets/go/1.jpg
+#   other_images:
+#   - /assets/go/2.jpg
+#   - /assets/go/3.jpg
+#   - /assets/go/4.jpg
+#   - /assets/go/5.jpg
+# - title: Dexter Gordon - Our Man In Paris
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4146
+#   year: 1963
+#   discogs_url: https://www.discogs.com/release/15015675
+#   front_image: /assets/our_man_in_paris/1.jpg
+#   other_images:
+#   - /assets/our_man_in_paris/2.jpg
+#   - /assets/our_man_in_paris/3.jpg
+#   - /assets/our_man_in_paris/4.jpg
+#   - /assets/our_man_in_paris/5.jpg
+# - title: Grant Green - Idle Moments
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4154
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/3163215
+#   front_image: /assets/idle_moments/1.jpg
+#   other_images:
+#   - /assets/idle_moments/2.jpg
+#   - /assets/idle_moments/3.jpg
+#   - /assets/idle_moments/4.jpg
+#   - /assets/idle_moments/5.jpg
+# - title: Jackie McLean - Destination... Out!
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4165
+#   year: 1964
+#   discogs_url: https://www.discogs.com/release/1189824
+#   front_image: /assets/destination_out/1.jpg
+#   other_images:
+#   - /assets/destination_out/2.jpg
+#   - /assets/destination_out/3.jpg
+#   - /assets/destination_out/4.jpg
+#   - /assets/destination_out/5.jpg
+# - title: Bobby Hutcherson - Dialogue
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4198
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/19807756
+#   front_image: /assets/dialogue/1.jpg
+#   other_images:
+#   - /assets/dialogue/2.jpg
+#   - /assets/dialogue/3.jpg
+#   - /assets/dialogue/4.jpg
+#   - /assets/dialogue/5.jpg
+# - title: Dexter Gordon - Gettin' Around
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4204
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/3380709
+#   front_image: /assets/gettin_around/1.jpg
+#   other_images:
+#   - /assets/gettin_around/2.jpg
+#   - /assets/gettin_around/3.jpg
+#   - /assets/gettin_around/4.jpg
+#   - /assets/gettin_around/5.jpg
+# - title: Cecil Taylor - Unit Structures
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 4237
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/2467928
+#   front_image: /assets/unit_structures/1.jpg
+#   other_images:
+#   - /assets/unit_structures/2.jpg
+#   - /assets/unit_structures/3.jpg
+#   - /assets/unit_structures/4.jpg
+#   - /assets/unit_structures/5.jpg
+# - title: Sal Salvador Quintet - Sal Salvador Quintet
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5035
+#   year: 1954
+#   discogs_url: https://www.discogs.com/release/4825943
+#   front_image: /assets/sal_salvador_quintet/1.jpg
+#   other_images:
+#   - /assets/sal_salvador_quintet/2.jpg
+#   - /assets/sal_salvador_quintet/3.jpg
+#   - /assets/sal_salvador_quintet/4.jpg
+#   - /assets/sal_salvador_quintet/5.jpg
+# - title: The Urbie Green Septet - New Faces - New Sounds
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5036
+#   year: 1953
+#   discogs_url: https://www.discogs.com/release/6046019
+#   front_image: /assets/new_faces_new_sounds/1.jpg
+#   other_images:
+#   - /assets/new_faces_new_sounds/2.jpg
+#   - /assets/new_faces_new_sounds/3.jpg
+#   - /assets/new_faces_new_sounds/4.jpg
+#   - /assets/new_faces_new_sounds/5.jpg
+# - title: Miles Davis - Vol. 3
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5040
+#   year: 1954
+#   discogs_url: https://www.discogs.com/release/4462638
+#   front_image: /assets/vol/1.jpg
+#   other_images:
+#   - /assets/vol/2.jpg
+#   - /assets/vol/3.jpg
+#   - /assets/vol/4.jpg
+#   - /assets/vol/5.jpg
+# - title: Elmo Hope Quintet - Elmo Hope Quintet Volume 2
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5044
+#   year: 1954
+#   discogs_url: https://www.discogs.com/release/5627682
+#   front_image: /assets/elmo_hope_quintet_volume/1.jpg
+#   other_images:
+#   - /assets/elmo_hope_quintet_volume/2.jpg
+#   - /assets/elmo_hope_quintet_volume/3.jpg
+#   - /assets/elmo_hope_quintet_volume/4.jpg
+#   - /assets/elmo_hope_quintet_volume/5.jpg
+# - title: George Wallington And His Band - George Wallington Showcase
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5045
+#   year: 1954
+#   discogs_url: https://www.discogs.com/release/7397614
+#   front_image: /assets/george_wallington_showcase/1.jpg
+#   other_images:
+#   - /assets/george_wallington_showcase/2.jpg
+#   - /assets/george_wallington_showcase/3.jpg
+#   - /assets/george_wallington_showcase/4.jpg
+#   - /assets/george_wallington_showcase/5.jpg
+# - title: The Horace Silver Quintet - Horace Silver Quintet Vol. 4
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BLP 5062
+#   year: 1955
+#   discogs_url: https://www.discogs.com/release/8632474
+#   front_image: /assets/horace_silver_quintet_vol/1.jpg
+#   other_images:
+#   - /assets/horace_silver_quintet_vol/2.jpg
+#   - /assets/horace_silver_quintet_vol/3.jpg
+#   - /assets/horace_silver_quintet_vol/4.jpg
+#   - /assets/horace_silver_quintet_vol/5.jpg
+# - title: Andrew Hill - Andrew!!!
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BST 84203
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/22725161
+#   front_image: /assets/andrew/1.jpg
+#   other_images:
+#   - /assets/andrew/2.jpg
+#   - /assets/andrew/3.jpg
+#   - /assets/andrew/4.jpg
+#   - /assets/andrew/5.jpg
+# - title: Jackie McLean - New And Old Gospel
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BST 84262
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/2344617
+#   front_image: /assets/new_and_old_gospel/1.jpg
+#   other_images:
+#   - /assets/new_and_old_gospel/2.jpg
+#   - /assets/new_and_old_gospel/3.jpg
+#   - /assets/new_and_old_gospel/4.jpg
+#   - /assets/new_and_old_gospel/5.jpg
+# - title: Herbie Hancock - Speak Like A Child
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BST 84279
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/395084
+#   front_image: /assets/speak_like_a_child/1.jpg
+#   other_images:
+#   - /assets/speak_like_a_child/2.jpg
+#   - /assets/speak_like_a_child/3.jpg
+#   - /assets/speak_like_a_child/4.jpg
+#   - /assets/speak_like_a_child/5.jpg
+# - title: Bobby Hutcherson - Total Eclipse
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BST 84291
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/15341000
+#   front_image: /assets/total_eclipse/1.jpg
+#   other_images:
+#   - /assets/total_eclipse/2.jpg
+#   - /assets/total_eclipse/3.jpg
+#   - /assets/total_eclipse/4.jpg
+#   - /assets/total_eclipse/5.jpg
+# - title: Dexter Gordon - A Swingin' Affair
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note
+#   catalog: BST-84133
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/23379581
+#   front_image: /assets/a_swingin_affair/1.jpg
+#   other_images:
+#   - /assets/a_swingin_affair/2.jpg
+#   - /assets/a_swingin_affair/3.jpg
+#   - /assets/a_swingin_affair/4.jpg
+#   - /assets/a_swingin_affair/5.jpg
+# - title: The Horace Silver Quintet - The Stylings Of Silver
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: 1562, BLP 1562
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/8476532
+#   front_image: /assets/the_stylings_of_silver/1.jpg
+#   other_images:
+#   - /assets/the_stylings_of_silver/2.jpg
+#   - /assets/the_stylings_of_silver/3.jpg
+#   - /assets/the_stylings_of_silver/4.jpg
+#   - /assets/the_stylings_of_silver/5.jpg
+# - title: Art Blakey & The Jazz Messengers - Art Blakey And The Jazz Messengers
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: 4003, BLP 4003
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/757945
+#   front_image: /assets/art_blakey_and_the_jazz_messengers/1.jpg
+#   other_images:
+#   - /assets/art_blakey_and_the_jazz_messengers/2.jpg
+#   - /assets/art_blakey_and_the_jazz_messengers/3.jpg
+#   - /assets/art_blakey_and_the_jazz_messengers/4.jpg
+#   - /assets/art_blakey_and_the_jazz_messengers/5.jpg
+# - title: The Horace Silver Quintet & The Horace Silver Trio - Blowin' The Blues Away
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: 4017, BLP 4017
+#   year: 1959
+#   discogs_url: https://www.discogs.com/release/1186962
+#   front_image: /assets/blowin_the_blues_away/1.jpg
+#   other_images:
+#   - /assets/blowin_the_blues_away/2.jpg
+#   - /assets/blowin_the_blues_away/3.jpg
+#   - /assets/blowin_the_blues_away/4.jpg
+#   - /assets/blowin_the_blues_away/5.jpg
+# - title: Sam Rivers - Fuchsia Swing Song
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: 4184, BLP 4184
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/3032543
+#   front_image: /assets/fuchsia_swing_song/1.jpg
+#   other_images:
+#   - /assets/fuchsia_swing_song/2.jpg
+#   - /assets/fuchsia_swing_song/3.jpg
+#   - /assets/fuchsia_swing_song/4.jpg
+#   - /assets/fuchsia_swing_song/5.jpg
+# - title: Donald Byrd - Fuego
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: 84026, BST 84026
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/464697
+#   front_image: /assets/fuego/1.jpg
+#   other_images:
+#   - /assets/fuego/2.jpg
+#   - /assets/fuego/3.jpg
+#   - /assets/fuego/4.jpg
+#   - /assets/fuego/5.jpg
+# - title: Cannonball Adderley - Somethin' Else
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note
+#   catalog: BST 1595, 1595
+#   year: 1964
+#   discogs_url: https://www.discogs.com/release/10594356
+#   front_image: /assets/somethin_else/1.jpg
+#   other_images:
+#   - /assets/somethin_else/2.jpg
+#   - /assets/somethin_else/3.jpg
+#   - /assets/somethin_else/4.jpg
+#   - /assets/somethin_else/5.jpg
+# - title: Grachan Moncur III - Some Other Stuff
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note, Blue Note
+#   catalog: BST 84177, ST 84177, 84177
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/13948686
+#   front_image: /assets/some_other_stuff/1.jpg
+#   other_images:
+#   - /assets/some_other_stuff/2.jpg
+#   - /assets/some_other_stuff/3.jpg
+#   - /assets/some_other_stuff/4.jpg
+#   - /assets/some_other_stuff/5.jpg
+# - title: Bobby Hutcherson - The Kicker
+#   description: ''
+#   condition_vinyl: M
+#   condition_cover: M
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Blue Note, Blue Note, Blue Note, Blue Note
+#   catalog: B0031654-01, BST 21437, ST-21437, 21437
+#   year: 2020
+#   discogs_url: https://www.discogs.com/release/15797945
+#   front_image: /assets/the_kicker/1.jpg
+#   other_images:
+#   - /assets/the_kicker/2.jpg
+#   - /assets/the_kicker/3.jpg
+#   - /assets/the_kicker/4.jpg
+#   - /assets/the_kicker/5.jpg
+# - title: Jacques Coursil - Black Suite
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: BYG Records, BYG Records
+#   catalog: 529.349, 529 349
+#   year: 1971
+#   discogs_url: https://www.discogs.com/release/514220
+#   front_image: /assets/black_suite/1.jpg
+#   other_images:
+#   - /assets/black_suite/2.jpg
+#   - /assets/black_suite/3.jpg
+#   - /assets/black_suite/4.jpg
+#   - /assets/black_suite/5.jpg
+# - title: Harold Land Quintet - The Peace-Maker
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Cadet, Cadet
+#   catalog: LPS 813, LPS-813
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/1059287
+#   front_image: /assets/the_peacemaker/1.jpg
+#   other_images:
+#   - /assets/the_peacemaker/2.jpg
+#   - /assets/the_peacemaker/3.jpg
+#   - /assets/the_peacemaker/4.jpg
+#   - /assets/the_peacemaker/5.jpg
+# - title: Steve Lacy - The Straight Horn Of Steve Lacy
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Candid
+#   catalog: CJM 8007
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/6465828
+#   front_image: /assets/the_straight_horn_of_steve_lacy/1.jpg
+#   other_images:
+#   - /assets/the_straight_horn_of_steve_lacy/2.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/3.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/4.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/5.jpg
+# - title: Booker Little - Out Front
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Candid
+#   catalog: CJM 8027
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4451013
+#   front_image: /assets/out_front/1.jpg
+#   other_images:
+#   - /assets/out_front/2.jpg
+#   - /assets/out_front/3.jpg
+#   - /assets/out_front/4.jpg
+#   - /assets/out_front/5.jpg
+# - title: Steve Lacy - The Straight Horn Of Steve Lacy
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Candid
+#   catalog: CJS 9007
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/12365536
+#   front_image: /assets/the_straight_horn_of_steve_lacy/1.jpg
+#   other_images:
+#   - /assets/the_straight_horn_of_steve_lacy/2.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/3.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/4.jpg
+#   - /assets/the_straight_horn_of_steve_lacy/5.jpg
+# - title: Charles Mingus - Mingus Ah Um
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Columbia
+#   catalog: CS 8171
+#   year: 1959
+#   discogs_url: https://www.discogs.com/release/10486052
+#   front_image: /assets/mingus_ah_um/1.jpg
+#   other_images:
+#   - /assets/mingus_ah_um/2.jpg
+#   - /assets/mingus_ah_um/3.jpg
+#   - /assets/mingus_ah_um/4.jpg
+#   - /assets/mingus_ah_um/5.jpg
+# - title: Stan Getz Quartet - Pure Getz
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Concord Records
+#   catalog: CJ-188
+#   year: 1982
+#   discogs_url: https://www.discogs.com/release/8385035
+#   front_image: /assets/pure_getz/1.jpg
+#   other_images:
+#   - /assets/pure_getz/2.jpg
+#   - /assets/pure_getz/3.jpg
+#   - /assets/pure_getz/4.jpg
+#   - /assets/pure_getz/5.jpg
+# - title: Shelly Manne & His Men - At The Black Hawk, Vol. 2
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Contemporary Records
+#   catalog: LAC 12255
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4105298
+#   front_image: /assets/at_the_black_hawk_vol/1.jpg
+#   other_images:
+#   - /assets/at_the_black_hawk_vol/2.jpg
+#   - /assets/at_the_black_hawk_vol/3.jpg
+#   - /assets/at_the_black_hawk_vol/4.jpg
+#   - /assets/at_the_black_hawk_vol/5.jpg
+# - title: Shelly Manne & His Men - At The Black Hawk Vol. 1
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Contemporary Records
+#   catalog: SCA 5015
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4563892
+#   front_image: /assets/at_the_black_hawk_vol/1.jpg
+#   other_images:
+#   - /assets/at_the_black_hawk_vol/2.jpg
+#   - /assets/at_the_black_hawk_vol/3.jpg
+#   - /assets/at_the_black_hawk_vol/4.jpg
+#   - /assets/at_the_black_hawk_vol/5.jpg
+# - title: Shelly Manne & His Men - At The Black Hawk, Vol. 4
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Contemporary Records, Contemporary Records
+#   catalog: LAC 12265, LAC.12265
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4007847
+#   front_image: /assets/at_the_black_hawk_vol/1.jpg
+#   other_images:
+#   - /assets/at_the_black_hawk_vol/2.jpg
+#   - /assets/at_the_black_hawk_vol/3.jpg
+#   - /assets/at_the_black_hawk_vol/4.jpg
+#   - /assets/at_the_black_hawk_vol/5.jpg
+# - title: Shelly Manne & His Men - At The Black Hawk, Vol. 3
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Contemporary Records, Contemporary Records
+#   catalog: SCA 5017, SCA.5017
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4058454
+#   front_image: /assets/at_the_black_hawk_vol/1.jpg
+#   other_images:
+#   - /assets/at_the_black_hawk_vol/2.jpg
+#   - /assets/at_the_black_hawk_vol/3.jpg
+#   - /assets/at_the_black_hawk_vol/4.jpg
+#   - /assets/at_the_black_hawk_vol/5.jpg
+# - title: Charles Mingus, Thad Jones - Jazz Collaborations, Vol. I
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Debut Records
+#   catalog: DLP-17
+#   year: 1955
+#   discogs_url: https://www.discogs.com/release/28164748
+#   front_image: /assets/jazz_collaborations_vol_i/1.jpg
+#   other_images:
+#   - /assets/jazz_collaborations_vol_i/2.jpg
+#   - /assets/jazz_collaborations_vol_i/3.jpg
+#   - /assets/jazz_collaborations_vol_i/4.jpg
+#   - /assets/jazz_collaborations_vol_i/5.jpg
+# - title: Maurice McIntyre - Humility In The Light Of Creator
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Delmark Records
+#   catalog: DS-419
+#   year: 1969
+#   discogs_url: https://www.discogs.com/release/11481783
+#   front_image: /assets/humility_in_the_light_of_creator/1.jpg
+#   other_images:
+#   - /assets/humility_in_the_light_of_creator/2.jpg
+#   - /assets/humility_in_the_light_of_creator/3.jpg
+#   - /assets/humility_in_the_light_of_creator/4.jpg
+#   - /assets/humility_in_the_light_of_creator/5.jpg
+# - title: Dexter Gordon - Dexter Blows Hot And Cool
+#   description: ''
+#   condition_vinyl: VG
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Dootone Records, Authentic Records (5)
+#   catalog: DL-207, AUL-207
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/13402947
+#   front_image: /assets/dexter_blows_hot_and_cool/1.jpg
+#   other_images:
+#   - /assets/dexter_blows_hot_and_cool/2.jpg
+#   - /assets/dexter_blows_hot_and_cool/3.jpg
+#   - /assets/dexter_blows_hot_and_cool/4.jpg
+#   - /assets/dexter_blows_hot_and_cool/5.jpg
+# - title: Eric Dolphy - Iron Man
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Douglas
+#   catalog: SD 785
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/10959660
+#   front_image: /assets/iron_man/1.jpg
+#   other_images:
+#   - /assets/iron_man/2.jpg
+#   - /assets/iron_man/3.jpg
+#   - /assets/iron_man/4.jpg
+#   - /assets/iron_man/5.jpg
+# - title: Clifford Brown And Max Roach - At Basin Street
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: EmArcy
+#   catalog: MG 36070
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/6487881
+#   front_image: /assets/at_basin_street/1.jpg
+#   other_images:
+#   - /assets/at_basin_street/2.jpg
+#   - /assets/at_basin_street/3.jpg
+#   - /assets/at_basin_street/4.jpg
+#   - /assets/at_basin_street/5.jpg
+# - title: Max Roach Quintet - Max Roach + 4 On The Chicago Scene
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Emarcy
+#   catalog: MG 36132
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/4337783
+#   front_image: /assets/max_roach_on_the_chicago_scene/1.jpg
+#   other_images:
+#   - /assets/max_roach_on_the_chicago_scene/2.jpg
+#   - /assets/max_roach_on_the_chicago_scene/3.jpg
+#   - /assets/max_roach_on_the_chicago_scene/4.jpg
+#   - /assets/max_roach_on_the_chicago_scene/5.jpg
+# - title: Clifford Brown And Max Roach - Clifford Brown And Max Roach
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: EmArcy, EmArcy
+#   catalog: MG 36036, MG-36036
+#   year: 1955
+#   discogs_url: https://www.discogs.com/release/19125328
+#   front_image: /assets/clifford_brown_and_max_roach/1.jpg
+#   other_images:
+#   - /assets/clifford_brown_and_max_roach/2.jpg
+#   - /assets/clifford_brown_and_max_roach/3.jpg
+#   - /assets/clifford_brown_and_max_roach/4.jpg
+#   - /assets/clifford_brown_and_max_roach/5.jpg
+# - title: Max Roach Quintet - Max Roach + 4 At Newport
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: EmArcy, EmArcy
+#   catalog: MG 36140, MG-36140
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/7198829
+#   front_image: /assets/max_roach_at_newport/1.jpg
+#   other_images:
+#   - /assets/max_roach_at_newport/2.jpg
+#   - /assets/max_roach_at_newport/3.jpg
+#   - /assets/max_roach_at_newport/4.jpg
+#   - /assets/max_roach_at_newport/5.jpg
+# - title: Appaloosa Mainstream Ensemble - Live At Down Town
+#   description: ''
+#   condition_vinyl: Generic
+#   condition_cover: Generic
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: EMI
+#   catalog: 8C 062-37365
+#   year: 1978
+#   discogs_url: https://www.discogs.com/release/9848955
+#   front_image: /assets/live_at_down_town/1.jpg
+#   other_images:
+#   - /assets/live_at_down_town/2.jpg
+#   - /assets/live_at_down_town/3.jpg
+#   - /assets/live_at_down_town/4.jpg
+#   - /assets/live_at_down_town/5.jpg
+# - title: Appaloosa Mainstream Ensemble - Live At Down Town
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: EMI
+#   catalog: 8C 062-37365
+#   year: 1978
+#   discogs_url: https://www.discogs.com/release/9848955
+#   front_image: /assets/live_at_down_town/1.jpg
+#   other_images:
+#   - /assets/live_at_down_town/2.jpg
+#   - /assets/live_at_down_town/3.jpg
+#   - /assets/live_at_down_town/4.jpg
+#   - /assets/live_at_down_town/5.jpg
+# - title: Eric Dolphy - Stockholm Sessions
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Enja Records
+#   catalog: '3055'
+#   year: 1981
+#   discogs_url: https://www.discogs.com/release/3080376
+#   front_image: /assets/stockholm_sessions/1.jpg
+#   other_images:
+#   - /assets/stockholm_sessions/2.jpg
+#   - /assets/stockholm_sessions/3.jpg
+#   - /assets/stockholm_sessions/4.jpg
+#   - /assets/stockholm_sessions/5.jpg
+# - title: New York Art Quartet - New York Art Quartet
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: ESP-Disk'
+#   catalog: '1004'
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/1172021
+#   front_image: /assets/new_york_art_quartet/1.jpg
+#   other_images:
+#   - /assets/new_york_art_quartet/2.jpg
+#   - /assets/new_york_art_quartet/3.jpg
+#   - /assets/new_york_art_quartet/4.jpg
+#   - /assets/new_york_art_quartet/5.jpg
+# - title: Noah Howard - At Judson Hall
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: ESP-Disk'
+#   catalog: ESP 1064
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/2917453
+#   front_image: /assets/at_judson_hall/1.jpg
+#   other_images:
+#   - /assets/at_judson_hall/2.jpg
+#   - /assets/at_judson_hall/3.jpg
+#   - /assets/at_judson_hall/4.jpg
+#   - /assets/at_judson_hall/5.jpg
+# - title: Sonny Rollins Quintet - Rollins Plays For Bird
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Esquire
+#   catalog: 32-075
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/10645640
+#   front_image: /assets/rollins_plays_for_bird/1.jpg
+#   other_images:
+#   - /assets/rollins_plays_for_bird/2.jpg
+#   - /assets/rollins_plays_for_bird/3.jpg
+#   - /assets/rollins_plays_for_bird/4.jpg
+#   - /assets/rollins_plays_for_bird/5.jpg
+# - title: Sonny Rollins Quartet With Earl Coleman - Tour De Force
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Esquire
+#   catalog: 32-085
+#   year: 1959
+#   discogs_url: https://www.discogs.com/release/7027001
+#   front_image: /assets/tour_de_force/1.jpg
+#   other_images:
+#   - /assets/tour_de_force/2.jpg
+#   - /assets/tour_de_force/3.jpg
+#   - /assets/tour_de_force/4.jpg
+#   - /assets/tour_de_force/5.jpg
+# - title: Erik Andresen Quartet - GIP
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Flower (2)
+#   catalog: TNLP 40
+#   year: 1971
+#   discogs_url: https://www.discogs.com/release/9447646
+#   front_image: /assets/gip/1.jpg
+#   other_images:
+#   - /assets/gip/2.jpg
+#   - /assets/gip/3.jpg
+#   - /assets/gip/4.jpg
+#   - /assets/gip/5.jpg
+# - title: Sun Ra - The Heliocentric Worlds Of Sun Ra, Vol. I
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Fontana, Fontana
+#   catalog: 888 813 TY, STL5514
+#   year: 1969
+#   discogs_url: https://www.discogs.com/release/2078156
+#   front_image: /assets/the_heliocentric_worlds_of_sun_ra_vol_i/1.jpg
+#   other_images:
+#   - /assets/the_heliocentric_worlds_of_sun_ra_vol_i/2.jpg
+#   - /assets/the_heliocentric_worlds_of_sun_ra_vol_i/3.jpg
+#   - /assets/the_heliocentric_worlds_of_sun_ra_vol_i/4.jpg
+#   - /assets/the_heliocentric_worlds_of_sun_ra_vol_i/5.jpg
+# - title: Angelo Debarre, Serge Camps, Frank Anastasio - Gypsy Guitars
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Hot Club Records
+#   catalog: HCR 56
+#   year: 1989
+#   discogs_url: https://www.discogs.com/release/5770103
+#   front_image: /assets/gypsy_guitars/1.jpg
+#   other_images:
+#   - /assets/gypsy_guitars/2.jpg
+#   - /assets/gypsy_guitars/3.jpg
+#   - /assets/gypsy_guitars/4.jpg
+#   - /assets/gypsy_guitars/5.jpg
+# - title: Shelly Manne - 2-3-4
+#   description: ''
+#   condition_vinyl: VG
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: A-20
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/735373
+#   front_image: /assets//1.jpg
+#   other_images:
+#   - /assets//2.jpg
+#   - /assets//3.jpg
+#   - /assets//4.jpg
+#   - /assets//5.jpg
+# - title: McCoy Tyner Trio With Roy Haynes And Henry Grimes - Reaching Fourth
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: A-33
+#   year: 1963
+#   discogs_url: https://www.discogs.com/release/4237646
+#   front_image: /assets/reaching_fourth/1.jpg
+#   other_images:
+#   - /assets/reaching_fourth/2.jpg
+#   - /assets/reaching_fourth/3.jpg
+#   - /assets/reaching_fourth/4.jpg
+#   - /assets/reaching_fourth/5.jpg
+# - title: Elvin Jones - Dear John C.
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: A-88
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/11798885
+#   front_image: /assets/dear_john_c/1.jpg
+#   other_images:
+#   - /assets/dear_john_c/2.jpg
+#   - /assets/dear_john_c/3.jpg
+#   - /assets/dear_john_c/4.jpg
+#   - /assets/dear_john_c/5.jpg
+# - title: Oliver Nelson - The Blues And The Abstract Truth
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: AS-5
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/1172029
+#   front_image: /assets/the_blues_and_the_abstract_truth/1.jpg
+#   other_images:
+#   - /assets/the_blues_and_the_abstract_truth/2.jpg
+#   - /assets/the_blues_and_the_abstract_truth/3.jpg
+#   - /assets/the_blues_and_the_abstract_truth/4.jpg
+#   - /assets/the_blues_and_the_abstract_truth/5.jpg
+# - title: Oliver Nelson - More Blues And The Abstract Truth
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: AS-75
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/16211381
+#   front_image: /assets/more_blues_and_the_abstract_truth/1.jpg
+#   other_images:
+#   - /assets/more_blues_and_the_abstract_truth/2.jpg
+#   - /assets/more_blues_and_the_abstract_truth/3.jpg
+#   - /assets/more_blues_and_the_abstract_truth/4.jpg
+#   - /assets/more_blues_and_the_abstract_truth/5.jpg
+# - title: Yusef Lateef - A Flat, G Flat And C
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!
+#   catalog: AS-9117
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/26807132
+#   front_image: /assets/a_flat_g_flat_and_c/1.jpg
+#   other_images:
+#   - /assets/a_flat_g_flat_and_c/2.jpg
+#   - /assets/a_flat_g_flat_and_c/3.jpg
+#   - /assets/a_flat_g_flat_and_c/4.jpg
+#   - /assets/a_flat_g_flat_and_c/5.jpg
+# - title: Marion Brown - Three For Shepp
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, ABC Records
+#   catalog: AS-9139
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/6178535
+#   front_image: /assets/three_for_shepp/1.jpg
+#   other_images:
+#   - /assets/three_for_shepp/2.jpg
+#   - /assets/three_for_shepp/3.jpg
+#   - /assets/three_for_shepp/4.jpg
+#   - /assets/three_for_shepp/5.jpg
+# - title: Elvin Jones And Richard Davis (2) - Heavy Sounds
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, ABC Records
+#   catalog: AS-9160
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/27120678
+#   front_image: /assets/heavy_sounds/1.jpg
+#   other_images:
+#   - /assets/heavy_sounds/2.jpg
+#   - /assets/heavy_sounds/3.jpg
+#   - /assets/heavy_sounds/4.jpg
+#   - /assets/heavy_sounds/5.jpg
+# - title: John Coltrane - Impressions
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, Impulse!
+#   catalog: A-42, AS-42
+#   year: 1963
+#   discogs_url: https://www.discogs.com/release/12226742
+#   front_image: /assets/impressions/1.jpg
+#   other_images:
+#   - /assets/impressions/2.jpg
+#   - /assets/impressions/3.jpg
+#   - /assets/impressions/4.jpg
+#   - /assets/impressions/5.jpg
+# - title: John Coltrane - Expression
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, Impulse!
+#   catalog: A-9120, AS-9120
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/24752975
+#   front_image: /assets/expression/1.jpg
+#   other_images:
+#   - /assets/expression/2.jpg
+#   - /assets/expression/3.jpg
+#   - /assets/expression/4.jpg
+#   - /assets/expression/5.jpg
+# - title: Steve Kuhn - The October Suite
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, Impulse!
+#   catalog: A-9136, AS-9136
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/23440460
+#   front_image: /assets/the_october_suite/1.jpg
+#   other_images:
+#   - /assets/the_october_suite/2.jpg
+#   - /assets/the_october_suite/3.jpg
+#   - /assets/the_october_suite/4.jpg
+#   - /assets/the_october_suite/5.jpg
+# - title: Various - The New Wave In Jazz
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, Impulse!
+#   catalog: AS-90, A-90
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/2015447
+#   front_image: /assets/the_new_wave_in_jazz/1.jpg
+#   other_images:
+#   - /assets/the_new_wave_in_jazz/2.jpg
+#   - /assets/the_new_wave_in_jazz/3.jpg
+#   - /assets/the_new_wave_in_jazz/4.jpg
+#   - /assets/the_new_wave_in_jazz/5.jpg
+# - title: John Coltrane - Kulu Sé Mama
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Impulse!, Impulse!
+#   catalog: AS-9106, A-9106
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/4050167
+#   front_image: /assets/kulu_s_mama/1.jpg
+#   other_images:
+#   - /assets/kulu_s_mama/2.jpg
+#   - /assets/kulu_s_mama/3.jpg
+#   - /assets/kulu_s_mama/4.jpg
+#   - /assets/kulu_s_mama/5.jpg
+# - title: Erik Andresen Quartet - Cointreau
+#   description: ''
+#   condition_vinyl: M
+#   condition_cover: M
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Jazzaggression Records
+#   catalog: JA1014SJU
+#   year: 2018
+#   discogs_url: https://www.discogs.com/release/12748950
+#   front_image: /assets/cointreau/1.jpg
+#   other_images:
+#   - /assets/cointreau/2.jpg
+#   - /assets/cointreau/3.jpg
+#   - /assets/cointreau/4.jpg
+#   - /assets/cointreau/5.jpg
+# - title: Erik Andresen Quartet - GIP
+#   description: ''
+#   condition_vinyl: M
+#   condition_cover: M
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Jazzaggression Records
+#   catalog: JALP714
+#   year: 2018
+#   discogs_url: https://www.discogs.com/release/12748933
+#   front_image: /assets/gip/1.jpg
+#   other_images:
+#   - /assets/gip/2.jpg
+#   - /assets/gip/3.jpg
+#   - /assets/gip/4.jpg
+#   - /assets/gip/5.jpg
+# - title: Clifford Jordan Quartet - Bearcat
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Jazzland
+#   catalog: JLP 69
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/10072263
+#   front_image: /assets/bearcat/1.jpg
+#   other_images:
+#   - /assets/bearcat/2.jpg
+#   - /assets/bearcat/3.jpg
+#   - /assets/bearcat/4.jpg
+#   - /assets/bearcat/5.jpg
+# - title: Jan Johansson - Jazz På Svenska
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Megafon
+#   catalog: MFLP S 4
+#   year: 0
+#   discogs_url: https://www.discogs.com/release/13649679
+#   front_image: /assets/jazz_p_svenska/1.jpg
+#   other_images:
+#   - /assets/jazz_p_svenska/2.jpg
+#   - /assets/jazz_p_svenska/3.jpg
+#   - /assets/jazz_p_svenska/4.jpg
+#   - /assets/jazz_p_svenska/5.jpg
+# - title: Pepper Adams Quintet - Pepper Adams Quintet
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Mode Records
+#   catalog: 'MOD LP #112'
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/3744810
+#   front_image: /assets/pepper_adams_quintet/1.jpg
+#   other_images:
+#   - /assets/pepper_adams_quintet/2.jpg
+#   - /assets/pepper_adams_quintet/3.jpg
+#   - /assets/pepper_adams_quintet/4.jpg
+#   - /assets/pepper_adams_quintet/5.jpg
+# - title: John Jenkins (2) / Clifford Jordan / Bobby Timmons - Jenkins, Jordan And Timmons
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz
+#   catalog: NJLP 8232
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/4656163
+#   front_image: /assets/jenkins_jordan_and_timmons/1.jpg
+#   other_images:
+#   - /assets/jenkins_jordan_and_timmons/2.jpg
+#   - /assets/jenkins_jordan_and_timmons/3.jpg
+#   - /assets/jenkins_jordan_and_timmons/4.jpg
+#   - /assets/jenkins_jordan_and_timmons/5.jpg
+# - title: Eric Dolphy Quintet Featuring Freddie Hubbard - Outward Bound
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz, New Jazz
+#   catalog: 8236, NJLP 8236
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/2973552
+#   front_image: /assets/outward_bound/1.jpg
+#   other_images:
+#   - /assets/outward_bound/2.jpg
+#   - /assets/outward_bound/3.jpg
+#   - /assets/outward_bound/4.jpg
+#   - /assets/outward_bound/5.jpg
+# - title: 'The Oliver Nelson Sextet Featuring: Eric Dolphy / Richard Williams - Screamin'' The Blues'
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz, New Jazz
+#   catalog: 8243, NJLP 8243
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4828163
+#   front_image: /assets/screamin_the_blues/1.jpg
+#   other_images:
+#   - /assets/screamin_the_blues/2.jpg
+#   - /assets/screamin_the_blues/3.jpg
+#   - /assets/screamin_the_blues/4.jpg
+#   - /assets/screamin_the_blues/5.jpg
+# - title: Eric Dolphy - Out There
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz, New Jazz
+#   catalog: 8252, NJLP 8252
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/1930720
+#   front_image: /assets/out_there/1.jpg
+#   other_images:
+#   - /assets/out_there/2.jpg
+#   - /assets/out_there/3.jpg
+#   - /assets/out_there/4.jpg
+#   - /assets/out_there/5.jpg
+# - title: Eric Dolphy With Booker Little - Far Cry
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz, New Jazz
+#   catalog: NJ 8270, NJLP 8270
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/4232992
+#   front_image: /assets/far_cry/1.jpg
+#   other_images:
+#   - /assets/far_cry/2.jpg
+#   - /assets/far_cry/3.jpg
+#   - /assets/far_cry/4.jpg
+#   - /assets/far_cry/5.jpg
+# - title: Steve Lacy With Don Cherry - Evidence
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: New Jazz, New Jazz
+#   catalog: NJLP 8271, NJ 8271
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/28751644
+#   front_image: /assets/evidence/1.jpg
+#   other_images:
+#   - /assets/evidence/2.jpg
+#   - /assets/evidence/3.jpg
+#   - /assets/evidence/4.jpg
+#   - /assets/evidence/5.jpg
+# - title: Nathan Davis Quartet - Rules Of Freedom
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Polydor
+#   catalog: 623 275
+#   year: 1969
+#   discogs_url: https://www.discogs.com/release/2683357
+#   front_image: /assets/rules_of_freedom/1.jpg
+#   other_images:
+#   - /assets/rules_of_freedom/2.jpg
+#   - /assets/rules_of_freedom/3.jpg
+#   - /assets/rules_of_freedom/4.jpg
+#   - /assets/rules_of_freedom/5.jpg
+# - title: Phil Woods / Donald Byrd - The Young Bloods
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: LP 7080
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/4814406
+#   front_image: /assets/the_young_bloods/1.jpg
+#   other_images:
+#   - /assets/the_young_bloods/2.jpg
+#   - /assets/the_young_bloods/3.jpg
+#   - /assets/the_young_bloods/4.jpg
+#   - /assets/the_young_bloods/5.jpg
+# - title: Eric Dolphy - Here And There
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PR 7382
+#   year: 1966
+#   discogs_url: https://www.discogs.com/release/3174945
+#   front_image: /assets/here_and_there/1.jpg
+#   other_images:
+#   - /assets/here_and_there/2.jpg
+#   - /assets/here_and_there/3.jpg
+#   - /assets/here_and_there/4.jpg
+#   - /assets/here_and_there/5.jpg
+# - title: Sonny Rollins - Plus 4
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7038
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/24184658
+#   front_image: /assets/plus/1.jpg
+#   other_images:
+#   - /assets/plus/2.jpg
+#   - /assets/plus/3.jpg
+#   - /assets/plus/4.jpg
+#   - /assets/plus/5.jpg
+# - title: Thelonious Monk - Monk
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7053
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/8765741
+#   front_image: /assets/monk/1.jpg
+#   other_images:
+#   - /assets/monk/2.jpg
+#   - /assets/monk/3.jpg
+#   - /assets/monk/4.jpg
+#   - /assets/monk/5.jpg
+# - title: Art Farmer / Donald Byrd - 2 Trumpets
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7062
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/4976202
+#   front_image: /assets/trumpets/1.jpg
+#   other_images:
+#   - /assets/trumpets/2.jpg
+#   - /assets/trumpets/3.jpg
+#   - /assets/trumpets/4.jpg
+#   - /assets/trumpets/5.jpg
+# - title: The Red Garland Trio With Paul Chambers (3) And Art Taylor - A Garland Of Red
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7064
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/7273801
+#   front_image: /assets/a_garland_of_red/1.jpg
+#   other_images:
+#   - /assets/a_garland_of_red/2.jpg
+#   - /assets/a_garland_of_red/3.jpg
+#   - /assets/a_garland_of_red/4.jpg
+#   - /assets/a_garland_of_red/5.jpg
+# - title: Miles Davis All Stars - Walkin'
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7076
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/17719096
+#   front_image: /assets/walkin/1.jpg
+#   other_images:
+#   - /assets/walkin/2.jpg
+#   - /assets/walkin/3.jpg
+#   - /assets/walkin/4.jpg
+#   - /assets/walkin/5.jpg
+# - title: The Ray Draper Quintet - Tuba Sounds
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7096
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/6229419
+#   front_image: /assets/tuba_sounds/1.jpg
+#   other_images:
+#   - /assets/tuba_sounds/2.jpg
+#   - /assets/tuba_sounds/3.jpg
+#   - /assets/tuba_sounds/4.jpg
+#   - /assets/tuba_sounds/5.jpg
+# - title: Gene Ammons - Blue Gene
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7146
+#   year: 1958
+#   discogs_url: https://www.discogs.com/release/2078516
+#   front_image: /assets/blue_gene/1.jpg
+#   other_images:
+#   - /assets/blue_gene/2.jpg
+#   - /assets/blue_gene/3.jpg
+#   - /assets/blue_gene/4.jpg
+#   - /assets/blue_gene/5.jpg
+# - title: The Miles Davis Quintet - Workin' With The Miles Davis Quintet
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP 7166
+#   year: 1959
+#   discogs_url: https://www.discogs.com/release/1966591
+#   front_image: /assets/workin_with_the_miles_davis_quintet/1.jpg
+#   other_images:
+#   - /assets/workin_with_the_miles_davis_quintet/2.jpg
+#   - /assets/workin_with_the_miles_davis_quintet/3.jpg
+#   - /assets/workin_with_the_miles_davis_quintet/4.jpg
+#   - /assets/workin_with_the_miles_davis_quintet/5.jpg
+# - title: Phil Woods Septet - Pairing Off
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige
+#   catalog: PRLP-7046
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/2747092
+#   front_image: /assets/pairing_off/1.jpg
+#   other_images:
+#   - /assets/pairing_off/2.jpg
+#   - /assets/pairing_off/3.jpg
+#   - /assets/pairing_off/4.jpg
+#   - /assets/pairing_off/5.jpg
+# - title: Oliver Nelson With Eric Dolphy - Straight Ahead
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, New Jazz
+#   catalog: NJ 8255, NJLP 8255
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/1605185
+#   front_image: /assets/straight_ahead/1.jpg
+#   other_images:
+#   - /assets/straight_ahead/2.jpg
+#   - /assets/straight_ahead/3.jpg
+#   - /assets/straight_ahead/4.jpg
+#   - /assets/straight_ahead/5.jpg
+# - title: Eric Dolphy - At The Five Spot, Volume 1.
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, New Jazz, New Jazz
+#   catalog: NJ 8260, NJLP 8260
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/2107807
+#   front_image: /assets/at_the_five_spot_volume/1.jpg
+#   other_images:
+#   - /assets/at_the_five_spot_volume/2.jpg
+#   - /assets/at_the_five_spot_volume/3.jpg
+#   - /assets/at_the_five_spot_volume/4.jpg
+#   - /assets/at_the_five_spot_volume/5.jpg
+# - title: George Wallington Quintet - Jazz For The Carriage Trade
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: 7032, PRLP 7032
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/2186328
+#   front_image: /assets/jazz_for_the_carriage_trade/1.jpg
+#   other_images:
+#   - /assets/jazz_for_the_carriage_trade/2.jpg
+#   - /assets/jazz_for_the_carriage_trade/3.jpg
+#   - /assets/jazz_for_the_carriage_trade/4.jpg
+#   - /assets/jazz_for_the_carriage_trade/5.jpg
+# - title: The Miles Davis Quintet - Cookin' With The Miles Davis Quintet
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: 7094, PRLP 7094
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/1599431
+#   front_image: /assets/cookin_with_the_miles_davis_quintet/1.jpg
+#   other_images:
+#   - /assets/cookin_with_the_miles_davis_quintet/2.jpg
+#   - /assets/cookin_with_the_miles_davis_quintet/3.jpg
+#   - /assets/cookin_with_the_miles_davis_quintet/4.jpg
+#   - /assets/cookin_with_the_miles_davis_quintet/5.jpg
+# - title: The Miles Davis Quintet - Steamin' With The Miles Davis Quintet
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: 7200, PRLP 7200
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/1488139
+#   front_image: /assets/steamin_with_the_miles_davis_quintet/1.jpg
+#   other_images:
+#   - /assets/steamin_with_the_miles_davis_quintet/2.jpg
+#   - /assets/steamin_with_the_miles_davis_quintet/3.jpg
+#   - /assets/steamin_with_the_miles_davis_quintet/4.jpg
+#   - /assets/steamin_with_the_miles_davis_quintet/5.jpg
+# - title: The Prestige All Stars - All Night Long
+#   description: ''
+#   condition_vinyl: VG
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: LP 7073, PRLP 7073
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/1603958
+#   front_image: /assets/all_night_long/1.jpg
+#   other_images:
+#   - /assets/all_night_long/2.jpg
+#   - /assets/all_night_long/3.jpg
+#   - /assets/all_night_long/4.jpg
+#   - /assets/all_night_long/5.jpg
+# - title: Eric Dolphy - At The Five Spot Volume 2
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: PR 7294, PRLP 7294
+#   year: 1963
+#   discogs_url: https://www.discogs.com/release/4229856
+#   front_image: /assets/at_the_five_spot_volume/1.jpg
+#   other_images:
+#   - /assets/at_the_five_spot_volume/2.jpg
+#   - /assets/at_the_five_spot_volume/3.jpg
+#   - /assets/at_the_five_spot_volume/4.jpg
+#   - /assets/at_the_five_spot_volume/5.jpg
+# - title: The Eddie Davis-Johnny Griffin Quintet - The Tenor Scene (A Live Recording At Minton's Playhouse)
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prestige, Prestige
+#   catalog: PRLP 7191, Prestige 7191
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/2943978
+#   front_image: /assets/the_tenor_scene_a_live_recording_at_mintons_playhouse/1.jpg
+#   other_images:
+#   - /assets/the_tenor_scene_a_live_recording_at_mintons_playhouse/2.jpg
+#   - /assets/the_tenor_scene_a_live_recording_at_mintons_playhouse/3.jpg
+#   - /assets/the_tenor_scene_a_live_recording_at_mintons_playhouse/4.jpg
+#   - /assets/the_tenor_scene_a_live_recording_at_mintons_playhouse/5.jpg
+# - title: Svein Finnerud Trio - Thoughts
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Prisma Records
+#   catalog: Prisma Records 185
+#   year: 1986
+#   discogs_url: https://www.discogs.com/release/7468371
+#   front_image: /assets/thoughts/1.jpg
+#   other_images:
+#   - /assets/thoughts/2.jpg
+#   - /assets/thoughts/3.jpg
+#   - /assets/thoughts/4.jpg
+#   - /assets/thoughts/5.jpg
+# - title: Appaloosa Mainstream Ensemble - Andresen Songbook
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: G+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: RCA Victor
+#   catalog: PL 40 166
+#   year: 1979
+#   discogs_url: https://www.discogs.com/release/8991727
+#   front_image: /assets/andresen_songbook/1.jpg
+#   other_images:
+#   - /assets/andresen_songbook/2.jpg
+#   - /assets/andresen_songbook/3.jpg
+#   - /assets/andresen_songbook/4.jpg
+#   - /assets/andresen_songbook/5.jpg
+# - title: The Bill Evans Trio Featuring Scott LaFaro - Sunday At The Village Vanguard
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Riverside Records
+#   catalog: RLP 376
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/9155228
+#   front_image: /assets/sunday_at_the_village_vanguard/1.jpg
+#   other_images:
+#   - /assets/sunday_at_the_village_vanguard/2.jpg
+#   - /assets/sunday_at_the_village_vanguard/3.jpg
+#   - /assets/sunday_at_the_village_vanguard/4.jpg
+#   - /assets/sunday_at_the_village_vanguard/5.jpg
+# - title: Nathan Davis Quintet Featuring Carmell Jones - The Hip Walk
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: SABA
+#   catalog: SB 15 063
+#   year: 1965
+#   discogs_url: https://www.discogs.com/release/804437
+#   front_image: /assets/the_hip_walk/1.jpg
+#   other_images:
+#   - /assets/the_hip_walk/2.jpg
+#   - /assets/the_hip_walk/3.jpg
+#   - /assets/the_hip_walk/4.jpg
+#   - /assets/the_hip_walk/5.jpg
+# - title: Archie Shepp - Life At The Donaueschingen Music Festival
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: SABA
+#   catalog: SB 15 148 ST
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/23527211
+#   front_image: /assets/life_at_the_donaueschingen_music_festival/1.jpg
+#   other_images:
+#   - /assets/life_at_the_donaueschingen_music_festival/2.jpg
+#   - /assets/life_at_the_donaueschingen_music_festival/3.jpg
+#   - /assets/life_at_the_donaueschingen_music_festival/4.jpg
+#   - /assets/life_at_the_donaueschingen_music_festival/5.jpg
+# - title: Charlie Parker - Charlie Parker Memorial Vol. 2
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Savoy Records
+#   catalog: MG-12009
+#   year: 1955
+#   discogs_url: https://www.discogs.com/release/4271759
+#   front_image: /assets/charlie_parker_memorial_vol/1.jpg
+#   other_images:
+#   - /assets/charlie_parker_memorial_vol/2.jpg
+#   - /assets/charlie_parker_memorial_vol/3.jpg
+#   - /assets/charlie_parker_memorial_vol/4.jpg
+#   - /assets/charlie_parker_memorial_vol/5.jpg
+# - title: George Wallington Trio - The George Wallington Trio
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Savoy Records
+#   catalog: MG-12081
+#   year: 1956
+#   discogs_url: https://www.discogs.com/release/6941060
+#   front_image: /assets/the_george_wallington_trio/1.jpg
+#   other_images:
+#   - /assets/the_george_wallington_trio/2.jpg
+#   - /assets/the_george_wallington_trio/3.jpg
+#   - /assets/the_george_wallington_trio/4.jpg
+#   - /assets/the_george_wallington_trio/5.jpg
+# - title: Yusef Lateef / A.K. Salim - Stable Mates
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Savoy Records, Savoy Records
+#   catalog: MG 1211J, MG-12115
+#   year: 1957
+#   discogs_url: https://www.discogs.com/release/4987613
+#   front_image: /assets/stable_mates/1.jpg
+#   other_images:
+#   - /assets/stable_mates/2.jpg
+#   - /assets/stable_mates/3.jpg
+#   - /assets/stable_mates/4.jpg
+#   - /assets/stable_mates/5.jpg
+# - title: Howard McGhee - Milt Jackson - Howard McGhee Et Milt Jackson
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Savoy-Musidisc, Savoy-Musidisc, Savoy-Musidisc
+#   catalog: SA 6017, 30 SA 6017, 6017
+#   year: 0
+#   discogs_url: https://www.discogs.com/release/2760338
+#   front_image: /assets/howard_mcghee_et_milt_jackson/1.jpg
+#   other_images:
+#   - /assets/howard_mcghee_et_milt_jackson/2.jpg
+#   - /assets/howard_mcghee_et_milt_jackson/3.jpg
+#   - /assets/howard_mcghee_et_milt_jackson/4.jpg
+#   - /assets/howard_mcghee_et_milt_jackson/5.jpg
+# - title: Curtis Fuller's Quintet - Blues-ette
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Savoy-Musidisc, Savoy-Musidisc, Savoy-Musidisc
+#   catalog: SA 6022, 30 SA 6022, 6022
+#   year: 0
+#   discogs_url: https://www.discogs.com/release/5519793
+#   front_image: /assets/bluesette/1.jpg
+#   other_images:
+#   - /assets/bluesette/2.jpg
+#   - /assets/bluesette/3.jpg
+#   - /assets/bluesette/4.jpg
+#   - /assets/bluesette/5.jpg
+# - title: René McLean Sextet - Watch Out
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: SteepleChase
+#   catalog: SCS-1037
+#   year: 1975
+#   discogs_url: https://www.discogs.com/release/1963552
+#   front_image: /assets/watch_out/1.jpg
+#   other_images:
+#   - /assets/watch_out/2.jpg
+#   - /assets/watch_out/3.jpg
+#   - /assets/watch_out/4.jpg
+#   - /assets/watch_out/5.jpg
+# - title: Clifford Jordan Quartet - Glass Bead Games
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES 19737/8
+#   year: 1974
+#   discogs_url: https://www.discogs.com/release/488867
+#   front_image: /assets/glass_bead_games/1.jpg
+#   other_images:
+#   - /assets/glass_bead_games/2.jpg
+#   - /assets/glass_bead_games/3.jpg
+#   - /assets/glass_bead_games/4.jpg
+#   - /assets/glass_bead_games/5.jpg
+# - title: Music Inc - Live At Slugs' Volume 1
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES-1972
+#   year: 1972
+#   discogs_url: https://www.discogs.com/release/1397557
+#   front_image: /assets/live_at_slugs_volume/1.jpg
+#   other_images:
+#   - /assets/live_at_slugs_volume/2.jpg
+#   - /assets/live_at_slugs_volume/3.jpg
+#   - /assets/live_at_slugs_volume/4.jpg
+#   - /assets/live_at_slugs_volume/5.jpg
+# - title: Music Inc - Live At Slugs' Volume II
+#   description: ''
+#   condition_vinyl: NM
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES-19720
+#   year: 1973
+#   discogs_url: https://www.discogs.com/release/1117126
+#   front_image: /assets/live_at_slugs_volume_ii/1.jpg
+#   other_images:
+#   - /assets/live_at_slugs_volume_ii/2.jpg
+#   - /assets/live_at_slugs_volume_ii/3.jpg
+#   - /assets/live_at_slugs_volume_ii/4.jpg
+#   - /assets/live_at_slugs_volume_ii/5.jpg
+# - title: Cecil Payne - Zodiac (The Music Of Cecil Payne)
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES-19734
+#   year: 1973
+#   discogs_url: https://www.discogs.com/release/1013101
+#   front_image: /assets/zodiac_the_music_of_cecil_payne/1.jpg
+#   other_images:
+#   - /assets/zodiac_the_music_of_cecil_payne/2.jpg
+#   - /assets/zodiac_the_music_of_cecil_payne/3.jpg
+#   - /assets/zodiac_the_music_of_cecil_payne/4.jpg
+#   - /assets/zodiac_the_music_of_cecil_payne/5.jpg
+# - title: Billy Harper - Capra Black
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES-19739
+#   year: 1973
+#   discogs_url: https://www.discogs.com/release/16262744
+#   front_image: /assets/capra_black/1.jpg
+#   other_images:
+#   - /assets/capra_black/2.jpg
+#   - /assets/capra_black/3.jpg
+#   - /assets/capra_black/4.jpg
+#   - /assets/capra_black/5.jpg
+# - title: Music Inc - Live At The Loosdrecht Jazz Festival
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Strata-East
+#   catalog: SES-19740/1
+#   year: 1973
+#   discogs_url: https://www.discogs.com/release/1476947
+#   front_image: /assets/live_at_the_loosdrecht_jazz_festival/1.jpg
+#   other_images:
+#   - /assets/live_at_the_loosdrecht_jazz_festival/2.jpg
+#   - /assets/live_at_the_loosdrecht_jazz_festival/3.jpg
+#   - /assets/live_at_the_loosdrecht_jazz_festival/4.jpg
+#   - /assets/live_at_the_loosdrecht_jazz_festival/5.jpg
+# - title: The Norwegian Big Band Conducted By Kjell Karlsen - Day In, Night Out
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Talent (2)
+#   catalog: TLS 4016
+#   year: 1976
+#   discogs_url: https://www.discogs.com/release/1027893
+#   front_image: /assets/day_in_night_out/1.jpg
+#   other_images:
+#   - /assets/day_in_night_out/2.jpg
+#   - /assets/day_in_night_out/3.jpg
+#   - /assets/day_in_night_out/4.jpg
+#   - /assets/day_in_night_out/5.jpg
+# - title: The Norwegian Big Band Conducted By Kjell Karlsen - Day In, Night Out
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Talent (2)
+#   catalog: TLS 4016
+#   year: 1976
+#   discogs_url: https://www.discogs.com/release/1027893
+#   front_image: /assets/day_in_night_out/1.jpg
+#   other_images:
+#   - /assets/day_in_night_out/2.jpg
+#   - /assets/day_in_night_out/3.jpg
+#   - /assets/day_in_night_out/4.jpg
+#   - /assets/day_in_night_out/5.jpg
+# - title: Booker Little - Booker Little
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Time Records (3)
+#   catalog: '52011'
+#   year: 1960
+#   discogs_url: https://www.discogs.com/release/4204393
+#   front_image: /assets/booker_little/1.jpg
+#   other_images:
+#   - /assets/booker_little/2.jpg
+#   - /assets/booker_little/3.jpg
+#   - /assets/booker_little/4.jpg
+#   - /assets/booker_little/5.jpg
+# - title: The Young Lions (7) - The Young Lions
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Vee Jay Records
+#   catalog: LP 3013
+#   year: 1961
+#   discogs_url: https://www.discogs.com/release/4257250
+#   front_image: /assets/the_young_lions/1.jpg
+#   other_images:
+#   - /assets/the_young_lions/2.jpg
+#   - /assets/the_young_lions/3.jpg
+#   - /assets/the_young_lions/4.jpg
+#   - /assets/the_young_lions/5.jpg
+# - title: Sonny Rollins - Brass / Trio
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Verve Records
+#   catalog: V-8430
+#   year: 1962
+#   discogs_url: https://www.discogs.com/release/3012255
+#   front_image: /assets/brass_trio/1.jpg
+#   other_images:
+#   - /assets/brass_trio/2.jpg
+#   - /assets/brass_trio/3.jpg
+#   - /assets/brass_trio/4.jpg
+#   - /assets/brass_trio/5.jpg
+# - title: Chick Corea - Tones For Joan's Bones
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: NM
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Vortex Records (2)
+#   catalog: '2004'
+#   year: 1968
+#   discogs_url: https://www.discogs.com/release/5417384
+#   front_image: /assets/tones_for_joans_bones/1.jpg
+#   other_images:
+#   - /assets/tones_for_joans_bones/2.jpg
+#   - /assets/tones_for_joans_bones/3.jpg
+#   - /assets/tones_for_joans_bones/4.jpg
+#   - /assets/tones_for_joans_bones/5.jpg
+# - title: Eric Dolphy with The Oliver Nelson Sextet - Screamin' The Blues
+#   description: ''
+#   condition_vinyl: VG+
+#   condition_cover: VG+
+#   price: 199
+#   sold: false
+#   for_sale: false
+#   label: Xtra
+#   catalog: XTRA 5039
+#   year: 1967
+#   discogs_url: https://www.discogs.com/release/3786882
+#   front_image: /assets/screamin_the_blues/1.jpg
+#   other_images:
+#   - /assets/screamin_the_blues/2.jpg
+#   - /assets/screamin_the_blues/3.jpg
+#   - /assets/screamin_the_blues/4.jpg
+#   - /assets/screamin_the_blues/5.jpg

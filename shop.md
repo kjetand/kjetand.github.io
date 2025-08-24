@@ -1,5 +1,4 @@
 ---
-
 layout: page
 title: Jazz shop
 permalink: /shop/
@@ -18,6 +17,7 @@ if you want to buy records from me or have any questions.
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;">
   {% for record in site.data.records %}
     {% assign group_name = "rec" | append: forloop.index0 %}
+    {% if record.for_sale %}
     {% include record.html
       title=record.title
       description=record.description
@@ -25,10 +25,16 @@ if you want to buy records from me or have any questions.
       condition_cover=record.condition_cover
       price=record.price
       sold=record.sold
+      for_sale=record.for_sale
+      label=record.label
+      catalog=record.catalog
+      year=record.year
+      discogs_url=record.discogs_url
       group=group_name
       front_image=record.front_image
       other_images=record.other_images
     %}
+    {% endif %}
   {% endfor %}
 </div>
 

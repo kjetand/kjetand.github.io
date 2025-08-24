@@ -2,7 +2,8 @@
 layout: page
 ---
 
-<a href="shop">Jazz shop</a>&nbsp;&nbsp;
+<a href="shop">Shop</a>&nbsp;&nbsp;
+<a href="collection">Collection</a>&nbsp;&nbsp;
 <a href="about">About</a>
 <br/><br/>
 

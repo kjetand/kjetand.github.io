@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collection
+title: My Jazz Vinyl Collection
 permalink: /collection/
 ---
 

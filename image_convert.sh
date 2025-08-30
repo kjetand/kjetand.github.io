@@ -10,10 +10,12 @@ DEST_DIR="$SRC_DIR/optimized"
 
 mkdir -p "$DEST_DIR"
 
+counter=1
 for f in "$SRC_DIR"/*.JPEG; do
     [ -e "$f" ] || continue
     filename=$(basename "$f" .JPEG)
-    convert "$f" -resize 720x -quality 90 "$DEST_DIR/${filename}.jpg"
+    convert "$f" -resize 720x -quality 90 "$DEST_DIR/${counter}.jpg"
+    ((counter++))
 done
 
 rm $SRC_DIR/*.JPEG

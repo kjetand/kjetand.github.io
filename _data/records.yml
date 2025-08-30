@@ -1,24 +1,6 @@
-- title: "Steve Lacy - The straight horn of Steve Lacy"
-  description: "First press '62 stereo. Very clean vinyl with just a few light scuffs and labels with no spindle marks. Cover has seam wear on all sides. Age staining and small pen writing on back."
-  condition_vinyl: EX
-  condition_cover: VG
-  price: 120
-  sold: false
-  for_sale: true
-  discogs_url: https://www.discogs.com/release/3786882
-  label: Candid
-  catalog: CJM 8007
-  year: 1962
-  front_image: "/assets/the_straight_horn_of_steve_lacy/1.jpg"
-  other_images:
-    - "/assets/the_straight_horn_of_steve_lacy/2.jpg"
-    - "/assets/the_straight_horn_of_steve_lacy/3.jpg"
-    - "/assets/the_straight_horn_of_steve_lacy/4.jpg"
-    - "/assets/the_straight_horn_of_steve_lacy/5.jpg"
-
 - title: Eric Dolphy With Booker Little - Far Cry
-  description: ''
-  condition_vinyl: VG+
+  description: 1st press '62 mono. RVG. Fantastic copy of this extremely rare gem. Wide deep groove, inner abbey pressing ring and textured cover.
+  condition_vinyl: EX
   condition_cover: NM
   price: 500
   sold: false
@@ -33,6 +15,241 @@
   - /assets/far_cry/3.jpg
   - /assets/far_cry/4.jpg
   - /assets/far_cry/5.jpg
+
+- title: Eric Dolphy Quintet Featuring Freddie Hubbard - Outward Bound
+  description: 1st press '60 mono. RVG. Faint needle drag on track 1 and a small feelable mark on track 2 that make pops some revolutions. General hairlines, but nothing deep.
+  condition_vinyl: VG+
+  condition_cover: NM
+  price: 500
+  sold: false
+  for_sale: false
+  label: New Jazz, New Jazz
+  catalog: 8236, NJLP 8236
+  year: 1960
+  discogs_url: https://www.discogs.com/release/2973552
+  front_image: /assets/outward_bound/1.jpg
+  other_images:
+  - /assets/outward_bound/2.jpg
+  - /assets/outward_bound/3.jpg
+  - /assets/outward_bound/4.jpg
+  - /assets/outward_bound/5.jpg
+
+- title: Eric Dolphy - Out There
+  description: 1st press '61 mono. RVG. Very nice VG+ vinyl. Some spindle marks. Cover has tape marks in all four corners on back.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 400
+  sold: false
+  for_sale: false
+  label: New Jazz, New Jazz
+  catalog: 8252, NJLP 8252
+  year: 1961
+  discogs_url: https://www.discogs.com/release/1930720
+  front_image: /assets/out_there/1.jpg
+  other_images:
+  - /assets/out_there/2.jpg
+  - /assets/out_there/3.jpg
+  - /assets/out_there/4.jpg
+  - /assets/out_there/5.jpg
+
+- title: Eric Dolphy - At The Five Spot, Volume 1.
+  description: 1st press '61 mono. RVG. Plays EX. Visually vinyl has some faint surface scuffs/hairlines, and greyish mark inner groove, especially on side 2.
+  condition_vinyl: VG+
+  condition_cover: EX
+  price: 500
+  sold: false
+  for_sale: false
+  label: Prestige, New Jazz, New Jazz
+  catalog: NJ 8260, NJLP 8260
+  year: 1961
+  discogs_url: https://www.discogs.com/release/2107807
+  front_image: /assets/at_the_five_spot_volume_1/1.jpg
+  other_images:
+  - /assets/at_the_five_spot_volume_1/2.jpg
+  - /assets/at_the_five_spot_volume_1/3.jpg
+  - /assets/at_the_five_spot_volume_1/4.jpg
+  - /assets/at_the_five_spot_volume_1/5.jpg
+
+- title: Eric Dolphy - At The Five Spot Volume 2
+  description: 1st press '63 mono. RVG. Really clean copy.
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 300
+  sold: false
+  for_sale: false
+  label: Prestige, Prestige
+  catalog: PR 7294, PRLP 7294
+  year: 1963
+  discogs_url: https://www.discogs.com/release/4229856
+  front_image: /assets/at_the_five_spot_volume_2/1.jpg
+  other_images:
+  - /assets/at_the_five_spot_volume_2/2.jpg
+  - /assets/at_the_five_spot_volume_2/3.jpg
+  - /assets/at_the_five_spot_volume_2/4.jpg
+  - /assets/at_the_five_spot_volume_2/5.jpg
+  - /assets/at_the_five_spot_volume_2/6.jpg
+  - /assets/at_the_five_spot_volume_2/7.jpg
+
+- title: Eric Dolphy - Iron Man
+  description: 1st press '68 stereo. Time machine copy. Close to near mint vinyl.
+  condition_vinyl: EX
+  condition_cover: NM
+  price: 100
+  sold: false
+  for_sale: false
+  label: Douglas
+  catalog: SD 785
+  year: 1968
+  discogs_url: https://www.discogs.com/release/10959660
+  front_image: /assets/iron_man/1.jpg
+  other_images:
+  - /assets/iron_man/2.jpg
+  - /assets/iron_man/3.jpg
+  - /assets/iron_man/4.jpg
+  - /assets/iron_man/5.jpg
+
+- title: Eric Dolphy with The Oliver Nelson Sextet - Screamin' The Blues
+  description: UK '67. String VG+ vinyl. Few hairlines.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 60
+  sold: false
+  for_sale: false
+  label: Xtra
+  catalog: XTRA 5039
+  year: 1967
+  discogs_url: https://www.discogs.com/release/3786882
+  front_image: /assets/screamin_the_blues_xtra/1.jpg
+  other_images:
+  - /assets/screamin_the_blues_xtra/2.jpg
+  - /assets/screamin_the_blues_xtra/3.jpg
+  - /assets/screamin_the_blues_xtra/4.jpg
+  - /assets/screamin_the_blues_xtra/5.jpg
+
+- title: Eric Dolphy - Here And There
+  description: 1st press '66 mono. VAN GELDER. Side 1 VG+. Some hairlines on side 2, not deep. Plays nice.
+  condition_vinyl: VG(+)
+  condition_cover: VG+
+  price: 40
+  sold: false
+  for_sale: false
+  label: Prestige
+  catalog: PR 7382
+  year: 1966
+  discogs_url: https://www.discogs.com/release/3174945
+  front_image: /assets/here_and_there/1.jpg
+  other_images:
+  - /assets/here_and_there/2.jpg
+  - /assets/here_and_there/3.jpg
+  - /assets/here_and_there/4.jpg
+  - /assets/here_and_there/5.jpg
+
+- title: Oliver Nelson With Eric Dolphy - Straight Ahead
+  description: 1st press '61 mono. RVG. Nasty needle drag that makes loud pops just between track 1 and 2. Rest plays VG+ to EX.
+  condition_vinyl: VG(+)
+  condition_cover: VG+
+  price: 100
+  sold: false
+  for_sale: false
+  label: Prestige, New Jazz
+  catalog: NJ 8255, NJLP 8255
+  year: 1961
+  discogs_url: https://www.discogs.com/release/1605185
+  front_image: /assets/straight_ahead/1.jpg
+  other_images:
+  - /assets/straight_ahead/2.jpg
+  - /assets/straight_ahead/3.jpg
+  - /assets/straight_ahead/4.jpg
+  - /assets/straight_ahead/5.jpg
+  - /assets/straight_ahead/6.jpg
+
+- title: 'The Oliver Nelson Sextet Featuring: Eric Dolphy / Richard Williams - Screamin'' The Blues'
+  description: 1st press '61. RVG. Deep groove, inner abbey pressing ring. Faint paper wear on vinyl. Some brown spots back cover and store sticker.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 200
+  sold: false
+  for_sale: false
+  label: New Jazz, New Jazz
+  catalog: 8243, NJLP 8243
+  year: 1961
+  discogs_url: https://www.discogs.com/release/4828163
+  front_image: /assets/screamin_the_blues/1.jpg
+  other_images:
+  - /assets/screamin_the_blues/2.jpg
+  - /assets/screamin_the_blues/3.jpg
+  - /assets/screamin_the_blues/4.jpg
+  - /assets/screamin_the_blues/5.jpg
+
+- title: Billy Harper - Capra Black
+  description: 1st press. Vinyl has faint grey pattern that doesn't affect audio. Cover has some seam wear on top.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 100
+  sold: false
+  for_sale: false
+  label: Strata-East
+  catalog: SES-19739
+  year: 1973
+  discogs_url: https://www.discogs.com/release/16262744
+  front_image: /assets/capra_black/1.jpg
+  other_images:
+  - /assets/capra_black/2.jpg
+  - /assets/capra_black/3.jpg
+  - /assets/capra_black/4.jpg
+
+- title: The Young Lions
+  description: 1st press '61 mono. Plain VG+ copy. Name on back cover.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 100
+  sold: false
+  for_sale: false
+  label: Vee Jay Records
+  catalog: LP 3013
+  year: 1961
+  discogs_url: https://www.discogs.com/release/4257250
+  front_image: /assets/the_young_lions/1.jpg
+  other_images:
+  - /assets/the_young_lions/2.jpg
+  - /assets/the_young_lions/3.jpg
+  - /assets/the_young_lions/4.jpg
+
+- title: Steve Lacy - The straight horn of Steve Lacy
+  description: First press '62 stereo. Very clean vinyl with just a few light scuffs and labels with no spindle marks. Cover has seam wear on all sides. Age staining and small pen writing on back.
+  condition_vinyl: EX
+  condition_cover: VG
+  price: 120
+  sold: false
+  for_sale: true
+  discogs_url: https://www.discogs.com/release/3786882
+  label: Candid
+  catalog: CJS 9007
+  year: 1962
+  front_image: /assets/the_straight_horn_of_steve_lacy/1.jpg
+  other_images:
+    - /assets/the_straight_horn_of_steve_lacy/2.jpg
+    - /assets/the_straight_horn_of_steve_lacy/3.jpg
+    - /assets/the_straight_horn_of_steve_lacy/4.jpg
+    - /assets/the_straight_horn_of_steve_lacy/5.jpg
+ 
+- title: Steve Lacy - The Straight Horn Of Steve Lacy
+  description: 1st press '62 mono. Sticker removal label side 1.
+  condition_vinyl: EX
+  condition_cover: VG+
+  price: 199
+  sold: false
+  for_sale: false
+  label: Candid
+  catalog: CJM 8007
+  year: 1962
+  discogs_url: https://www.discogs.com/release/6465828
+  front_image: /assets/the_straight_horn_of_steve_lacy_mono/1.jpg
+  other_images:
+  - /assets/the_straight_horn_of_steve_lacy_mono/2.jpg
+  - /assets/the_straight_horn_of_steve_lacy_mono/3.jpg
+  - /assets/the_straight_horn_of_steve_lacy_mono/4.jpg
+  - /assets/the_straight_horn_of_steve_lacy_mono/5.jpg
 
 # - title: Albert Mangelsdorff Quintet - One Tension
 #   description: ''
@@ -901,23 +1118,6 @@
 #   - /assets/the_peacemaker/3.jpg
 #   - /assets/the_peacemaker/4.jpg
 #   - /assets/the_peacemaker/5.jpg
-# - title: Steve Lacy - The Straight Horn Of Steve Lacy
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Candid
-#   catalog: CJM 8007
-#   year: 1962
-#   discogs_url: https://www.discogs.com/release/6465828
-#   front_image: /assets/the_straight_horn_of_steve_lacy/1.jpg
-#   other_images:
-#   - /assets/the_straight_horn_of_steve_lacy/2.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/3.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/4.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/5.jpg
 # - title: Booker Little - Out Front
 #   description: ''
 #   condition_vinyl: VG+
@@ -935,23 +1135,6 @@
 #   - /assets/out_front/3.jpg
 #   - /assets/out_front/4.jpg
 #   - /assets/out_front/5.jpg
-# - title: Steve Lacy - The Straight Horn Of Steve Lacy
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Candid
-#   catalog: CJS 9007
-#   year: 1962
-#   discogs_url: https://www.discogs.com/release/12365536
-#   front_image: /assets/the_straight_horn_of_steve_lacy/1.jpg
-#   other_images:
-#   - /assets/the_straight_horn_of_steve_lacy/2.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/3.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/4.jpg
-#   - /assets/the_straight_horn_of_steve_lacy/5.jpg
 # - title: Charles Mingus - Mingus Ah Um
 #   description: ''
 #   condition_vinyl: VG+
@@ -1105,23 +1288,6 @@
 #   - /assets/dexter_blows_hot_and_cool/3.jpg
 #   - /assets/dexter_blows_hot_and_cool/4.jpg
 #   - /assets/dexter_blows_hot_and_cool/5.jpg
-# - title: Eric Dolphy - Iron Man
-#   description: ''
-#   condition_vinyl: NM
-#   condition_cover: NM
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Douglas
-#   catalog: SD 785
-#   year: 1968
-#   discogs_url: https://www.discogs.com/release/10959660
-#   front_image: /assets/iron_man/1.jpg
-#   other_images:
-#   - /assets/iron_man/2.jpg
-#   - /assets/iron_man/3.jpg
-#   - /assets/iron_man/4.jpg
-#   - /assets/iron_man/5.jpg
 # - title: Clifford Brown And Max Roach - At Basin Street
 #   description: ''
 #   condition_vinyl: VG+
@@ -1683,57 +1849,6 @@
 #   - /assets/jenkins_jordan_and_timmons/3.jpg
 #   - /assets/jenkins_jordan_and_timmons/4.jpg
 #   - /assets/jenkins_jordan_and_timmons/5.jpg
-# - title: Eric Dolphy Quintet Featuring Freddie Hubbard - Outward Bound
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: NM
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: New Jazz, New Jazz
-#   catalog: 8236, NJLP 8236
-#   year: 1960
-#   discogs_url: https://www.discogs.com/release/2973552
-#   front_image: /assets/outward_bound/1.jpg
-#   other_images:
-#   - /assets/outward_bound/2.jpg
-#   - /assets/outward_bound/3.jpg
-#   - /assets/outward_bound/4.jpg
-#   - /assets/outward_bound/5.jpg
-# - title: 'The Oliver Nelson Sextet Featuring: Eric Dolphy / Richard Williams - Screamin'' The Blues'
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: New Jazz, New Jazz
-#   catalog: 8243, NJLP 8243
-#   year: 1961
-#   discogs_url: https://www.discogs.com/release/4828163
-#   front_image: /assets/screamin_the_blues/1.jpg
-#   other_images:
-#   - /assets/screamin_the_blues/2.jpg
-#   - /assets/screamin_the_blues/3.jpg
-#   - /assets/screamin_the_blues/4.jpg
-#   - /assets/screamin_the_blues/5.jpg
-# - title: Eric Dolphy - Out There
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: New Jazz, New Jazz
-#   catalog: 8252, NJLP 8252
-#   year: 1961
-#   discogs_url: https://www.discogs.com/release/1930720
-#   front_image: /assets/out_there/1.jpg
-#   other_images:
-#   - /assets/out_there/2.jpg
-#   - /assets/out_there/3.jpg
-#   - /assets/out_there/4.jpg
-#   - /assets/out_there/5.jpg
 # - title: Steve Lacy With Don Cherry - Evidence
 #   description: ''
 #   condition_vinyl: VG+
@@ -1785,23 +1900,6 @@
 #   - /assets/the_young_bloods/3.jpg
 #   - /assets/the_young_bloods/4.jpg
 #   - /assets/the_young_bloods/5.jpg
-# - title: Eric Dolphy - Here And There
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Prestige
-#   catalog: PR 7382
-#   year: 1966
-#   discogs_url: https://www.discogs.com/release/3174945
-#   front_image: /assets/here_and_there/1.jpg
-#   other_images:
-#   - /assets/here_and_there/2.jpg
-#   - /assets/here_and_there/3.jpg
-#   - /assets/here_and_there/4.jpg
-#   - /assets/here_and_there/5.jpg
 # - title: Sonny Rollins - Plus 4
 #   description: ''
 #   condition_vinyl: VG+
@@ -1955,40 +2053,6 @@
 #   - /assets/pairing_off/3.jpg
 #   - /assets/pairing_off/4.jpg
 #   - /assets/pairing_off/5.jpg
-# - title: Oliver Nelson With Eric Dolphy - Straight Ahead
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Prestige, New Jazz
-#   catalog: NJ 8255, NJLP 8255
-#   year: 1961
-#   discogs_url: https://www.discogs.com/release/1605185
-#   front_image: /assets/straight_ahead/1.jpg
-#   other_images:
-#   - /assets/straight_ahead/2.jpg
-#   - /assets/straight_ahead/3.jpg
-#   - /assets/straight_ahead/4.jpg
-#   - /assets/straight_ahead/5.jpg
-# - title: Eric Dolphy - At The Five Spot, Volume 1.
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Prestige, New Jazz, New Jazz
-#   catalog: NJ 8260, NJLP 8260
-#   year: 1961
-#   discogs_url: https://www.discogs.com/release/2107807
-#   front_image: /assets/at_the_five_spot_volume/1.jpg
-#   other_images:
-#   - /assets/at_the_five_spot_volume/2.jpg
-#   - /assets/at_the_five_spot_volume/3.jpg
-#   - /assets/at_the_five_spot_volume/4.jpg
-#   - /assets/at_the_five_spot_volume/5.jpg
 # - title: George Wallington Quintet - Jazz For The Carriage Trade
 #   description: ''
 #   condition_vinyl: VG+
@@ -2057,23 +2121,6 @@
 #   - /assets/all_night_long/3.jpg
 #   - /assets/all_night_long/4.jpg
 #   - /assets/all_night_long/5.jpg
-# - title: Eric Dolphy - At The Five Spot Volume 2
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Prestige, Prestige
-#   catalog: PR 7294, PRLP 7294
-#   year: 1963
-#   discogs_url: https://www.discogs.com/release/4229856
-#   front_image: /assets/at_the_five_spot_volume/1.jpg
-#   other_images:
-#   - /assets/at_the_five_spot_volume/2.jpg
-#   - /assets/at_the_five_spot_volume/3.jpg
-#   - /assets/at_the_five_spot_volume/4.jpg
-#   - /assets/at_the_five_spot_volume/5.jpg
 # - title: The Eddie Davis-Johnny Griffin Quintet - The Tenor Scene (A Live Recording At Minton's Playhouse)
 #   description: ''
 #   condition_vinyl: VG+
@@ -2346,23 +2393,6 @@
 #   - /assets/zodiac_the_music_of_cecil_payne/3.jpg
 #   - /assets/zodiac_the_music_of_cecil_payne/4.jpg
 #   - /assets/zodiac_the_music_of_cecil_payne/5.jpg
-# - title: Billy Harper - Capra Black
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Strata-East
-#   catalog: SES-19739
-#   year: 1973
-#   discogs_url: https://www.discogs.com/release/16262744
-#   front_image: /assets/capra_black/1.jpg
-#   other_images:
-#   - /assets/capra_black/2.jpg
-#   - /assets/capra_black/3.jpg
-#   - /assets/capra_black/4.jpg
-#   - /assets/capra_black/5.jpg
 # - title: Music Inc - Live At The Loosdrecht Jazz Festival
 #   description: ''
 #   condition_vinyl: VG+
@@ -2431,23 +2461,6 @@
 #   - /assets/booker_little/3.jpg
 #   - /assets/booker_little/4.jpg
 #   - /assets/booker_little/5.jpg
-# - title: The Young Lions (7) - The Young Lions
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Vee Jay Records
-#   catalog: LP 3013
-#   year: 1961
-#   discogs_url: https://www.discogs.com/release/4257250
-#   front_image: /assets/the_young_lions/1.jpg
-#   other_images:
-#   - /assets/the_young_lions/2.jpg
-#   - /assets/the_young_lions/3.jpg
-#   - /assets/the_young_lions/4.jpg
-#   - /assets/the_young_lions/5.jpg
 # - title: Sonny Rollins - Brass / Trio
 #   description: ''
 #   condition_vinyl: VG+
@@ -2482,20 +2495,3 @@
 #   - /assets/tones_for_joans_bones/3.jpg
 #   - /assets/tones_for_joans_bones/4.jpg
 #   - /assets/tones_for_joans_bones/5.jpg
-# - title: Eric Dolphy with The Oliver Nelson Sextet - Screamin' The Blues
-#   description: ''
-#   condition_vinyl: VG+
-#   condition_cover: VG+
-#   price: 199
-#   sold: false
-#   for_sale: false
-#   label: Xtra
-#   catalog: XTRA 5039
-#   year: 1967
-#   discogs_url: https://www.discogs.com/release/3786882
-#   front_image: /assets/screamin_the_blues/1.jpg
-#   other_images:
-#   - /assets/screamin_the_blues/2.jpg
-#   - /assets/screamin_the_blues/3.jpg
-#   - /assets/screamin_the_blues/4.jpg
-#   - /assets/screamin_the_blues/5.jpg

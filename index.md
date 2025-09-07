@@ -2,9 +2,9 @@
 layout: page
 ---
 
-<a href="shop">Shop</a>&nbsp;&nbsp;
-<a href="collection">Collection</a>&nbsp;&nbsp;
-<a href="about">About</a>
+♫ <a href="shop">Shop</a>&nbsp;&nbsp;
+𐄎 <a href="collection">Collection</a>&nbsp;&nbsp;
+☛ <a href="about">About</a>
 <br/><br/>
 
 {% for post in site.posts %}

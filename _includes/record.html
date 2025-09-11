@@ -25,7 +25,11 @@
     <br/>
     {{ include.description }}
     <br/><br/>
-    [{{ include.condition_vinyl }}/{{ include.condition_cover }}]
+    {% unless include.for_sale %}
+    (Est. value: €<b>{{ include.price }}</b>)
+    {% endunless %}
+    <br/>
+    [<b>{{ include.condition_vinyl }}/{{ include.condition_cover }}</b>]
     [<a href="{{ include.discogs_url }}" target="_blank">Discogs</a>]
   </div>
 </div>

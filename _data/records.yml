@@ -1,3 +1,37 @@
+- title: Miles Davis and Milt Jackson - Quintet / Sextet
+  description: 1st press '56 mono compilation. RVG. Vinyl has lots of thin hairlines, but nothing deep the makes pops or skips. Plays great. Cover near EX, but littlebit wear top left.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 200
+  sold: false
+  for_sale: false
+  label: Prestige
+  catalog: PRLP 7034
+  year: 1956
+  discogs_url: https://www.discogs.com/release/1966614
+  front_image: /assets/miles_davis_and_milt_jackson/1.jpg
+  other_images:
+  - /assets/miles_davis_and_milt_jackson/2.jpg
+  - /assets/miles_davis_and_milt_jackson/3.jpg
+  - /assets/miles_davis_and_milt_jackson/4.jpg
+ 
+- title: Clifford Brown - Memorial Album
+  description: 1st press '56 mono compilation with Lexington ave. address on back cover and white border. P/Ear and 9M in deadwax. Vinyl is great, just visually a long hairline on side 1 that doesn't affect play.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 400
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 1526
+  year: 1956
+  discogs_url: https://www.discogs.com/release/24381488
+  front_image: /assets/clifford_brown_memorial/1.jpg
+  other_images:
+  - /assets/clifford_brown_memorial/2.jpg
+  - /assets/clifford_brown_memorial/3.jpg
+  - /assets/clifford_brown_memorial/4.jpg
+
 - title: Eric Dolphy With Booker Little - Far Cry
   description: 1st press '62 mono. RVG. Fantastic copy of this extremely rare gem. Wide deep groove, inner abbey pressing ring and textured cover.
   condition_vinyl: EX
@@ -237,7 +271,7 @@
   description: 1st press '62 mono. Sticker removal label side 1.
   condition_vinyl: EX
   condition_cover: VG+
-  price: 199
+  price: 250
   sold: false
   for_sale: false
   label: Candid

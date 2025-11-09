@@ -30,6 +30,7 @@ if you want to buy records from me or have any questions.
       catalog=record.catalog
       year=record.year
       discogs_url=record.discogs_url
+      on_discogs=record.on_discogs
       group=group_name
       front_image=record.front_image
       other_images=record.other_images

@@ -376,7 +376,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 250
-  sold: false
+  sold: true
   for_sale: true
   label: Candid
   catalog: CJM 8007
@@ -412,7 +412,7 @@
   condition_vinyl: EX
   condition_cover: VG(+)
   price: 600
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4154
@@ -1140,7 +1140,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 700
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4073
@@ -1240,7 +1240,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 350
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4165
@@ -2181,7 +2181,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 850
-  sold: false
+  sold: true
   for_sale: true
   label: New Jazz
   catalog: NJLP 8232
@@ -2199,7 +2199,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 125
-  sold: false
+  sold: true
   for_sale: true
   label: New Jazz, New Jazz
   catalog: NJLP 8271, NJ 8271

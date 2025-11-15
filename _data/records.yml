@@ -2254,7 +2254,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 250
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7062
@@ -2503,7 +2503,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Savoy Records, Savoy Records
   catalog: MG 1211J, MG-12115

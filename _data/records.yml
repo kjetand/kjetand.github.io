@@ -38,7 +38,7 @@
   condition_vinyl: EX
   condition_cover: NM
   price: 175
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!
   catalog: A-88
@@ -430,7 +430,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 75
-  sold: false
+  sold: true
   for_sale: true
   label: Mode Records
   catalog: 'MOD LP #112'
@@ -557,7 +557,7 @@
   condition_vinyl: VG(+)
   condition_cover: EX
   price: 40
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!, ABC Records
   catalog: AS-9139
@@ -888,7 +888,7 @@
   condition_vinyl: EX
   condition_cover: NM
   price: 85
-  sold: false
+  sold: true
   for_sale: true
   label: ESP
   catalog: 1029
@@ -906,7 +906,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 85
-  sold: false
+  sold: true
   for_sale: true
   label: ESP
   catalog: 1023
@@ -924,7 +924,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 70
-  sold: false
+  sold: true
   for_sale: true
   label: Atlantic
   catalog: SD 1317
@@ -1200,7 +1200,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 350
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4106
@@ -1425,7 +1425,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 40
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BST 84262
@@ -2033,7 +2033,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 80
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!
   catalog: AS-5
@@ -2051,7 +2051,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 50
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!
   catalog: AS-75
@@ -2069,7 +2069,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 150
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!, ABC Records
   catalog: AS-9160

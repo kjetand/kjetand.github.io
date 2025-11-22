@@ -697,7 +697,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 125
-  sold: false
+  sold: true
   for_sale: true
   label: Bethlehem Records
   catalog: BCP-42

@@ -92,7 +92,7 @@
   condition_vinyl: VG+
   condition_cover: NM
   price: 250
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7076
@@ -145,7 +145,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 300
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7012
@@ -232,7 +232,7 @@
   condition_vinyl: VG+
   condition_cover: NM
   price: 500
-  sold: false
+  sold: true
   for_sale: true
   label: New Jazz, New Jazz
   catalog: 8236, NJLP 8236
@@ -250,7 +250,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 400
-  sold: false
+  sold: true
   for_sale: true
   label: New Jazz, New Jazz
   catalog: 8252, NJLP 8252
@@ -268,7 +268,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 600
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige, New Jazz, New Jazz
   catalog: NJ 8260, NJLP 8260
@@ -286,7 +286,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 300
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige, Prestige
   catalog: PR 7294, PRLP 7294
@@ -1622,7 +1622,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 350
-  sold: false
+  sold: true
   for_sale: true
   label: Candid
   catalog: CJM 8027
@@ -1640,7 +1640,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 150
-  sold: false
+  sold: true
   for_sale: true
   label: Columbia
   catalog: CS 8171
@@ -1799,7 +1799,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 50
-  sold: false
+  sold: true
   for_sale: true
   label: Emarcy
   catalog: MG 36132
@@ -2325,7 +2325,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 250
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP-7046
@@ -2682,7 +2682,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 225
-  sold: false
+  sold: true
   for_sale: true
   label: Time Records (3)
   catalog: '52011'

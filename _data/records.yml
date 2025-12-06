@@ -342,7 +342,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 125
-  sold: false
+  sold: true
   for_sale: true
   label: Strata-East
   catalog: SES-19739
@@ -592,7 +592,7 @@
   condition_vinyl: VG+
   condition_cover: VG
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: blue note, blue note, blue note
   catalog: bst 84177, st 84177, 84177
@@ -1280,7 +1280,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 350
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4204
@@ -1566,7 +1566,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 85
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note, Blue Note
   catalog: BST 1595, 1595

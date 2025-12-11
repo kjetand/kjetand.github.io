@@ -152,7 +152,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7053
@@ -906,7 +906,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 75
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!, Impulse!
   catalog: A-9120, AS-9120
@@ -2290,7 +2290,7 @@
   condition_vinyl: VG+
   condition_cover: NM
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7146
@@ -2398,7 +2398,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige, Prestige
   catalog: PRLP 7191, Prestige 7191

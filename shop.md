@@ -14,30 +14,68 @@ if you want to buy records from me or have any questions.
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 
+{% assign unsold_records = site.data.records
+  | where_exp: "r", "r.sold != true"
+  | sort: "price"
+  | reverse %}
+
+{% assign sold_records = site.data.records
+  | where_exp: "r", "r.sold == true"
+  | sort: "price"
+  | reverse %}
+
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;">
-  {% for record in site.data.records %}
+
+  {% for record in unsold_records %}
     {% assign group_name = "rec" | append: forloop.index0 %}
+
     {% if record.for_sale %}
-    {% include record.html
-      title=record.title
-      description=record.description
-      condition_vinyl=record.condition_vinyl
-      condition_cover=record.condition_cover
-      price=record.price
-      sold=record.sold
-      for_sale=record.for_sale
-      label=record.label
-      catalog=record.catalog
-      year=record.year
-      discogs_url=record.discogs_url
-      on_discogs=record.on_discogs
-      group=group_name
-      front_image=record.front_image
-      other_images=record.other_images
-    %}
+      {% include record.html
+        title=record.title
+        description=record.description
+        condition_vinyl=record.condition_vinyl
+        condition_cover=record.condition_cover
+        price=record.price
+        sold=record.sold
+        for_sale=record.for_sale
+        label=record.label
+        catalog=record.catalog
+        year=record.year
+        discogs_url=record.discogs_url
+        on_discogs=record.on_discogs
+        group=group_name
+        front_image=record.front_image
+        other_images=record.other_images
+      %}
     {% endif %}
   {% endfor %}
+
+  {% for record in sold_records %}
+    {% assign group_name = "rec-sold" | append: forloop.index0 %}
+
+    {% if record.for_sale %}
+      {% include record.html
+        title=record.title
+        description=record.description
+        condition_vinyl=record.condition_vinyl
+        condition_cover=record.condition_cover
+        price=record.price
+        sold=record.sold
+        for_sale=record.for_sale
+        label=record.label
+        catalog=record.catalog
+        year=record.year
+        discogs_url=record.discogs_url
+        on_discogs=record.on_discogs
+        group=group_name
+        front_image=record.front_image
+        other_images=record.other_images
+      %}
+    {% endif %}
+  {% endfor %}
+
 </div>
+
 
 ## Shipping
 

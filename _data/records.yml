@@ -41,7 +41,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 400
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4001
@@ -59,7 +59,7 @@
   condition_vinyl: EX
   condition_cover: VG+
   price: 700
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4056
@@ -95,7 +95,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 5040
@@ -511,7 +511,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: Vee Jay Records
   catalog: LP 3013
@@ -1336,7 +1336,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 5035
@@ -1354,7 +1354,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 80
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 5036
@@ -1391,7 +1391,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 5045
@@ -1409,7 +1409,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 5062

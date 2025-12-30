@@ -132,7 +132,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 500
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4105

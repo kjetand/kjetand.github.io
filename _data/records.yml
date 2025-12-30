@@ -761,7 +761,7 @@
   condition_vinyl: EX
   condition_cover: VG
   price: 150
-  sold: false
+  sold: true
   for_sale: true
   label: Cadet, Cadet
   catalog: LPS 813, LPS-813
@@ -797,7 +797,7 @@
   condition_cover: VG+
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-085
   year: 1959
@@ -1962,7 +1962,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-075
   year: 1956
@@ -2232,10 +2232,10 @@
   - /assets/evidence/6.jpg
 
 - title: Phil Woods / Donald Byrd - The Young Bloods
-  description: 1st press '56 mono. RVG in dead-wax. Strong VG copy. In reality plays VG+ all around. Graded VG due to a last track on side 1 has a grey area that is non-feelable and doesn't affect sound much if not at all. Cover is a bit worn on seams and spine, and have little tape on corners.
-  condition_vinyl: VG
+  description: 1st press '56 mono. RVG in dead-wax. Strong VG copy. In reality plays VG+ all around, but track 3 side 1 plays VG the whole track due to a white'ish mark (plays better than it looks, no skips or loud pops). Cover is a bit worn on seams and spine and have little tape on corners, but presentable for sure.
+  condition_vinyl: VG(+)
   condition_cover: VG
-  price: 200
+  price: 150
   sold: false
   for_sale: true
   label: Prestige
@@ -2435,7 +2435,7 @@
   condition_cover: VG+
   price: 200
   sold: false
-  for_sale: true
+  for_sale: false
   label: Riverside Records
   catalog: RLP 376
   year: 1965

@@ -3,7 +3,7 @@
   condition_vinyl: VG
   condition_cover: VG+
   price: 575
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 1513
@@ -21,7 +21,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 400
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4198
@@ -332,7 +332,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7034
@@ -948,7 +948,7 @@
   condition_vinyl: VG+
   condition_cover: VG
   price: 140
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 1598
@@ -2181,7 +2181,7 @@
   condition_vinyl: EX
   condition_cover: EX
   price: 200
-  sold: false
+  sold: true
   for_sale: true
   label: Jazzland
   catalog: JLP 69
@@ -2236,7 +2236,7 @@
   condition_vinyl: VG(+)
   condition_cover: VG
   price: 150
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: LP 7080

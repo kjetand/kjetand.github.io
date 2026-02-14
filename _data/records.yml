@@ -170,7 +170,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 350
-  sold: false
+  sold: true
   for_sale: true
   label: Blue Note
   catalog: BLP 4112
@@ -314,7 +314,7 @@
   condition_vinyl: VG+
   condition_cover: VG(+)
   price: 300
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige
   catalog: PRLP 7096
@@ -691,7 +691,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 75
-  sold: false
+  sold: true
   for_sale: true
   label: Impulse!
   catalog: AS-9117
@@ -1003,7 +1003,7 @@
   condition_vinyl: VG(+)
   condition_cover: VG+
   price: 100
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige, New Jazz
   catalog: NJ 8255, NJLP 8255
@@ -1853,7 +1853,7 @@
   condition_vinyl: VG+
   condition_cover: VG+
   price: 30
-  sold: false
+  sold: true
   for_sale: true
   label: EmArcy, EmArcy
   catalog: MG 36140, MG-36140
@@ -2380,7 +2380,7 @@
   condition_vinyl: VG+
   condition_cover: EX
   price: 150
-  sold: false
+  sold: true
   for_sale: true
   label: Prestige, Prestige
   catalog: 7200, PRLP 7200

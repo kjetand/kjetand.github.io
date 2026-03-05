@@ -25,10 +25,8 @@ if you want to buy records from me or have any questions.
   | reverse %}
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;">
-
   {% for record in unsold_records %}
     {% assign group_name = "rec" | append: forloop.index0 %}
-
     {% if record.for_sale %}
       {% include record.html
         title=record.title
@@ -49,7 +47,12 @@ if you want to buy records from me or have any questions.
       %}
     {% endif %}
   {% endfor %}
+</div>
 
+<h3>&nbsp;</h3>
+<h3 style="font-family: monospace;">[SALES HISTORY]</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 0fr)); gap: 0px;">
   {% for record in sold_records %}
     {% assign group_name = "rec-sold" | append: forloop.index0 %}
 

@@ -21,11 +21,13 @@
     {% endif %}
   </div>
   <div style="padding-top: 6px; font-size: 0.9em; color: #333; font-family: monospace; ">
-    <b style="text-transform: uppercase;">{{ include.title }}</b>
-    <br/>
-    {{ include.description }}
-    <br/><br/>
-    [<b>{{ include.condition_vinyl }}/{{ include.condition_cover }}</b>]
-    [<a href="{{ include.discogs_url }}" target="_blank">Discogs</a>] {% if include.on_discogs %}&#10004;{% endif %}
+    {% if include.sold != true %}
+      <b style="text-transform: uppercase;">{{ include.title }}</b>
+      <br/>
+      {{ include.description }}
+      <br/><br/>
+      [<b>{{ include.condition_vinyl }}/{{ include.condition_cover }}</b>]
+      [<a href="{{ include.discogs_url }}" target="_blank">Discogs</a>] {% if include.on_discogs %}&#10004;{% endif %}
+    {% endif %}
   </div>
 </div>

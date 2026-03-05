@@ -1856,7 +1856,7 @@
   condition_cover: VG+
   price: 35
   sold: false
-  for_sale: true
+  for_sale: false
   label: BYG Records, BYG Records
   catalog: 529.349, 529 349
   year: 1971

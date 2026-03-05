@@ -52,7 +52,7 @@ if you want to buy records from me or have any questions.
 <h3>&nbsp;</h3>
 <h3 style="font-family: monospace;">[SALES HISTORY]</h3>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 0fr)); gap: 0px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;">
   {% for record in sold_records %}
     {% assign group_name = "rec-sold" | append: forloop.index0 %}
 

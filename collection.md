@@ -8,8 +8,13 @@ permalink: /collection/
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 
+{% assign records = site.data.records
+  | where_exp: "r", "r.for_sale == false"
+  | sort: "price"
+  | reverse %}
+
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px;">
-  {% for record in site.data.records %}
+  {% for record in records %}
     {% assign group_name = "rec" | append: forloop.index0 %}
     {% unless record.for_sale %}
     {% include record.html

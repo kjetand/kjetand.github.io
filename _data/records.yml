@@ -798,7 +798,7 @@
   condition_cover: VG+
   price: 180
   sold: false
-  for_sale: true
+  for_sale: false
   label: New Jazz, New Jazz
   catalog: 8243, NJLP 8243
   year: 1961
@@ -921,7 +921,7 @@
   condition_cover: VG+
   price: 75
   sold: false
-  for_sale: true
+  for_sale: false
   label: Strata-East
   catalog: SES-19740/1
   year: 1973
@@ -962,7 +962,7 @@
   condition_cover: EX
   price: 40
   sold: false
-  for_sale: true
+  for_sale: false
   label: Argo (6), Argo (6), Argo (6)
   catalog: DJLP-688, LP 688, LP-688
   year: 1961
@@ -979,7 +979,7 @@
   condition_cover: VG+
   price: 35
   sold: false
-  for_sale: true
+  for_sale: false
   label: SABA
   catalog: SB 15 148 ST
   year: 1967
@@ -996,7 +996,7 @@
   condition_cover: VG+
   price: 35
   sold: false
-  for_sale: true
+  for_sale: false
   label: Amiga
   catalog: 8 50 038
   year: 1965
@@ -1101,7 +1101,7 @@
   condition_cover: VG+
   price: 20
   sold: false
-  for_sale: true
+  for_sale: false
   label: Verve Records
   catalog: V-8430
   year: 1962
@@ -1118,7 +1118,7 @@
   condition_cover: VG
   price: 60
   sold: false
-  for_sale: true
+  for_sale: false
   label: Dootone Records, Authentic Records (5)
   catalog: DL-207, AUL-207
   year: 1960
@@ -1171,7 +1171,7 @@
   condition_cover: VG+
   price: 100
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prisma Records
   catalog: Prisma Records 185
   year: 1986
@@ -1233,7 +1233,7 @@
   condition_cover: EX
   price: 75
   sold: false
-  for_sale: true
+  for_sale: false
   label: Atlantic
   catalog: SD 1368
   year: 1961
@@ -1585,7 +1585,7 @@
   condition_cover: VG+
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BLP 4237
   year: 1966
@@ -1641,7 +1641,7 @@
   condition_cover: VG+
   price: 500
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BLP 5044
   year: 1954
@@ -1730,7 +1730,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BST 84321
   year: 1970
@@ -1747,7 +1747,7 @@
   condition_cover: VG
   price: 40
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BST 84291
   year: 1968
@@ -1800,7 +1800,7 @@
   condition_cover: EX
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note, Blue Note
   catalog: 4017, BLP 4017
   year: 1959
@@ -1997,7 +1997,7 @@
   condition_cover: G+
   price: 100
   sold: false
-  for_sale: true
+  for_sale: false
   label: Debut Records
   catalog: DLP-17
   year: 1955
@@ -2015,7 +2015,7 @@
   condition_cover: NM
   price: 125
   sold: false
-  for_sale: true
+  for_sale: false
   label: Delmark Records
   catalog: DS-419
   year: 1969
@@ -2033,7 +2033,7 @@
   condition_cover: NM
   price: 50
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy
   catalog: MG 36070
   year: 1956
@@ -2069,7 +2069,7 @@
   condition_cover: NM
   price: 125
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy, EmArcy
   catalog: MG 36036, MG-36036
   year: 1955
@@ -2434,7 +2434,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige
   catalog: PRLP 7166
   year: 1959
@@ -2471,7 +2471,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: 7032, PRLP 7032
   year: 1956
@@ -2487,9 +2487,9 @@
   description: 1st press '57 mono. Deep groove fireworks label with no Abbey small pressing ring (i.e. first press). Vinyl plays VG+ to EX, but lost some luster, a bit dull black, but doesn't seem to affect sound. Bergenfield N.J. cover variant.
   condition_vinyl: VG+
   condition_cover: EX
-  price: 350
+  price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: 7094, PRLP 7094
   year: 1957
@@ -2705,7 +2705,7 @@
   condition_cover: NM
   price: 75
   sold: false
-  for_sale: true
+  for_sale: false
   label: Vortex Records (2)
   catalog: '2004'
   year: 1968
@@ -2722,7 +2722,7 @@
   condition_cover: VG+
   price: 50
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: LP 7073, PRLP 7073
   year: 1957

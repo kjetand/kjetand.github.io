@@ -1,3 +1,357 @@
+- title: Freddie Hubbard – The Artistry Of Freddie Hubbard
+  description: 1st press '63 mono. VAN GELDER stamp in dead-wax.
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 200
+  sold: false
+  for_sale: false
+  label: Impulse!
+  catalog: A-27
+  year: 1963
+  discogs_url: https://www.discogs.com/release/1227081
+  front_image: /assets/artistry_freddie/1.jpg
+  other_images:
+  - /assets/artistry_freddie/2.jpg
+  - /assets/artistry_freddie/3.jpg
+  - /assets/artistry_freddie/4.jpg
+  - /assets/artistry_freddie/5.jpg
+
+- title: John Coltrane – Blue Train
+  description: Repress '59 mono. 47 west 63rd NYC labels with deep groove both sides. Backcover reads 47 West 63rd St., New York 23. Vinyl is in pretty good shape, but it has been used, so some hairlines and spindle wear. Playback is clear and really nice, with a few places that has some ticks.
+  condition_vinyl: VG(+)
+  condition_cover: VG+
+  price: 450
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 1577
+  year: 1959
+  discogs_url: https://www.discogs.com/release/22374112
+  front_image: /assets/blue_train/1.jpg
+  other_images:
+  - /assets/blue_train/2.jpg
+  - /assets/blue_train/3.jpg
+  - /assets/blue_train/4.jpg
+  - /assets/blue_train/5.jpg
+  - /assets/blue_train/6.jpg
+  - /assets/blue_train/7.jpg
+
+- title: Curtis Fuller Quintet – Blues-ette
+  description: French reissue in mono. Fantastic sounding!
+  condition_vinyl: VG+
+  condition_cover: EX
+  price: 50
+  sold: false
+  for_sale: false
+  label: Savoy-Musidisc
+  catalog: SA 6022
+  year: 1965 # 1965-1967
+  discogs_url: https://www.discogs.com/release/5519793
+  front_image: /assets/bluesette/1.jpg
+  other_images:
+  - /assets/bluesette/2.jpg
+  - /assets/bluesette/3.jpg
+  - /assets/bluesette/4.jpg
+  - /assets/bluesette/5.jpg
+
+- title: Dizzy Reece – Asia Minor
+  description: 1st UK press from 1963. Immaculate condition vinyl. Cover very clean for a thin flipback UK sleeve. Musically one of my favourites.
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 500
+  sold: false
+  for_sale: false
+  label: Esquire
+  catalog: 32-185
+  year: 1963
+  discogs_url: https://www.discogs.com/release/3800973
+  front_image: /assets/dizzy_reece_asia_minor/1.jpg
+  other_images:
+  - /assets/dizzy_reece_asia_minor/2.jpg
+  - /assets/dizzy_reece_asia_minor/3.jpg
+  - /assets/dizzy_reece_asia_minor/4.jpg
+  - /assets/dizzy_reece_asia_minor/5.jpg
+
+- title: Eric Dolphy – At The Five Spot, Volume 1.
+  description:
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 125
+  sold: false
+  for_sale: false
+  label: Prestige
+  catalog: 2 C 054-10135
+  year: 1969
+  discogs_url: https://www.discogs.com/release/7474080
+  front_image: /assets/dolphy_five_spot_french/1.jpg
+  other_images:
+  - /assets/dolphy_five_spot_french/2.jpg
+  - /assets/dolphy_five_spot_french/3.jpg
+  - /assets/dolphy_five_spot_french/4.jpg
+  - /assets/dolphy_five_spot_french/5.jpg
+
+- title: Eric Dolphy – In Europe
+  description:
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 1200
+  sold: false
+  for_sale: false
+  label: Debut Records
+  catalog: DEB-136
+  year: 1962
+  discogs_url: https://www.discogs.com/release/3039966
+  front_image: /assets/dolphy_in_europe/1.jpg
+  other_images:
+  - /assets/dolphy_in_europe/2.jpg
+  - /assets/dolphy_in_europe/3.jpg
+  - /assets/dolphy_in_europe/4.jpg
+  - /assets/dolphy_in_europe/5.jpg
+
+- title: Jon Eardley / Zoot Sims / Phil Woods – Down East
+  description:
+  condition_vinyl: VG(+)
+  condition_cover: VG+
+  price: 100
+  sold: false
+  for_sale: false
+  label: Esquire
+  catalog: 32-040
+  year: 1958
+  discogs_url: https://www.discogs.com/release/3819918
+  front_image: /assets/down_east/1.jpg
+  other_images:
+  - /assets/down_east/2.jpg
+  - /assets/down_east/3.jpg
+  - /assets/down_east/4.jpg
+  - /assets/down_east/5.jpg
+
+- title: The Don Rendell / Ian Carr Quintet – Dusk Fire 
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 450
+  sold: false
+  for_sale: false
+  label: Columbia
+  catalog: SX 6064
+  year: 1969
+  discogs_url: https://www.discogs.com/release/13387104
+  front_image: /assets/dusk_fire/1.jpg
+  other_images:
+  - /assets/dusk_fire/2.jpg
+  - /assets/dusk_fire/3.jpg
+  - /assets/dusk_fire/4.jpg
+  - /assets/dusk_fire/5.jpg
+  - /assets/dusk_fire/6.jpg
+  - /assets/dusk_fire/7.jpg
+  - /assets/dusk_fire/8.jpg
+
+- title: Sonny Rollins – East Broadway Run Down
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 100
+  sold: false
+  for_sale: false
+  label: Impulse!
+  catalog: A-9121
+  year: 1960
+  discogs_url: https://www.discogs.com/release/5254982
+  front_image: /assets/east_broadway/1.jpg
+  other_images:
+  - /assets/east_broadway/2.jpg
+  - /assets/east_broadway/3.jpg
+  - /assets/east_broadway/4.jpg
+  - /assets/east_broadway/5.jpg
+  - /assets/east_broadway/6.jpg
+  - /assets/east_broadway/7.jpg
+
+- title: Howard McGhee – Howard McGhee Et Milt Jackson
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 15
+  sold: false
+  for_sale: false
+  label: Savoy-Musidisc
+  catalog: SA 6017
+  year: 1965 # 1965-1967
+  discogs_url: https://www.discogs.com/release/2760338
+  front_image: /assets/howard_mcghee_france/1.jpg
+  other_images:
+  - /assets/howard_mcghee_france/2.jpg
+  - /assets/howard_mcghee_france/3.jpg
+  - /assets/howard_mcghee_france/4.jpg
+  - /assets/howard_mcghee_france/5.jpg
+
+- title: Brown And Roach Incorporated
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 200
+  sold: false
+  for_sale: false
+  label: EmArcy
+  catalog: MG 36008
+  year: 1955
+  discogs_url: https://www.discogs.com/release/2370629
+  front_image: /assets/incorporated/1.jpg
+  other_images:
+  - /assets/incorporated/2.jpg
+  - /assets/incorporated/3.jpg
+  - /assets/incorporated/4.jpg
+  - /assets/incorporated/5.jpg
+  - /assets/incorporated/6.jpg
+
+- title: The Jazz Couriers – The Last Word
+  description:
+  condition_vinyl: EX
+  condition_cover: VG+
+  price: 350
+  sold: false
+  for_sale: false
+  label: Tempo Records
+  catalog: TAP 26
+  year: 1959
+  discogs_url: https://www.discogs.com/release/5254753
+  front_image: /assets/jazz_couriers_the_last_word/1.jpg
+  other_images:
+  - /assets/jazz_couriers_the_last_word/2.jpg
+  - /assets/jazz_couriers_the_last_word/3.jpg
+  - /assets/jazz_couriers_the_last_word/4.jpg
+  - /assets/jazz_couriers_the_last_word/5.jpg
+  - /assets/jazz_couriers_the_last_word/6.jpg
+
+- title: Eje Thelin Quintet* – Jazz Jamboree 62 Vol. 2
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 70
+  sold: false
+  for_sale: false
+  label: Polskie Nagrania Muza
+  catalog: L 0395
+  year: 1962
+  discogs_url: https://www.discogs.com/release/5190374
+  front_image: /assets/jazz_jamboree_62/1.jpg
+  other_images:
+  - /assets/jazz_jamboree_62/2.jpg
+  - /assets/jazz_jamboree_62/3.jpg
+  - /assets/jazz_jamboree_62/4.jpg
+  - /assets/jazz_jamboree_62/5.jpg
+
+- title: John Coltrane – Lush Life
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 300
+  sold: false
+  for_sale: false
+  label: Prestige
+  catalog: PRLP 7188
+  year: 1961
+  discogs_url: https://www.discogs.com/release/4941040
+  front_image: /assets/lush_life/1.jpg
+  other_images:
+  - /assets/lush_life/2.jpg
+  - /assets/lush_life/3.jpg
+  - /assets/lush_life/4.jpg
+  - /assets/lush_life/5.jpg
+  - /assets/lush_life/6.jpg
+
+- title: Nathan Davis Sextet – Peace Treaty
+  description:
+  condition_vinyl: NM
+  condition_cover: EX
+  price: 1200
+  sold: false
+  for_sale: false
+  label: SFP
+  catalog: SFP 10.003
+  year: 1965
+  discogs_url: https://www.discogs.com/release/2596709
+  front_image: /assets/nathan_davis_peace_treaty/1.jpg
+  other_images:
+  - /assets/nathan_davis_peace_treaty/2.jpg
+  - /assets/nathan_davis_peace_treaty/3.jpg
+  - /assets/nathan_davis_peace_treaty/4.jpg
+  - /assets/nathan_davis_peace_treaty/5.jpg
+
+- title: Phil Woods/Gene Quill Quintet – Phil And Quill
+  description: VG+ vinyl except track 1 side A that has two scuffs that ticks.
+  condition_vinyl: VG(+)
+  condition_cover: VG+
+  price: 70
+  sold: false
+  for_sale: false
+  label: Esquire
+  catalog: 32-050
+  year: 1957
+  discogs_url: https://www.discogs.com/release/7096897
+  front_image: /assets/phil_and_quill/1.jpg
+  other_images:
+  - /assets/phil_and_quill/2.jpg
+  - /assets/phil_and_quill/3.jpg
+  - /assets/phil_and_quill/4.jpg
+  - /assets/phil_and_quill/5.jpg
+
+- title: Clifford Brown And Max Roach – Study In Brown
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 250
+  sold: false
+  for_sale: false
+  label: EmArcy
+  catalog: MG-36037
+  year: 1955
+  discogs_url: https://www.discogs.com/release/1146247
+  front_image: /assets/study_in_brown/1.jpg
+  other_images:
+  - /assets/study_in_brown/2.jpg
+  - /assets/study_in_brown/3.jpg
+  - /assets/study_in_brown/4.jpg
+  - /assets/study_in_brown/5.jpg
+
+- title: Tubby Hayes – Tubbs In N.Y.
+  description:
+  condition_vinyl: EX
+  condition_cover: VG+
+  price: 125
+  sold: false
+  for_sale: false
+  label: Fontana
+  catalog: STFL 595
+  year: 1962
+  discogs_url: https://www.discogs.com/release/1505038
+  front_image: /assets/tubbs_in_ny/1.jpg
+  other_images:
+  - /assets/tubbs_in_ny/2.jpg
+  - /assets/tubbs_in_ny/3.jpg
+  - /assets/tubbs_in_ny/4.jpg
+  - /assets/tubbs_in_ny/5.jpg
+  - /assets/tubbs_in_ny/6.jpg
+
+- title: Tubby Hayes Quartet – Tubby's Groove
+  description:
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 500
+  sold: false
+  for_sale: false
+  label: Tempo Records
+  catalog: TAP 29
+  year: 1960
+  discogs_url: https://www.discogs.com/release/4369138
+  front_image: /assets/tubbys_groove/1.jpg
+  other_images:
+  - /assets/tubbys_groove/2.jpg
+  - /assets/tubbys_groove/3.jpg
+  - /assets/tubbys_groove/4.jpg
+  - /assets/tubbys_groove/5.jpg
+  - /assets/tubbys_groove/6.jpg
+
 - title: Angelo Debarre, Serge Camps, Frank Anastasio - Gypsy Guitars
   description: Almost a perfect copy of this masterpiece.
   condition_vinyl: NM

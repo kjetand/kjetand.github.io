@@ -1,10 +1,24 @@
+- title: Clifford Jordan - Glass Bead Games
+  description:
+  condition_vinyl: EX
+  condition_cover: EX
+  price: 700
+  sold: false
+  for_sale: false
+  label: Strata-East
+  catalog: ...
+  year: 666
+  discogs_url: https://www.discogs.com/release/1227081
+  front_image: /assets/glass_bead_games/1.jpg
+  other_images:
+
 - title: Freddie Hubbard – The Artistry Of Freddie Hubbard
   description: 1st press '63 mono. VAN GELDER stamp in dead-wax.
   condition_vinyl: EX
   condition_cover: EX
-  price: 200
+  price: 150
   sold: false
-  for_sale: false
+  for_sale: true
   label: Impulse!
   catalog: A-27
   year: 1963
@@ -22,7 +36,7 @@
   condition_cover: VG+
   price: 450
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BLP 1577
   year: 1959
@@ -40,9 +54,9 @@
   description: French reissue in mono. Fantastic sounding!
   condition_vinyl: VG+
   condition_cover: EX
-  price: 50
+  price: 40
   sold: false
-  for_sale: false
+  for_sale: true
   label: Savoy-Musidisc
   catalog: SA 6022
   year: 1965 # 1965-1967
@@ -76,9 +90,9 @@
   description:
   condition_vinyl: EX
   condition_cover: EX
-  price: 125
+  price: 100
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige
   catalog: 2 C 054-10135
   year: 1969
@@ -91,12 +105,12 @@
   - /assets/dolphy_five_spot_french/5.jpg
 
 - title: Eric Dolphy – In Europe
-  description:
+  description: Almost perfect copy, just one surface line that doesn't affect playback.
   condition_vinyl: EX
   condition_cover: EX
   price: 1200
   sold: false
-  for_sale: false
+  for_sale: true
   label: Debut Records
   catalog: DEB-136
   year: 1962
@@ -112,9 +126,9 @@
   description:
   condition_vinyl: VG(+)
   condition_cover: VG+
-  price: 100
+  price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: Esquire
   catalog: 32-040
   year: 1958
@@ -132,7 +146,7 @@
   condition_cover: VG+
   price: 450
   sold: false
-  for_sale: false
+  for_sale: true
   label: Columbia
   catalog: SX 6064
   year: 1969
@@ -151,9 +165,9 @@
   description:
   condition_vinyl: VG+
   condition_cover: VG+
-  price: 100
+  price: 70
   sold: false
-  for_sale: false
+  for_sale: true
   label: Impulse!
   catalog: A-9121
   year: 1960
@@ -173,7 +187,7 @@
   condition_cover: VG+
   price: 15
   sold: false
-  for_sale: false
+  for_sale: true
   label: Savoy-Musidisc
   catalog: SA 6017
   year: 1965 # 1965-1967
@@ -191,7 +205,7 @@
   condition_cover: VG+
   price: 200
   sold: false
-  for_sale: false
+  for_sale: true
   label: EmArcy
   catalog: MG 36008
   year: 1955
@@ -229,7 +243,7 @@
   condition_cover: VG+
   price: 70
   sold: false
-  for_sale: false
+  for_sale: true
   label: Polskie Nagrania Muza
   catalog: L 0395
   year: 1962
@@ -247,7 +261,7 @@
   condition_cover: VG+
   price: 300
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige
   catalog: PRLP 7188
   year: 1961
@@ -263,10 +277,10 @@
 - title: Nathan Davis Sextet – Peace Treaty
   description:
   condition_vinyl: NM
-  condition_cover: EX
-  price: 1200
+  condition_cover: VG+
+  price: 900
   sold: false
-  for_sale: false
+  for_sale: true
   label: SFP
   catalog: SFP 10.003
   year: 1965
@@ -284,7 +298,7 @@
   condition_cover: VG+
   price: 70
   sold: false
-  for_sale: false
+  for_sale: true
   label: Esquire
   catalog: 32-050
   year: 1957
@@ -302,7 +316,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: false
+  for_sale: true
   label: EmArcy
   catalog: MG-36037
   year: 1955
@@ -320,7 +334,7 @@
   condition_cover: VG+
   price: 125
   sold: false
-  for_sale: false
+  for_sale: true
   label: Fontana
   catalog: STFL 595
   year: 1962
@@ -358,7 +372,7 @@
   condition_cover: EX
   price: 100
   sold: false
-  for_sale: false
+  for_sale: true
   label: Hot Club Records
   catalog: HCR 56
   year: 1989
@@ -394,7 +408,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: Esquire
   catalog: 32-075
   year: 1956
@@ -413,7 +427,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BST 84279
   year: 1968
@@ -448,7 +462,7 @@
   condition_cover: VG+
   price: 60
   sold: false
-  for_sale: false
+  for_sale: true
   label: Xtra
   catalog: XTRA 5039
   year: 1967
@@ -467,7 +481,7 @@
   condition_cover: VG+
   price: 150
   sold: false
-  for_sale: false
+  for_sale: true
   label: Esquire
   catalog: 32-085
   year: 1959
@@ -485,7 +499,7 @@
   condition_cover: NM
   price: 100
   sold: false
-  for_sale: false
+  for_sale: true
   label: Douglas
   catalog: SD 785
   year: 1968
@@ -521,7 +535,7 @@
   condition_cover: EX
   price: 60
   sold: false
-  for_sale: false
+  for_sale: true
   label: Strata-East
   catalog: SES-1972
   year: 1972
@@ -539,7 +553,7 @@
   condition_cover: EX
   price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: Strata-East
   catalog: SES-19720
   year: 1973
@@ -589,9 +603,9 @@
   description: ''
   condition_vinyl: NM
   condition_cover: NM
-  price: 200
+  price: 250
   sold: false
-  for_sale: false
+  for_sale: true
   label: ESP-Disk'
   catalog: ESP 1064
   year: 1968
@@ -645,7 +659,7 @@
   condition_cover: VG+
   price: 200
   sold: false
-  for_sale: false
+  for_sale: true
   label: Riverside Records
   catalog: RLP 376
   year: 1965
@@ -662,7 +676,7 @@
   condition_cover: VG
   price: 300
   sold: false
-  for_sale: false
+  for_sale: true
   label: SABA
   catalog: SB 15 063
   year: 1965
@@ -694,9 +708,9 @@
   description: 1st press '75 stereo. Very clean copy with shiny vinyl. Cover has very small corner bump right top and bottom. Some light seam wear.
   condition_vinyl: NM
   condition_cover: VG+
-  price: 100
+  price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: SteepleChase
   catalog: SCS-1037
   year: 1975
@@ -1150,9 +1164,9 @@
   description: 1st press '61. RVG. Deep groove, inner abbey pressing ring. Faint paper wear on vinyl. Some brown spots back cover and store sticker.
   condition_vinyl: VG+
   condition_cover: VG+
-  price: 180
+  price: 150
   sold: false
-  for_sale: false
+  for_sale: true
   label: New Jazz, New Jazz
   catalog: 8243, NJLP 8243
   year: 1961
@@ -1270,12 +1284,12 @@
   - /assets/pepper_adams_quintet/4.jpg
 
 - title: Music Inc - Live At The Loosdrecht Jazz Festival
-  description: 1st press '73 stereo. Clean vinyl and cover. Cover has marks from price sticker.
+  description: 1st press '73 stereo.
   condition_vinyl: VG+
   condition_cover: VG+
-  price: 75
+  price: 70
   sold: false
-  for_sale: false
+  for_sale: true
   label: Strata-East
   catalog: SES-19740/1
   year: 1973
@@ -1316,7 +1330,7 @@
   condition_cover: EX
   price: 40
   sold: false
-  for_sale: false
+  for_sale: true
   label: Argo (6), Argo (6), Argo (6)
   catalog: DJLP-688, LP 688, LP-688
   year: 1961
@@ -1331,9 +1345,9 @@
   description: Original stereo from '67. Nice cover with some corner wear. Vinyl have lots of hairlines, but maybe higher end VG.
   condition_vinyl: VG
   condition_cover: VG+
-  price: 35
+  price: 30
   sold: false
-  for_sale: false
+  for_sale: true
   label: SABA
   catalog: SB 15 148 ST
   year: 1967
@@ -1348,9 +1362,9 @@
   description: First press '65 mono. Underrated album I think. Great condition vinyl and cover. Cover has some bend upper right.
   condition_vinyl: EX
   condition_cover: VG+
-  price: 35
+  price: 30
   sold: false
-  for_sale: false
+  for_sale: true
   label: Amiga
   catalog: 8 50 038
   year: 1965
@@ -1455,7 +1469,7 @@
   condition_cover: VG+
   price: 20
   sold: false
-  for_sale: false
+  for_sale: true
   label: Verve Records
   catalog: V-8430
   year: 1962
@@ -1472,7 +1486,7 @@
   condition_cover: VG
   price: 60
   sold: false
-  for_sale: false
+  for_sale: true
   label: Dootone Records, Authentic Records (5)
   catalog: DL-207, AUL-207
   year: 1960
@@ -1525,7 +1539,7 @@
   condition_cover: VG+
   price: 100
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prisma Records
   catalog: Prisma Records 185
   year: 1986
@@ -1587,7 +1601,7 @@
   condition_cover: EX
   price: 75
   sold: false
-  for_sale: false
+  for_sale: true
   label: Atlantic
   catalog: SD 1368
   year: 1961
@@ -1936,10 +1950,10 @@
 - title: Cecil Taylor - Unit Structures
   description: 1st press '66 mono. VAN GELDER in dead-wax. Strong VG+ overall, no ringwear.
   condition_vinyl: VG+
-  condition_cover: VG+
-  price: 150
+  condition_cover: EX
+  price: 125
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BLP 4237
   year: 1966
@@ -1991,11 +2005,11 @@
 
 - title: Elmo Hope Quintet - Elmo Hope Quintet Volume 2
   description: ''
-  condition_vinyl: VG+
+  condition_vinyl: VG(+)
   condition_cover: VG+
-  price: 500
+  price: 400
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BLP 5044
   year: 1954
@@ -2080,11 +2094,11 @@
 
 - title: Herbie Hancock - The Prisoner
   description: ''
-  condition_vinyl: NM
-  condition_cover: VG+
-  price: 80
+  condition_vinyl: EX
+  condition_cover: VG
+  price: 60
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BST 84321
   year: 1970
@@ -2101,7 +2115,7 @@
   condition_cover: VG
   price: 40
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note
   catalog: BST 84291
   year: 1968
@@ -2152,9 +2166,9 @@
   description: 1st press '59 mono. P/"Ear" and RVG in dead-wax. Clean copy with no special remarks.
   condition_vinyl: VG+
   condition_cover: EX
-  price: 150
+  price: 135
   sold: false
-  for_sale: false
+  for_sale: true
   label: Blue Note, Blue Note
   catalog: 4017, BLP 4017
   year: 1959
@@ -2210,7 +2224,7 @@
   condition_cover: VG+
   price: 35
   sold: false
-  for_sale: false
+  for_sale: true
   label: BYG Records, BYG Records
   catalog: 529.349, 529 349
   year: 1971
@@ -2346,12 +2360,12 @@
   - /assets/at_the_black_hawk_vol4/5.jpg
 
 - title: Charles Mingus, Thad Jones - Jazz Collaborations, Vol. I
-  description: ''
+  description: Actually a really nice player and presentable copy. No splits, but some marks from tape residue around seams.
   condition_vinyl: VG
   condition_cover: G+
-  price: 100
+  price: 80
   sold: false
-  for_sale: false
+  for_sale: true
   label: Debut Records
   catalog: DLP-17
   year: 1955
@@ -2365,11 +2379,11 @@
 
 - title: Maurice McIntyre - Humility In The Light Of Creator
   description: 1st press '69 stereo. Immaculate cover and shiny vinyl.
-  condition_vinyl: VG+
+  condition_vinyl: EX
   condition_cover: NM
-  price: 125
+  price: 100
   sold: false
-  for_sale: false
+  for_sale: true
   label: Delmark Records
   catalog: DS-419
   year: 1969
@@ -2385,9 +2399,9 @@
   description: 1st press '56 mono. Deep groove blue drummer label.
   condition_vinyl: VG+
   condition_cover: NM
-  price: 50
+  price: 40
   sold: false
-  for_sale: false
+  for_sale: true
   label: EmArcy
   catalog: MG 36070
   year: 1956
@@ -2423,7 +2437,7 @@
   condition_cover: NM
   price: 125
   sold: false
-  for_sale: false
+  for_sale: true
   label: EmArcy, EmArcy
   catalog: MG 36036, MG-36036
   year: 1955
@@ -2788,7 +2802,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige
   catalog: PRLP 7166
   year: 1959
@@ -2825,7 +2839,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige, Prestige
   catalog: 7032, PRLP 7032
   year: 1956
@@ -2838,12 +2852,12 @@
   - /assets/jazz_for_the_carriage_trade/5.jpg
 
 - title: The Miles Davis Quintet - Cookin' With The Miles Davis Quintet
-  description: 1st press '57 mono. Deep groove fireworks label with no Abbey small pressing ring (i.e. first press). Vinyl plays VG+ to EX, but lost some luster, a bit dull black, but doesn't seem to affect sound. Bergenfield N.J. cover variant.
-  condition_vinyl: VG+
+  description: 1st press '57 mono. Deep groove fireworks label with no Abbey small pressing ring (i.e. first press). Vinyl plays VG+ or better, but looks VG-. Bergenfield N.J. cover variant.
+  condition_vinyl: VG(+)
   condition_cover: EX
-  price: 250
+  price: 200
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige, Prestige
   catalog: 7094, PRLP 7094
   year: 1957
@@ -3055,11 +3069,11 @@
 
 - title: Chick Corea - Tones For Joan's Bones
   description: ''
-  condition_vinyl: VG+
+  condition_vinyl: EX
   condition_cover: NM
   price: 75
   sold: false
-  for_sale: false
+  for_sale: true
   label: Vortex Records (2)
   catalog: '2004'
   year: 1968
@@ -3073,10 +3087,10 @@
 - title: The Prestige All Stars - All Night Long
   description: 1st pressing '57 mono. Vinyl plays great (VG+ on both sides), but looks horrible on side A (some nasty surface marks, but not deep since the sound is good). No skips. Some flaking on spine and seams, and lamination peel on mouth, but nice cover overall.
   condition_vinyl: VG
-  condition_cover: VG+
+  condition_cover: VG
   price: 50
   sold: false
-  for_sale: false
+  for_sale: true
   label: Prestige, Prestige
   catalog: LP 7073, PRLP 7073
   year: 1957

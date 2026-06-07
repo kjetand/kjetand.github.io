@@ -1,3 +1,23 @@
+- title: John Coltrane – Blue Train
+  description: 2nd press from 1957 with beaded rim and non-framed cover. Really clean vinyl with just some small surface marks, and faint spindle wear. Cover is really nice on front, seams and spine are fixed at some point due to heavy seam wear, and back cover has pen marking.
+  condition_vinyl: VG+
+  condition_cover: VG
+  price: 1500
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 1524
+  year: 1957
+  discogs_url: https://www.discogs.com/release/11656264
+  front_image: /assets/dorham/1.jpg
+  other_images:
+  - /assets/dorham/2.jpg
+  - /assets/dorham/3.jpg
+  - /assets/dorham/4.jpg
+  - /assets/dorham/5.jpg
+  - /assets/dorham/6.jpg
+  - /assets/dorham/7.jpg
+
 - title: Clifford Jordan - Glass Bead Games
   description:
   condition_vinyl: EX

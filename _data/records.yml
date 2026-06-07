@@ -18,7 +18,7 @@
   condition_cover: EX
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: Impulse!
   catalog: A-27
   year: 1963
@@ -36,7 +36,7 @@
   condition_cover: VG+
   price: 450
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BLP 1577
   year: 1959
@@ -92,7 +92,7 @@
   condition_cover: EX
   price: 100
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige
   catalog: 2 C 054-10135
   year: 1969
@@ -128,7 +128,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-040
   year: 1958
@@ -146,7 +146,7 @@
   condition_cover: VG+
   price: 450
   sold: false
-  for_sale: true
+  for_sale: false
   label: Columbia
   catalog: SX 6064
   year: 1969
@@ -167,7 +167,7 @@
   condition_cover: VG+
   price: 70
   sold: false
-  for_sale: true
+  for_sale: false
   label: Impulse!
   catalog: A-9121
   year: 1960
@@ -205,7 +205,7 @@
   condition_cover: VG+
   price: 200
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy
   catalog: MG 36008
   year: 1955
@@ -261,7 +261,7 @@
   condition_cover: VG+
   price: 300
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige
   catalog: PRLP 7188
   year: 1961
@@ -280,7 +280,7 @@
   condition_cover: VG+
   price: 900
   sold: false
-  for_sale: true
+  for_sale: false
   label: SFP
   catalog: SFP 10.003
   year: 1965
@@ -298,7 +298,7 @@
   condition_cover: VG+
   price: 70
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-050
   year: 1957
@@ -316,7 +316,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy
   catalog: MG-36037
   year: 1955
@@ -334,7 +334,7 @@
   condition_cover: VG+
   price: 125
   sold: false
-  for_sale: true
+  for_sale: false
   label: Fontana
   catalog: STFL 595
   year: 1962
@@ -372,7 +372,7 @@
   condition_cover: EX
   price: 100
   sold: false
-  for_sale: true
+  for_sale: false
   label: Hot Club Records
   catalog: HCR 56
   year: 1989
@@ -408,7 +408,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-075
   year: 1956
@@ -427,7 +427,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BST 84279
   year: 1968
@@ -462,7 +462,7 @@
   condition_cover: VG+
   price: 60
   sold: false
-  for_sale: true
+  for_sale: false
   label: Xtra
   catalog: XTRA 5039
   year: 1967
@@ -481,7 +481,7 @@
   condition_cover: VG+
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: Esquire
   catalog: 32-085
   year: 1959
@@ -499,7 +499,7 @@
   condition_cover: NM
   price: 100
   sold: false
-  for_sale: true
+  for_sale: false
   label: Douglas
   catalog: SD 785
   year: 1968
@@ -535,7 +535,7 @@
   condition_cover: EX
   price: 60
   sold: false
-  for_sale: true
+  for_sale: false
   label: Strata-East
   catalog: SES-1972
   year: 1972
@@ -553,7 +553,7 @@
   condition_cover: EX
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Strata-East
   catalog: SES-19720
   year: 1973
@@ -605,7 +605,7 @@
   condition_cover: NM
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: ESP-Disk'
   catalog: ESP 1064
   year: 1968
@@ -659,7 +659,7 @@
   condition_cover: VG+
   price: 200
   sold: false
-  for_sale: true
+  for_sale: false
   label: Riverside Records
   catalog: RLP 376
   year: 1965
@@ -676,7 +676,7 @@
   condition_cover: VG
   price: 300
   sold: false
-  for_sale: true
+  for_sale: false
   label: SABA
   catalog: SB 15 063
   year: 1965
@@ -710,7 +710,7 @@
   condition_cover: VG+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: SteepleChase
   catalog: SCS-1037
   year: 1975
@@ -1166,7 +1166,7 @@
   condition_cover: VG+
   price: 150
   sold: false
-  for_sale: true
+  for_sale: false
   label: New Jazz, New Jazz
   catalog: 8243, NJLP 8243
   year: 1961
@@ -1289,7 +1289,7 @@
   condition_cover: VG+
   price: 70
   sold: false
-  for_sale: true
+  for_sale: false
   label: Strata-East
   catalog: SES-19740/1
   year: 1973
@@ -1330,7 +1330,7 @@
   condition_cover: EX
   price: 40
   sold: false
-  for_sale: true
+  for_sale: false
   label: Argo (6), Argo (6), Argo (6)
   catalog: DJLP-688, LP 688, LP-688
   year: 1961
@@ -1601,7 +1601,7 @@
   condition_cover: EX
   price: 75
   sold: false
-  for_sale: true
+  for_sale: false
   label: Atlantic
   catalog: SD 1368
   year: 1961
@@ -2009,7 +2009,7 @@
   condition_cover: VG+
   price: 400
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BLP 5044
   year: 1954
@@ -2098,7 +2098,7 @@
   condition_cover: VG
   price: 60
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BST 84321
   year: 1970
@@ -2115,7 +2115,7 @@
   condition_cover: VG
   price: 40
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note
   catalog: BST 84291
   year: 1968
@@ -2168,7 +2168,7 @@
   condition_cover: EX
   price: 135
   sold: false
-  for_sale: true
+  for_sale: false
   label: Blue Note, Blue Note
   catalog: 4017, BLP 4017
   year: 1959
@@ -2224,7 +2224,7 @@
   condition_cover: VG+
   price: 35
   sold: false
-  for_sale: true
+  for_sale: false
   label: BYG Records, BYG Records
   catalog: 529.349, 529 349
   year: 1971
@@ -2365,7 +2365,7 @@
   condition_cover: G+
   price: 80
   sold: false
-  for_sale: true
+  for_sale: false
   label: Debut Records
   catalog: DLP-17
   year: 1955
@@ -2401,7 +2401,7 @@
   condition_cover: NM
   price: 40
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy
   catalog: MG 36070
   year: 1956
@@ -2437,7 +2437,7 @@
   condition_cover: NM
   price: 125
   sold: false
-  for_sale: true
+  for_sale: false
   label: EmArcy, EmArcy
   catalog: MG 36036, MG-36036
   year: 1955
@@ -2802,7 +2802,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige
   catalog: PRLP 7166
   year: 1959
@@ -2839,7 +2839,7 @@
   condition_cover: VG+
   price: 250
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: 7032, PRLP 7032
   year: 1956
@@ -2857,7 +2857,7 @@
   condition_cover: EX
   price: 200
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: 7094, PRLP 7094
   year: 1957
@@ -3073,7 +3073,7 @@
   condition_cover: NM
   price: 75
   sold: false
-  for_sale: true
+  for_sale: false
   label: Vortex Records (2)
   catalog: '2004'
   year: 1968
@@ -3090,7 +3090,7 @@
   condition_cover: VG
   price: 50
   sold: false
-  for_sale: true
+  for_sale: false
   label: Prestige, Prestige
   catalog: LP 7073, PRLP 7073
   year: 1957

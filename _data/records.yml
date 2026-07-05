@@ -1,3 +1,46 @@
+- title:  Art Blakey Quintet ‎– A Night At Birdland, Volume 1
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 80
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 1521
+  year: 1960
+  discogs_url: https://www.discogs.com/release/4293538
+  front_image: /assets/blakey/1.jpg
+  other_images:
+  - /assets/blakey/2.jpg
+  - /assets/blakey/3.jpg
+  - /assets/blakey/4.jpg
+  - /assets/blakey/5.jpg
+  - /assets/blakey/6.jpg
+  - /assets/blakey/7.jpg
+
+- title: John Coltrane - Giant Steps
+  description:
+  condition_vinyl: VG+
+  condition_cover: EX
+  price: 300
+  sold: false
+  for_sale: false
+  label: Atlantic
+  catalog: 1311
+  year: 1960
+  discogs_url: https://www.discogs.com/release/10628465
+  front_image: /assets/giant_steps/1.jpg
+  other_images:
+  - /assets/giant_steps/2.jpg
+  - /assets/giant_steps/3.jpg
+  - /assets/giant_steps/4.jpg
+  - /assets/giant_steps/5.jpg
+  - /assets/giant_steps/6.jpg
+  - /assets/giant_steps/7.jpg
+  - /assets/giant_steps/8.jpg
+  - /assets/giant_steps/9.jpg
+  - /assets/giant_steps/10.jpg
+
 - title: Hank Mobley – Hank Mobley And His All Stars
   description: US second pressing from '58 with no-framed cover and beaded rim.
   condition_vinyl: VG+

@@ -1,3 +1,47 @@
+- title: Duke Ellington & John Coltrane
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 125
+  sold: false
+  for_sale: false
+  label: Impulse!
+  catalog: AS-30
+  year: 1963
+  discogs_url: https://www.discogs.com/release/13112127
+  front_image: /assets/coltrane_duke/1.jpg
+  other_images:
+  - /assets/coltrane_duke/2.jpg
+  - /assets/coltrane_duke/3.jpg
+  - /assets/coltrane_duke/4.jpg
+  - /assets/coltrane_duke/5.jpg
+  - /assets/coltrane_duke/6.jpg
+  - /assets/coltrane_duke/7.jpg
+  - /assets/coltrane_duke/8.jpg
+  - /assets/coltrane_duke/9.jpg
+  - /assets/coltrane_duke/10.jpg
+  - /assets/coltrane_duke/11.jpg
+
+- title: Eric Dolphy - Out There
+  description:
+  condition_vinyl: EX
+  condition_cover: VG+
+  price: 300
+  sold: false
+  for_sale: false
+  label: Esquire
+  catalog: 32-153
+  year: 1961
+  discogs_url: https://www.discogs.com/release/2648659
+  front_image: /assets/out_there_esquire/1.jpg
+  other_images:
+  - /assets/out_there_esquire/2.jpg
+  - /assets/out_there_esquire/3.jpg
+  - /assets/out_there_esquire/4.jpg
+  - /assets/out_there_esquire/5.jpg
+  - /assets/out_there_esquire/6.jpg
+  - /assets/out_there_esquire/7.jpg
+
 - title:  Art Blakey Quintet ‎– A Night At Birdland, Volume 1
   description:
   condition_vinyl: VG+
@@ -138,8 +182,17 @@
   catalog: ...
   year: 666
   discogs_url: https://www.discogs.com/release/1227081
-  front_image: /assets/glass_bead_games/1.jpg
+  front_image: /assets/glassbead/1.jpg
   other_images:
+    - /assets/glassbead/2.jpg
+    - /assets/glassbead/3.jpg
+    - /assets/glassbead/4.jpg
+    - /assets/glassbead/5.jpg
+    - /assets/glassbead/6.jpg
+    - /assets/glassbead/7.jpg
+    - /assets/glassbead/8.jpg
+    - /assets/glassbead/9.jpg
+    - /assets/glassbead/10.jpg
 
 - title: Freddie Hubbard – The Artistry Of Freddie Hubbard
   description: 1st press '63 mono. VAN GELDER stamp in dead-wax.

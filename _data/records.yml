@@ -1,3 +1,41 @@
+- title: Introducing Johnny Griffin
+  description: 2nd press from 1958 with non-frame cover and beaded rim. Beautiful sounding VG+ vinyl  with some thin hairlines that doesn't. No skips or repetetive clicks. Some spindle wear on side 1. Cover has seams repaired very nicely, but originally a G+ grade.
+  condition_vinyl: VG+
+  condition_cover: G+
+  price: 650
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 1533
+  year: 1958
+  discogs_url: https://www.discogs.com/release/16974390
+  front_image: /assets/griffin/1.jpg
+  other_images:
+  - /assets/griffin/2.jpg
+  - /assets/griffin/3.jpg
+  - /assets/griffin/4.jpg
+  - /assets/griffin/5.jpg
+
+- title: Horace Parlan Quintet - On the Spur of the Moment
+  description: 2nd press from 1962. Very nice sounding vinyl and solid cover. Some hairlines on this, but doesn't affect sound much, so solid VG+.
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 350
+  sold: false
+  for_sale: false
+  label: Blue Note
+  catalog: BLP 4074
+  year: 1962
+  discogs_url: https://www.discogs.com/release/27132327
+  front_image: /assets/spur_of_the_moment/1.jpg
+  other_images:
+  - /assets/spur_of_the_moment/2.jpg
+  - /assets/spur_of_the_moment/3.jpg
+  - /assets/spur_of_the_moment/4.jpg
+  - /assets/spur_of_the_moment/5.jpg
+  - /assets/spur_of_the_moment/6.jpg
+  - /assets/spur_of_the_moment/7.jpg
+
 - title: Duke Ellington & John Coltrane
   description:
   condition_vinyl: VG+

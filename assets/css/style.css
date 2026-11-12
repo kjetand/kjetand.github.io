@@ -63,18 +63,22 @@ img { display: block; max-width: 100%; }
    (the script word is absolutely positioned, the strapline has width 0 / min-width 100%). */
 .wordmark { display: inline-block; }
 .marquee__est {
-  width: 0; min-width: 100%;
+  width: 0; min-width: 100%;        /* as wide as MIDNIGHT SUN, never wider */
   margin: 0 0 .7rem;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.2;
 }
-.marquee__est svg { display: block; width: 100%; height: auto; overflow: visible; }
-.marquee__est text {
-  font-family: var(--sans);
-  font-weight: 600;
-  font-size: 24px;                  /* in viewBox units; scales with the wordmark */
-  fill: var(--mustard);
+.est__line {
+  display: inline-block;
+  font: 600 .8rem/1.2 var(--sans);  /* font-size is overwritten by header.js to fit */
+  letter-spacing: .25em;
+  margin-right: -.25em;             /* cancel the spacing after the last letter */
+  text-transform: uppercase;
+  color: var(--mustard);
 }
-.marquee__est .est__sep { fill: var(--rust); }
-.marquee__est .est__part + .est__sep + .est__part { fill: #d9ccb0; }
+.est__sep { color: var(--rust); }
+.est__part + .est__sep + .est__part { color: #d9ccb0; }
 
 .marquee__title {
   margin: .45rem 0 .55rem;
@@ -155,6 +159,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   padding: .6rem .75rem;
   width: 100%;
 }
+/* Mobile-only button that expands/collapses the filters */
+.filters-toggle { display: none; }
+
 /* "Hide sold" toggle chip — same height and border as the other fields */
 .filters__check {
   display: flex; align-items: center; gap: .6rem;
@@ -432,6 +439,32 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 /* ---------- Small screens ---------- */
 
 @media (max-width: 760px) {
+  .est__line { letter-spacing: .08em; margin-right: -.08em; }  /* tighter = bigger letters on phones */
+  .filters-toggle {
+    display: flex; align-items: center; gap: .6rem;
+    width: 100%; margin-top: 1.2rem;
+    height: 2.75rem; padding: 0 .95rem;
+    border: 2px solid var(--ink); border-radius: var(--radius);
+    background: var(--cream); color: var(--ink);
+    font: 600 .8rem var(--sans); letter-spacing: .12em; text-transform: uppercase;
+    cursor: pointer;
+  }
+  .filters-toggle[aria-expanded="true"] { background: var(--ink); color: var(--cream); }
+  .filters-toggle__count {
+    display: inline-grid; place-items: center;
+    min-width: 1.4rem; height: 1.4rem; padding: 0 .35rem;
+    border-radius: 999px; background: var(--rust); color: var(--cream);
+    font-size: .72rem; letter-spacing: 0;
+  }
+  .filters-toggle__count[hidden] { display: none; }
+  .filters-toggle__icon {
+    margin-left: auto; width: .55rem; height: .55rem;
+    border: solid currentColor; border-width: 0 2px 2px 0;
+    transform: translateY(-25%) rotate(45deg); transition: transform .2s;
+  }
+  .filters-toggle[aria-expanded="true"] .filters-toggle__icon { transform: translateY(25%) rotate(-135deg); }
+  .filters:not(.is-open) { display: none; }
+  .filters { margin-top: .8rem; }
   .filters { grid-template-columns: 1fr 1fr; }
   .filters__check { grid-column: 1 / -1; justify-self: start; }
   .tag--sold { font-size: .95rem; }

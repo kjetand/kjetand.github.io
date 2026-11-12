@@ -44,12 +44,24 @@
       grid.appendChild(c);
     });
     $('count').textContent = shown;
+
+    // badge on the mobile "Search & filter" button: how many filters are in use
+    const active = [term, label, sortSel.value, hideSold.checked].filter(Boolean).length;
+    $('filters-active').hidden = !active;
+    $('filters-active').textContent = active;
     $('empty').hidden = shown > 0;
   }
   q.addEventListener('input', apply);
   labelSel.addEventListener('change', apply);
   sortSel.addEventListener('change', apply);
   hideSold.addEventListener('change', apply);
+
+  // Mobile: filters start collapsed behind a toggle (always visible on desktop via CSS)
+  const toggle = $('filters-toggle'), form = $('filters');
+  toggle.addEventListener('click', () => {
+    const open = form.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
   // Browsers restore form fields on reload/back; sync the grid with them.
   apply();
   window.addEventListener('pageshow', apply);

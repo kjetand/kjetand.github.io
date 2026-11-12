@@ -26,19 +26,14 @@
         </h1>
         {%- assign parts = site.strapline | split: ' · ' %}
         {%- comment -%}
-          Strapline drawn as SVG text with textLength, so it is stretched to exactly
-          the width of the MIDNIGHT SUN wordmark at every window size.
+          Strapline: assets/js/header.js scales its font so it is exactly as wide as MIDNIGHT SUN.
         {%- endcomment %}
-        <p class="marquee__est">
-          <svg viewBox="0 0 1000 32" role="img" aria-label="{{ site.strapline | escape }}">
-            <text x="0" y="25" textLength="1000" lengthAdjust="spacing">
-              {%- for part in parts -%}
-                {%- unless forloop.first %}<tspan class="est__sep"> · </tspan>{% endunless -%}
-                <tspan class="est__part">{{ part | upcase }}</tspan>
-              {%- endfor -%}
-            </text>
-          </svg>
-        </p>
+        <p class="marquee__est"><span class="est__line" id="est-line">
+          {%- for part in parts -%}
+            {%- unless forloop.first %}<span class="est__sep"> · </span>{% endunless -%}
+            <span class="est__part">{{ part }}</span>
+          {%- endfor -%}
+        </span></p>
       </div>
     </div>
     <nav class="marquee__nav">
@@ -57,6 +52,7 @@
     <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }} · All prices in {{ site.currency }} · Grading per Goldmine standard</p>
   </footer>
 
+  <script src="{{ '/assets/js/header.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/store.js' | relative_url }}" defer></script>
 </body>
 </html>

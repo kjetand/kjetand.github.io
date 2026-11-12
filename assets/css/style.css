@@ -44,15 +44,14 @@ img { display: block; max-width: 100%; }
   background: var(--ink);
   color: var(--cream);
   text-align: center;
-  border-bottom: 6px solid var(--mustard);
   position: relative;
 }
-.marquee::after {           /* thin rust pinstripe under the mustard band */
+.marquee::after {           /* thin rust pinstripe under the mustard nav band */
   content: "";
-  position: absolute; left: 0; right: 0; bottom: -12px;
+  position: absolute; left: 0; right: 0; bottom: -5px;   /* 3px line + 2px gap */
   height: 3px; background: var(--rust);
 }
-.marquee__inner { padding: 1.6rem 1rem .6rem; }
+.marquee__inner { padding: 1.6rem 1rem 1.4rem; }
 
 /* emblem: midnight sun as a record over Arctic peaks */
 .logo { display: block; width: fit-content; margin: 0 auto .4rem; }
@@ -65,27 +64,26 @@ img { display: block; max-width: 100%; }
 .marquee__est {
   width: 0; min-width: 100%;        /* as wide as MIDNIGHT SUN, never wider */
   container-type: inline-size;      /* lets the line size itself from this width (cqw) */
-  margin: 0 0 .7rem;
+  margin: 0;
   text-align: left;
   white-space: nowrap;
   line-height: 1.2;
 }
 .est__line {
-  --ls: .25;                        /* letter-spacing in em */
+  --ls: .14;                        /* letter-spacing in em */
   display: inline-block;
-  font: 600 .8rem/1.2 var(--sans);  /* fallback for old browsers */
+  font: 400 1.2rem/1.1 var(--display);  /* fallback size for old browsers */
   /* text width = (measured em width + spacing between the n letters) × font-size = container width */
   font-size: calc(100cqw / (var(--est-a) + (var(--est-n) - 1) * var(--ls)));
   letter-spacing: calc(var(--ls) * 1em);
   margin-right: calc(var(--ls) * -1em);   /* cancel the spacing after the last letter */
-  text-transform: uppercase;
   color: var(--mustard);
 }
 .est__sep { color: var(--rust); }
 .est__part + .est__sep + .est__part { color: #d9ccb0; }
 
 .marquee__title {
-  margin: .45rem 0 .55rem;
+  margin: .45rem 0 .25rem;
   font-weight: 400;
   line-height: .9;
 }
@@ -95,9 +93,10 @@ img { display: block; max-width: 100%; }
   display: inline-block;
   text-decoration: none;
 }
+.marquee__title a { --mfs: clamp(1.9rem, 10vw, 8rem); }   /* MIDNIGHT SUN size */
 .wordmark__main {
   white-space: nowrap;
-  font: 400 clamp(1.9rem, 10vw, 8rem)/.85 var(--display);
+  font: 400 var(--mfs)/.85 var(--display);
   letter-spacing: .05em;
   color: var(--cream);
   text-shadow: .035em .035em 0 var(--rust);
@@ -109,7 +108,7 @@ img { display: block; max-width: 100%; }
   left: 100%; top: 22%;
   margin-left: 1.1em;
   white-space: nowrap;
-  font: 700 clamp(.62rem, 2.2vw, 1.75rem)/1 var(--mono);
+  font: 700 calc(var(--mfs) * .24)/1 var(--mono);   /* always in proportion to MIDNIGHT SUN */
   letter-spacing: .2em;
   text-transform: uppercase;
   color: var(--ink);
@@ -132,24 +131,35 @@ img { display: block; max-width: 100%; }
   background: var(--ink);
   box-shadow: 0 0 0 .12em #b8892a;
 }
-/* the string, looping from the hole back to the N */
+/* the string: sags from the hole up to the top corner of the N.
+   Its box spans hole -> N corner; it is counter-rotated so the tag's tilt doesn't skew it. */
 .wordmark__script::after {
   content: "";
   position: absolute; right: calc(100% - .8em); bottom: 50%;
-  width: 1.9em; height: .9em;
-  border: .09em solid #fbf5e6; border-right: 0; border-bottom: 0;
-  border-radius: 1em 0 0 0;
-  transform: rotate(-12deg);
+  width: 2.05em; height: 1.45em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M100 100 Q35 96 2 2' fill='none' stroke='%23fbf5e6' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") no-repeat 0 0 / 100% 100%;
+  transform: rotate(-9deg);
   transform-origin: right bottom;
 }
+/* nav lives on the mustard band, like the bottom panel of a painted shop sign */
 .marquee__nav {
-  display: flex; justify-content: center; gap: 2.5rem;
-  padding: .5rem 1rem .8rem;
-  font: 1.15rem var(--display);
-  letter-spacing: .18em;
+  display: flex; justify-content: center; align-items: center; gap: 1.1rem;
+  padding: .5rem 1rem .38rem;
+  background: var(--mustard);
+  border-top: 3px solid var(--ink);
+  box-shadow: inset 0 -2px 0 rgba(28,25,21,.18);
+  font: 1.3rem/1 var(--display);
+  letter-spacing: .2em;
 }
-.marquee__nav a { text-decoration: none; color: var(--cream); }
-.marquee__nav a:hover { color: var(--mustard); }
+.marquee__nav a { text-decoration: none; color: var(--ink); padding: 0 .2em 0 .4em; }
+.marquee__nav a:hover { color: var(--rust); }
+.marquee__nav a + a::before {          /* little star between the links */
+  content: "\2726";
+  margin: 0 1.3rem 0 -.2rem;
+  color: var(--rust);
+  font-size: .7em; vertical-align: .2em;
+  letter-spacing: 0;
+}
 
 main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 
@@ -532,8 +542,8 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   .logo { margin-bottom: .7rem; }
   .marquee__title { margin: .3rem 0 .9rem; }
   .marquee__est { display: none; }
-  .wordmark__script { letter-spacing: .1em; margin-left: .8em; padding: .5em .55em .42em 1.6em; }
-  .marquee__nav { gap: 2rem; padding: .2rem 1rem .9rem; }
+  .wordmark__script { letter-spacing: .1em; padding-right: .55em; }
+  .marquee__nav { font-size: 1.15rem; }
 
   /* filter button: keep the shadow inside the page and clear of the price stickers */
   .filters-toggle { width: calc(100% - 4px); margin: 1.2rem 0 2rem; }

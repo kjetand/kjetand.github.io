@@ -1,5 +1,5 @@
 /* ==========================================================
-   Deep Groove Records — vintage jazz record shop theme
+   Midnight Sun Records — vintage jazz record shop theme
    ========================================================== */
 
 :root {
@@ -52,28 +52,60 @@ img { display: block; max-width: 100%; }
   position: absolute; left: 0; right: 0; bottom: -12px;
   height: 3px; background: var(--rust);
 }
-.marquee__inner { padding: 3.2rem 1rem 1.6rem; }
+.marquee__inner { padding: 1.6rem 1rem .6rem; }
+
+/* emblem: midnight sun as a record over Arctic peaks */
+.logo { display: block; width: fit-content; margin: 0 auto .4rem; }
+.logo__mark { display: block; width: clamp(160px, 26vw, 240px); height: auto; overflow: visible; }
+.logo__mark g:first-of-type { transform-origin: 120px 78px; transition: transform .8s ease; }
+.logo:hover .logo__mark g:first-of-type { transform: rotate(8deg); }
+/* Name + strapline block. Its width is set by MIDNIGHT SUN alone
+   (the script word is absolutely positioned, the strapline has width 0 / min-width 100%). */
+.wordmark { display: inline-block; }
 .marquee__est {
-  margin: 0;
-  font: 700 .8rem/1 var(--mono);
-  letter-spacing: .35em;
-  text-transform: uppercase;
-  color: var(--mustard);
+  width: 0; min-width: 100%;
+  margin: 0 0 .7rem;
 }
+.marquee__est svg { display: block; width: 100%; height: auto; overflow: visible; }
+.marquee__est text {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 24px;                  /* in viewBox units; scales with the wordmark */
+  fill: var(--mustard);
+}
+.marquee__est .est__sep { fill: var(--rust); }
+.marquee__est .est__part + .est__sep + .est__part { fill: #d9ccb0; }
+
 .marquee__title {
-  margin: .4rem 0 .2rem;
-  font: 400 clamp(3.2rem, 11vw, 7.5rem)/.9 var(--display);
-  letter-spacing: .04em;
+  margin: .45rem 0 .55rem;
+  font-weight: 400;
+  line-height: .9;
 }
-.marquee__title a { text-decoration: none; }
-.marquee__tagline {
-  margin: 0;
-  font: italic 1.15rem var(--serif);
-  color: #d9ccb0;
+/* MIDNIGHT SUN is centred on the page; the script word hangs off its right edge */
+.marquee__title a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.wordmark__main {
+  font: 400 clamp(1.9rem, 10vw, 8rem)/.85 var(--display);
+  letter-spacing: .05em;
+  color: var(--cream);
+  text-shadow: .035em .035em 0 var(--rust);
+}
+.wordmark__script {
+  position: absolute;
+  left: 100%; bottom: -.12em;
+  margin-left: .18em;
+  white-space: nowrap;
+  font: italic 400 clamp(1.1rem, 5.6vw, 4.8rem)/1 var(--serif);
+  color: var(--mustard);
+  transform: rotate(-8deg);
+  transform-origin: left bottom;
 }
 .marquee__nav {
   display: flex; justify-content: center; gap: 2.5rem;
-  padding: .9rem 1rem 1.1rem;
+  padding: .5rem 1rem .8rem;
   font: 1.15rem var(--display);
   letter-spacing: .18em;
 }

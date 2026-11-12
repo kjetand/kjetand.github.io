@@ -1,5 +1,10 @@
-title: Deep Groove Records
-tagline: Original pressings · Hard bop · Modal · Spiritual jazz
+title: Midnight Sun Records
+# Wordmark in the header: big condensed words + script word
+logo:
+  main: Midnight Sun
+  script: Records
+# Small line under the name
+strapline: Collectible Jazz Pressings · Shipped from Tromsø
 description: A small shop of vintage jazz vinyl. Original and early pressings, honestly graded.
 url: https://kjetand.github.io
 baseurl: ""

@@ -14,9 +14,32 @@
 <body>
   <header class="marquee">
     <div class="marquee__inner">
-      <p class="marquee__est">Vintage Jazz on Vinyl · Tromsø</p>
-      <h1 class="marquee__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <p class="marquee__tagline">{{ site.tagline }}</p>
+      <a class="logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} – home">
+        {% include logo.svg %}
+      </a>
+      <div class="wordmark">
+        <h1 class="marquee__title">
+          <a href="{{ '/' | relative_url }}">
+            <span class="wordmark__main">{{ site.logo.main }}</span>
+            <span class="wordmark__script">{{ site.logo.script }}</span>
+          </a>
+        </h1>
+        {%- assign parts = site.strapline | split: ' · ' %}
+        {%- comment -%}
+          Strapline drawn as SVG text with textLength, so it is stretched to exactly
+          the width of the MIDNIGHT SUN wordmark at every window size.
+        {%- endcomment %}
+        <p class="marquee__est">
+          <svg viewBox="0 0 1000 32" role="img" aria-label="{{ site.strapline | escape }}">
+            <text x="0" y="25" textLength="1000" lengthAdjust="spacing">
+              {%- for part in parts -%}
+                {%- unless forloop.first %}<tspan class="est__sep"> · </tspan>{% endunless -%}
+                <tspan class="est__part">{{ part | upcase }}</tspan>
+              {%- endfor -%}
+            </text>
+          </svg>
+        </p>
+      </div>
     </div>
     <nav class="marquee__nav">
       <a href="#bins">Records</a>

@@ -1,4 +1,4 @@
-# Deep Groove Records
+# Midnight Sun Records
 
 A vintage jazz record shop, built with Jekyll and hosted on GitHub Pages.
 

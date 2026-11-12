@@ -96,6 +96,7 @@ img { display: block; max-width: 100%; }
   text-decoration: none;
 }
 .wordmark__main {
+  white-space: nowrap;
   font: 400 clamp(1.9rem, 10vw, 8rem)/.85 var(--display);
   letter-spacing: .05em;
   color: var(--cream);
@@ -493,4 +494,42 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---------- Phones: name group fills the width, strapline on two width-matched lines ---------- */
+@media (max-width: 600px) {
+  .marquee__inner {
+    --main-em: 4.8911;              /* width of "MIDNIGHT SUN" in em (Bebas, .05em tracking) */
+    --script-em: 3.3659;            /* width of "Records" in em (DM Serif italic) */
+    --script-ratio: .56;            /* script size relative to MIDNIGHT SUN */
+    /* MIDNIGHT SUN + gap + Records = available width */
+    --main-fs: calc((100vw - 2.5rem) / (var(--main-em) + (var(--script-em) + .18) * var(--script-ratio)));
+    padding: 1.2rem 1rem .4rem;
+  }
+  .logo { margin-bottom: .7rem; }
+  .wordmark { white-space: nowrap; }
+  .wordmark__main { font-size: var(--main-fs); }
+  .wordmark__script { font-size: calc(var(--main-fs) * var(--script-ratio)); }
+  /* reserve room for the script word on the right so the whole group is centred */
+  .wordmark { margin-right: calc(var(--main-fs) * var(--script-ratio) * (var(--script-em) + .18)); }
+  .marquee__title { margin: .3rem 0 .55rem; }
+
+  /* strapline: two lines, each exactly as wide as MIDNIGHT SUN */
+  .marquee__est { margin-bottom: 1rem; }
+  .est__line {
+    display: block; margin-right: 0;
+    font-size: calc(100cqw / (var(--est-a1) + (var(--est-n1) - 1) * var(--ls)));
+    line-height: 1.5;
+  }
+  .est__sep { display: none; }
+  .est__part { display: block; }
+  .est__part + .est__sep + .est__part {
+    letter-spacing: calc((100cqw - var(--est-a2) * 1em) / (var(--est-n2) - 1));
+  }
+
+  .marquee__nav { gap: 2rem; padding: .2rem 1rem .9rem; }
+
+  /* filter button: keep the shadow inside the page and clear of the price stickers */
+  .filters-toggle { width: calc(100% - 4px); margin: 1.2rem 0 2rem; }
+  .filters { margin: -1rem 0 2rem; }
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  <header class="marquee">
+    <div class="marquee__inner">
+      <p class="marquee__est">Vintage Jazz on Vinyl · Tromsø</p>
+      <h1 class="marquee__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="marquee__tagline">{{ site.tagline }}</p>
+    </div>
+    <nav class="marquee__nav">
+      <a href="#bins">Records</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  {% include contact.html %}
+
+  <footer class="footer">
+    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }} · All prices in {{ site.currency }} · Grading per Goldmine standard</p>
+  </footer>
+
+  <script src="{{ '/assets/js/store.js' | relative_url }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+title: Deep Groove Records
+tagline: Original pressings · Hard bop · Modal · Spiritual jazz
+description: A small shop of vintage jazz vinyl. Original and early pressings, honestly graded.
+url: https://kjetand.github.io
+baseurl: ""
+currency: NOK
+
+contact:
+  email: kjetil.andrese@gmail.com
+  instagram: northernjazzcollector
+  location: Tromsø, Norway
+  note: >-
+    Shipping worldwide, carefully packed. Pickup in Tromsø welcome.
+    Payment by Vipps, PayPal or bank transfer.
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - assets/img/core.scss   # leftover from an old theme; breaks the Sass build

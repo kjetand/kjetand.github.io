@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#2c6a66"/>
+  <rect x="18" y="18" width="364" height="364" fill="none" stroke="#efe4cc" stroke-width="3"/>
+  <circle cx="200" cy="170" r="92" fill="#1c1915"/>
+  <circle cx="200" cy="170" r="74" fill="none" stroke="#2a2825" stroke-width="2"/>
+  <circle cx="200" cy="170" r="56" fill="none" stroke="#2a2825" stroke-width="2"/>
+  <circle cx="200" cy="170" r="28" fill="#e0a526"/>
+  <circle cx="200" cy="170" r="4" fill="#1c1915"/>
+  <text x="200" y="315" text-anchor="middle" font-family="Impact, sans-serif" font-size="38" letter-spacing="4" fill="#efe4cc">PHOTO COMING</text>
+</svg>

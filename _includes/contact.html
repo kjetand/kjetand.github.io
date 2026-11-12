@@ -1,0 +1,13 @@
+{% assign c = site.contact %}
+<section id="contact" class="contact">
+  <div class="contact__card">
+    <h2 class="section-title">Ask About a Record</h2>
+    <p class="contact__lede">Found something you dig? Drop a line with the title and catalog number and I'll get back to you.</p>
+    <dl class="contact__list">
+      <dt>Email</dt><dd><a href="mailto:{{ c.email }}">{{ c.email }}</a></dd>
+      <dt>Instagram</dt><dd><a href="https://www.instagram.com/{{ c.instagram }}/" target="_blank" rel="noopener">@{{ c.instagram }}</a></dd>
+      <dt>Location</dt><dd>{{ c.location }}</dd>
+    </dl>
+    <p class="contact__note">{{ c.note }}</p>
+  </div>
+</section>

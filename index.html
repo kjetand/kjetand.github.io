@@ -1,0 +1,109 @@
+---
+layout: default
+---
+{% assign records = site.data.records %}
+<section id="bins" class="bins">
+  {% assign sold = records | where: "sold", true %}
+  <p class="bins__count">
+    <span id="count">{{ records.size }}</span> records
+    <span class="bins__sep">·</span> {{ records.size | minus: sold.size }} available
+    <span class="bins__sep">·</span> {{ sold.size }} sold
+  </p>
+
+  <form class="filters" id="filters" onsubmit="return false">
+    <label class="filters__field filters__field--search">
+      <span>Search</span>
+      <input type="search" id="q" placeholder="Artist, title, catalog…" autocomplete="off">
+    </label>
+    <label class="filters__field">
+      <span>Label</span>
+      <select id="label"><option value="">All labels</option></select>
+    </label>
+    <label class="filters__field">
+      <span>Sort</span>
+      <select id="sort">
+        <option value="">Shop order</option>
+        <option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+        <option value="year-asc">Year: oldest first</option>
+        <option value="year-desc">Year: newest first</option>
+        <option value="title-asc">Title: A–Z</option>
+      </select>
+    </label>
+    <label class="filters__check">
+      <input type="checkbox" id="hide-sold"> <span>Hide sold</span>
+    </label>
+  </form>
+
+  <ul class="grid" id="grid">
+    {% for r in records %}
+      {% capture slug %}{{ r.title | append: ' ' | append: r.catalog | slugify }}{% endcapture %}
+      {% assign label = r.label | split: ', ' | uniq | join: ' / ' %}
+      {% assign t = r.title | replace: ' – ', ' - ' | split: ' - ' %}
+      {% if t.size > 1 %}{% assign artist = t.first %}{% assign album = t | shift | join: ' - ' %}{% else %}{% assign artist = nil %}{% assign album = r.title %}{% endif %}
+      {%- comment -%} Gallery = every image actually in the record's folder (other_images is not used). {%- endcomment -%}
+      {% assign folder = r.front_image | split: '/' | pop | join: '/' | append: '/' %}
+      {% assign photos = site.static_files | where_exp: "f", "f.path contains folder" | map: "path" | join: '|' %}
+      <li class="sleeve{% if r.sold %} is-sold{% endif %}"
+          data-sold="{{ r.sold | default: false }}"
+          data-index="{{ forloop.index0 }}"
+          data-photos="{{ photos | escape }}"
+          data-slug="{{ slug }}"
+          data-label="{{ label | escape }}"
+          data-price="{{ r.price }}"
+          data-year="{{ r.year }}"
+          data-title="{{ r.title | escape }}"
+          data-search="{{ r.title | append: ' ' | append: label | append: ' ' | append: r.catalog | append: ' ' | append: r.year | downcase | escape }}">
+        <a class="sleeve__link" href="#{{ slug }}">
+          <div class="sleeve__art">
+            <span class="sleeve__disc" aria-hidden="true"></span>
+            <img src="{{ r.front_image | relative_url }}" alt="{{ r.title | escape }} cover" loading="lazy"
+                 onerror="this.onerror=null;this.src='{{ '/assets/img/no-cover.svg' | relative_url }}'">
+            {% if r.sold %}<span class="tag tag--sold">Sold</span>{% else %}<span class="tag">{{ r.price }},-</span>{% endif %}
+          </div>
+          <div class="sleeve__meta">
+            {% if artist %}<p class="sleeve__artist">{{ artist }}</p>{% endif %}
+            <h3 class="sleeve__title">{{ album }}</h3>
+            <p class="sleeve__sub">{{ label }} · {{ r.catalog }} · {{ r.year }}</p>
+            <p class="grades">
+              <span class="grade" title="Vinyl condition"><b>Vinyl</b> {{ r.condition_vinyl }}</span>
+              <span class="grade" title="Cover condition"><b>Cover</b> {{ r.condition_cover }}</span>
+            </p>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="empty" id="empty" hidden>Nothing in the bins matching that. Try another search.</p>
+</section>
+
+<dialog class="detail" id="detail" aria-labelledby="detail-title">
+  <button class="detail__close" id="detail-close" aria-label="Close">&times;</button>
+  <div class="detail__body">
+    <div class="detail__gallery">
+      <img class="detail__main" id="detail-main" alt="">
+      <div class="detail__thumbs" id="detail-thumbs"></div>
+    </div>
+    <div class="detail__info">
+      <p class="detail__label" id="detail-label"></p>
+      <h2 class="detail__title" id="detail-title"></h2>
+      <p class="detail__price" id="detail-pricebox"><span id="detail-price"></span> <small>{{ site.currency }}</small></p>
+      <p class="detail__sold" id="detail-sold" hidden>Sold</p>
+      <dl class="detail__specs">
+        <dt>Label</dt><dd id="detail-labelname"></dd>
+        <dt>Catalog</dt><dd id="detail-catalog"></dd>
+        <dt>Year</dt><dd id="detail-year"></dd>
+        <dt>Vinyl</dt><dd id="detail-vinyl"></dd>
+        <dt>Cover</dt><dd id="detail-cover"></dd>
+      </dl>
+      <p class="detail__desc" id="detail-desc"></p>
+      <div class="detail__actions">
+        <a class="btn btn--primary" id="detail-ask" href="#">Ask about this record</a>
+        <a class="btn" id="detail-discogs" href="#" target="_blank" rel="noopener">View on Discogs</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script id="records-data" type="application/json">{{ records | jsonify }}</script>
+<script>window.SHOP = { email: {{ site.contact.email | jsonify }}, noCover: {{ '/assets/img/no-cover.svg' | relative_url | jsonify }}, base: {{ site.baseurl | jsonify }} };</script>

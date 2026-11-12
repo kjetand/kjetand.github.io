@@ -64,16 +64,20 @@ img { display: block; max-width: 100%; }
 .wordmark { display: inline-block; }
 .marquee__est {
   width: 0; min-width: 100%;        /* as wide as MIDNIGHT SUN, never wider */
+  container-type: inline-size;      /* lets the line size itself from this width (cqw) */
   margin: 0 0 .7rem;
   text-align: left;
   white-space: nowrap;
   line-height: 1.2;
 }
 .est__line {
+  --ls: .25;                        /* letter-spacing in em */
   display: inline-block;
-  font: 600 .8rem/1.2 var(--sans);  /* font-size is overwritten by header.js to fit */
-  letter-spacing: .25em;
-  margin-right: -.25em;             /* cancel the spacing after the last letter */
+  font: 600 .8rem/1.2 var(--sans);  /* fallback for old browsers */
+  /* text width = (measured em width + spacing between the n letters) × font-size = container width */
+  font-size: calc(100cqw / (var(--est-a) + (var(--est-n) - 1) * var(--ls)));
+  letter-spacing: calc(var(--ls) * 1em);
+  margin-right: calc(var(--ls) * -1em);   /* cancel the spacing after the last letter */
   text-transform: uppercase;
   color: var(--mustard);
 }
@@ -439,7 +443,7 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 /* ---------- Small screens ---------- */
 
 @media (max-width: 760px) {
-  .est__line { letter-spacing: .08em; margin-right: -.08em; }  /* tighter = bigger letters on phones */
+  .est__line { --ls: .08; }  /* tighter spacing = bigger letters on phones */
   /* vintage "printed tab" button, same family as the pop-up's buttons */
   .filters-toggle {
     display: flex; align-items: center; gap: .7rem;

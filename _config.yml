@@ -8,8 +8,6 @@ strapline: Collectible Jazz Pressings · Shipped from Tromsø
 # Width of the strapline text in em (uppercase, no letter-spacing). Used by CSS to make the
 # line exactly as wide as MIDNIGHT SUN. Must be re-measured if the strapline text changes.
 strapline_em: 28.8653
-# Same, for each half (phones show the two halves on separate lines).
-strapline_part_em: [15.7613, 12.4540]
 description: A small shop of vintage jazz vinyl. Original and early pressings, honestly graded.
 url: https://kjetand.github.io
 baseurl: ""

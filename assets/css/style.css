@@ -102,15 +102,45 @@ img { display: block; max-width: 100%; }
   color: var(--cream);
   text-shadow: .035em .035em 0 var(--rust);
 }
+/* "RECORDS" as an old manila swing tag tied to the end of MIDNIGHT SUN */
 .wordmark__script {
+  --tag: #ecd9a8;
   position: absolute;
-  left: 100%; bottom: -.12em;
-  margin-left: .18em;
+  left: 100%; top: 22%;
+  margin-left: 1.1em;
   white-space: nowrap;
-  font: italic 400 clamp(1.1rem, 5.6vw, 4.8rem)/1 var(--serif);
-  color: var(--mustard);
-  transform: rotate(-8deg);
-  transform-origin: left bottom;
+  font: 700 clamp(.62rem, 2.2vw, 1.75rem)/1 var(--mono);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: .5em .75em .42em 1.75em;
+  /* notched left corners, square right end */
+  background:
+    linear-gradient(135deg, transparent .55em, var(--tag) 0) top left / 100% 51% no-repeat,
+    linear-gradient(45deg,  transparent .55em, var(--tag) 0) bottom left / 100% 51% no-repeat;
+  border-radius: 0 .2em .2em 0;
+  transform: rotate(9deg);
+  transform-origin: .8em 50%;
+  filter: drop-shadow(.12em .16em 0 rgba(0,0,0,.45));
+}
+/* punched hole with a brass reinforcement ring */
+.wordmark__script::before {
+  content: "";
+  position: absolute; left: .55em; top: 50%;
+  width: .5em; height: .5em; margin-top: -.25em;
+  border-radius: 50%;
+  background: var(--ink);
+  box-shadow: 0 0 0 .12em #b8892a;
+}
+/* the string, looping from the hole back to the N */
+.wordmark__script::after {
+  content: "";
+  position: absolute; right: calc(100% - .8em); bottom: 50%;
+  width: 1.9em; height: .9em;
+  border: .09em solid #fbf5e6; border-right: 0; border-bottom: 0;
+  border-radius: 1em 0 0 0;
+  transform: rotate(-12deg);
+  transform-origin: right bottom;
 }
 .marquee__nav {
   display: flex; justify-content: center; gap: 2.5rem;
@@ -496,40 +526,17 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 
-/* ---------- Phones: name group fills the width, strapline on two width-matched lines ---------- */
+/* ---------- Phones: no strapline, a little tighter ---------- */
 @media (max-width: 600px) {
-  .marquee__inner {
-    --main-em: 4.8911;              /* width of "MIDNIGHT SUN" in em (Bebas, .05em tracking) */
-    --script-em: 3.3659;            /* width of "Records" in em (DM Serif italic) */
-    --script-ratio: .56;            /* script size relative to MIDNIGHT SUN */
-    /* MIDNIGHT SUN + gap + Records = available width */
-    --main-fs: calc((100vw - 2.5rem) / (var(--main-em) + (var(--script-em) + .18) * var(--script-ratio)));
-    padding: 1.2rem 1rem .4rem;
-  }
+  .marquee__inner { padding: 1.2rem 1rem .4rem; }
   .logo { margin-bottom: .7rem; }
-  .wordmark { white-space: nowrap; }
-  .wordmark__main { font-size: var(--main-fs); }
-  .wordmark__script { font-size: calc(var(--main-fs) * var(--script-ratio)); }
-  /* reserve room for the script word on the right so the whole group is centred */
-  .wordmark { margin-right: calc(var(--main-fs) * var(--script-ratio) * (var(--script-em) + .18)); }
-  .marquee__title { margin: .3rem 0 .55rem; }
-
-  /* strapline: two lines, each exactly as wide as MIDNIGHT SUN */
-  .marquee__est { margin-bottom: 1rem; }
-  .est__line {
-    display: block; margin-right: 0;
-    font-size: calc(100cqw / (var(--est-a1) + (var(--est-n1) - 1) * var(--ls)));
-    line-height: 1.5;
-  }
-  .est__sep { display: none; }
-  .est__part { display: block; }
-  .est__part + .est__sep + .est__part {
-    letter-spacing: calc((100cqw - var(--est-a2) * 1em) / (var(--est-n2) - 1));
-  }
-
+  .marquee__title { margin: .3rem 0 .9rem; }
+  .marquee__est { display: none; }
+  .wordmark__script { letter-spacing: .1em; margin-left: .8em; padding: .5em .55em .42em 1.6em; }
   .marquee__nav { gap: 2rem; padding: .2rem 1rem .9rem; }
 
   /* filter button: keep the shadow inside the page and clear of the price stickers */
   .filters-toggle { width: calc(100% - 4px); margin: 1.2rem 0 2rem; }
   .filters { margin: -1rem 0 2rem; }
+}
 }

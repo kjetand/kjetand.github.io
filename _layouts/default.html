@@ -29,7 +29,7 @@
           Strapline: CSS sizes it to exactly the width of MIDNIGHT SUN (container query units),
           using its measured width in em (strapline_em) and character count.
         {%- endcomment %}
-        <p class="marquee__est" style="--est-a: {{ site.strapline_em }}; --est-n: {{ site.strapline | size }}; --est-a1: {{ site.strapline_part_em[0] }}; --est-n1: {{ parts[0] | size }}; --est-a2: {{ site.strapline_part_em[1] }}; --est-n2: {{ parts[1] | size }};"><span class="est__line" id="est-line">
+        <p class="marquee__est" style="--est-a: {{ site.strapline_em }}; --est-n: {{ site.strapline | size }};"><span class="est__line" id="est-line">
           {%- for part in parts -%}
             {%- unless forloop.first %}<span class="est__sep"> · </span>{% endunless -%}
             <span class="est__part">{{ part }}</span>

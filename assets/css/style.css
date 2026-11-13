@@ -190,9 +190,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   margin: 1.4rem 0 2.2rem;
 }
 .filters__field { display: flex; flex-direction: column; gap: .3rem; }
-.filters__field > span {
-  font: 700 .72rem var(--mono);
-  letter-spacing: .2em; text-transform: uppercase;
+.filters__field > span {            /* same style as the "158 records · 73 available" line */
+  font: 600 .8rem var(--sans);
+  letter-spacing: .14em; text-transform: uppercase;
   color: var(--ink-soft);
 }
 .filters input, .filters select {
@@ -203,6 +203,16 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   border-radius: var(--radius);
   padding: .6rem .75rem;
   width: 100%;
+}
+/* custom dropdown arrow with breathing room on the right */
+.filters select {
+  -webkit-appearance: none; appearance: none;
+  padding-right: 2.6rem;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%231c1915' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+    no-repeat right 1rem center / .75rem auto,
+    var(--cream);
+  cursor: pointer;
 }
 /* Mobile-only button that expands/collapses the filters */
 .filters-toggle { display: none; }

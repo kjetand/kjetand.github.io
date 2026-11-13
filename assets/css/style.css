@@ -64,15 +64,16 @@ img { display: block; max-width: 100%; }
 .marquee__est {
   width: 0; min-width: 100%;        /* as wide as MIDNIGHT SUN, never wider */
   container-type: inline-size;      /* lets the line size itself from this width (cqw) */
-  margin: .55rem 0 0;
+  margin: .15rem 0 0;
   text-align: left;
   white-space: nowrap;
   line-height: 1.2;
 }
 .est__line {
-  --ls: .32;                        /* letter-spacing in em (wide = smaller letters at the same width) */
+  --ls: .1;                         /* letter-spacing in em */
   display: inline-block;
-  font: 400 1.2rem/1.1 var(--display);  /* fallback size for old browsers */
+  font: 700 .9rem/1.1 var(--mono);  /* typewriter caps, like liner notes; fallback size for old browsers */
+  text-transform: uppercase;
   /* text width = (measured em width + spacing between the n letters) × font-size = container width */
   font-size: calc(100cqw / (var(--est-a) + (var(--est-n) - 1) * var(--ls)));
   letter-spacing: calc(var(--ls) * 1em);
@@ -106,26 +107,46 @@ img { display: block; max-width: 100%; }
   color: var(--cream);
   text-shadow: .035em .035em 0 var(--rust);
 }
-/* "RECORDS" lockup: centred under MIDNIGHT SUN between double rules, exactly as wide as it */
-.wordmark__sub {
-  display: flex; align-items: center; gap: .55em;
-  width: 0; min-width: 100%;                    /* as wide as MIDNIGHT SUN, never wider */
-  margin-top: .18em;
-  font: 400 calc(var(--mfs) * .26)/1 var(--display);
-  color: var(--mustard);
-}
+/* "RECORDS" as an old manila swing tag tied to the end of MIDNIGHT SUN */
 .wordmark__script {
-  letter-spacing: .45em;
-  margin-right: -.45em;                          /* cancel spacing after the last letter */
-  padding-top: .08em;                            /* Bebas sits a touch high */
+  --tag: #ecd9a8;
+  position: absolute;
+  left: 100%; top: 22%;
+  margin-left: 1.1em;
+  white-space: nowrap;
+  font: 700 calc(var(--mfs) * .24)/1 var(--mono);   /* always in proportion to MIDNIGHT SUN */
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: .5em .75em .42em 1.75em;
+  /* notched left corners, square right end */
+  background:
+    linear-gradient(135deg, transparent .55em, var(--tag) 0) top left / 100% 51% no-repeat,
+    linear-gradient(45deg,  transparent .55em, var(--tag) 0) bottom left / 100% 51% no-repeat;
+  border-radius: 0 .2em .2em 0;
+  transform: rotate(9deg);
+  transform-origin: .8em 50%;
+  filter: drop-shadow(.12em .16em 0 rgba(0,0,0,.45));
 }
-.wordmark__rule {
-  flex: 1;
-  height: .3em;
-  border-top: .07em solid var(--mustard);
-  border-bottom: .07em solid var(--mustard);
+/* punched hole with a brass reinforcement ring */
+.wordmark__script::before {
+  content: "";
+  position: absolute; left: .55em; top: 50%;
+  width: .5em; height: .5em; margin-top: -.25em;
+  border-radius: 50%;
+  background: var(--ink);
+  box-shadow: 0 0 0 .12em #b8892a;
 }
-
+/* the string: sags from the hole up to the top corner of the N.
+   Its box spans hole -> N corner; it is counter-rotated so the tag's tilt doesn't skew it. */
+.wordmark__script::after {
+  content: "";
+  position: absolute; right: calc(100% - .8em); bottom: 50%;
+  width: 2.05em; height: 1.45em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M100 100 Q35 96 2 2' fill='none' stroke='%23fbf5e6' stroke-width='2' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") no-repeat 0 0 / 100% 100%;
+  transform: rotate(-9deg);
+  transform-origin: right bottom;
+}
 /* nav lives on the mustard band, like the bottom panel of a painted shop sign */
 .marquee__nav {
   display: flex; justify-content: center; align-items: center; gap: 1.1rem;
@@ -536,8 +557,10 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   .logo { margin-bottom: .7rem; }
   .marquee__title { margin: .3rem 0 .9rem; }
   .marquee__est { display: none; }
-  /* nothing beside the name any more, so it can be much bigger on phones */
-  .marquee__title a { --mfs: clamp(1.9rem, 15vw, 8rem); }
+  /* phones: slightly smaller name, relatively bigger tag so RECORDS stays legible */
+  .marquee__title a { --mfs: clamp(1.9rem, 9vw, 8rem); }
+  .wordmark__script { font-size: calc(var(--mfs) * .32); letter-spacing: .1em; padding-right: .55em; }
+  .wordmark__script::after { height: 1.36em; }
   .marquee__nav { font-size: 1.15rem; }
 
   /* filter button: keep the shadow inside the page and clear of the price stickers */

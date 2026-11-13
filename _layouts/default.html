@@ -21,7 +21,11 @@
         <h1 class="marquee__title">
           <a href="{{ '/' | relative_url }}">
             <span class="wordmark__main">{{ site.logo.main }}</span>
-            <span class="wordmark__script">{{ site.logo.script }}</span>
+            <span class="wordmark__sub">
+              <span class="wordmark__rule" aria-hidden="true"></span>
+              <span class="wordmark__script">{{ site.logo.script }}</span>
+              <span class="wordmark__rule" aria-hidden="true"></span>
+            </span>
           </a>
         </h1>
         {%- assign parts = site.strapline | split: ' · ' %}
@@ -31,7 +35,7 @@
         {%- endcomment %}
         <p class="marquee__est" style="--est-a: {{ site.strapline_em }}; --est-n: {{ site.strapline | size }};"><span class="est__line" id="est-line">
           {%- for part in parts -%}
-            {%- unless forloop.first %}<span class="est__sep"> · </span>{% endunless -%}
+            {%- unless forloop.first %}<span class="est__sep"> &#x2726; </span>{% endunless -%}
             <span class="est__part">{{ part }}</span>
           {%- endfor -%}
         </span></p>

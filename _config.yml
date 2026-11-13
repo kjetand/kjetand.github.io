@@ -7,7 +7,7 @@ logo:
 strapline: Collectible Jazz Pressings · Shipped from Tromsø
 # Width of the strapline text in em (Bebas Neue, no letter-spacing). Used by CSS to make the
 # line exactly as wide as MIDNIGHT SUN. Must be re-measured if the strapline text changes.
-strapline_em: 16.3980
+strapline_em: 16.6692
 description: A small shop of vintage jazz vinyl. Original and early pressings, honestly graded.
 url: https://kjetand.github.io
 baseurl: ""

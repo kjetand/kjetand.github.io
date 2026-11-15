@@ -2,3 +2,6 @@ _site/
 .jekyll-cache/
 .sass-cache/
 .jekyll-metadata
+
+# Discogs collection exports (contain purchase prices) – never publish
+*.csv

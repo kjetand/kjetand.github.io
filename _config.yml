@@ -25,4 +25,5 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - "*.csv"                 # Discogs collection exports (purchase prices) – never publish
   - assets/img/core.scss   # leftover from an old theme; breaks the Sass build

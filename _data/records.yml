@@ -217,20 +217,20 @@
   sold: false
   for_sale: false
   label: Strata-East
-  catalog: ...
-  year: 666
-  discogs_url: https://www.discogs.com/release/1227081
-  front_image: /assets/img/glassbead/1.jpg
+  catalog: SES 19737/8
+  year: 1974
+  discogs_url: https://www.discogs.com/release/488867
+  front_image: /assets/img/488867/1.jpg
   other_images:
-    - /assets/img/glassbead/2.jpg
-    - /assets/img/glassbead/3.jpg
-    - /assets/img/glassbead/4.jpg
-    - /assets/img/glassbead/5.jpg
-    - /assets/img/glassbead/6.jpg
-    - /assets/img/glassbead/7.jpg
-    - /assets/img/glassbead/8.jpg
-    - /assets/img/glassbead/9.jpg
-    - /assets/img/glassbead/10.jpg
+    - /assets/img/488867/2.jpg
+    - /assets/img/488867/3.jpg
+    - /assets/img/488867/4.jpg
+    - /assets/img/488867/5.jpg
+    - /assets/img/488867/6.jpg
+    - /assets/img/488867/7.jpg
+    - /assets/img/488867/8.jpg
+    - /assets/img/488867/9.jpg
+    - /assets/img/488867/10.jpg
 
 - title: Freddie Hubbard – The Artistry Of Freddie Hubbard
   description: 1st press '63 mono. VAN GELDER stamp in dead-wax.

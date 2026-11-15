@@ -67,10 +67,11 @@ layout: default
             {% if r.sold %}<span class="tag tag--sold">Sold</span>{% else %}<span class="tag">{{ r.price }},-</span>{% endif %}
           </div>
           <div class="sleeve__meta">
+            <p class="sticker__no"><span class="sticker__no-label">No.</span> <span class="sticker__cat">{{ r.catalog | split: ', ' | first }}</span> <span class="sticker__year">{{ r.year }}</span></p>
             {% if artist %}<p class="sleeve__artist">{{ artist }}</p>{% endif %}
             <h3 class="sleeve__title">{{ album }}</h3>
-            <p class="sleeve__sub">{{ label }} · {{ r.catalog }} · {{ r.year }}</p>
-            <p class="grades">
+            <p class="sticker__fine">
+              <span class="sticker__label">{{ label }}</span>
               <span class="grade" title="Vinyl condition"><b>Vinyl</b> {{ r.condition_vinyl }}</span>
               <span class="grade" title="Cover condition"><b>Cover</b> {{ r.condition_cover }}</span>
             </p>

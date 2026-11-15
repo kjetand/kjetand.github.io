@@ -331,37 +331,58 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 .is-sold .sleeve__art img { filter: grayscale(1) sepia(.35) contrast(.92) brightness(.97); transition: transform .35s ease, filter .35s ease; }
 .is-sold .sleeve__link:hover .sleeve__art img,
 .is-sold .sleeve__link:focus-visible .sleeve__art img { filter: none; }
-.is-sold .sleeve__meta { opacity: .75; }
 
-.sleeve__meta { padding-top: 1rem; }
+/* ---- info sticker under each cover, modelled on a Japanese promo/shop sticker ----
+   ivory paper, black ink only: stamped number on a heavy+thin rule, dotted "form" lines,
+   fine print in a thin box */
+.sleeve__meta {
+  margin-top: .9rem;
+  padding: .5rem .65rem .6rem;
+  background: #f7f1df;
+  border: 1px solid rgba(28,25,21,.12);
+  box-shadow: 0 1px 2px rgba(40,25,10,.14);
+  color: var(--ink);
+}
+.sticker__no {
+  display: flex; align-items: baseline; gap: .4rem;
+  margin: 0;
+  padding-bottom: .3rem;
+  border-bottom: 3px solid var(--ink);                 /* heavy rule */
+  box-shadow: 0 3px 0 #f7f1df, 0 4px 0 var(--ink);     /* gap + thin rule under it */
+}
+.sticker__no-label { font: 600 .62rem/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.sticker__cat { font: 700 .95rem/1.15 var(--mono); letter-spacing: .04em; min-width: 0; }
+.sticker__year { margin-left: auto; font: 700 .78rem/1 var(--mono); color: var(--ink-soft); white-space: nowrap; }
+.sleeve__artist, .sleeve__title {
+  padding: .3rem 0 .12rem;
+  border-bottom: 1px dotted rgba(28,25,21,.55);       /* dotted "form" lines */
+}
 .sleeve__artist {
-  margin: 0 0 .2rem;
-  font: 600 .72rem/1.3 var(--sans);
-  letter-spacing: .14em; text-transform: uppercase;
-  color: var(--rust);
+  margin: .45rem 0 0;
+  font: 600 .66rem/1.3 var(--sans);
+  letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-soft);
 }
 .sleeve__title {
   margin: 0;
-  font: 600 1rem/1.3 var(--sans);
-  color: var(--ink);
+  font: 400 1.05rem/1.2 var(--serif);
 }
 .sleeve__link:hover .sleeve__title { text-decoration: underline; text-decoration-color: var(--mustard); text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.sleeve__sub {
-  margin: .3rem 0 .55rem;
-  font: .8rem/1.4 var(--sans);
-  color: var(--ink-soft);
+/* record label on its own dotted form line, then both stamped grades on one line */
+.sticker__fine {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 .9rem;
+  margin: 0;
 }
-
-.grades { display: flex; gap: .4rem; flex-wrap: wrap; margin: 0; }
-.grade {
-  font: 600 .68rem var(--sans);
-  letter-spacing: .04em;
-  border: 1.5px solid var(--ink);
-  border-radius: var(--radius);
-  padding: .1rem .4rem;
-  background: var(--cream);
+.sticker__fine > span { white-space: nowrap; }
+.sticker__label {
+  flex-basis: 100%;
+  overflow: hidden; text-overflow: ellipsis;
+  padding: .3rem 0 .12rem;
+  border-bottom: 1px dotted rgba(28,25,21,.55);
+  font: 500 .85rem/1.3 var(--sans); color: var(--ink);
 }
-.grade b { font-weight: 600; color: var(--teal); text-transform: uppercase; letter-spacing: .1em; margin-right: .15rem; }
+.grade { padding-top: .35rem; font: 700 .88rem/1.3 var(--mono); color: var(--ink); }
+.grade b { margin-right: .25rem; font: 600 .62rem/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
 
 .empty {
   text-align: center;
@@ -566,6 +587,12 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
 
   /* filter button: keep the shadow inside the page and clear of the price stickers */
   .filters-toggle { width: calc(100% - 4px); margin: 1.2rem 0 2rem; }
+  .sticker__cat { font-size: .8rem; letter-spacing: 0; }
+  .sticker__year { font-size: .7rem; }
+  .sticker__no { gap: .3rem; }
+  .sticker__fine { gap: 0 .6rem; }
+  .grade { font-size: .8rem; }
+  .grade b { margin-right: .15rem; letter-spacing: .04em; }
   .filters { margin: -1rem 0 2rem; }
 }
 }

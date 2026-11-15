@@ -1,3 +1,383 @@
+# ---- Added 2026-11-15 from the Discogs collection export.
+# ---- Placeholder photos from Discogs and price 9999: replace with own photos and real prices.
+
+- title: Andrew Hill - Black Fire
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Blue Note
+  catalog: BLP 4151
+  year: 1964
+  discogs_url: https://www.discogs.com/release/1114174
+  front_image: /assets/img/1114174/1.jpg
+  other_images:
+  - /assets/img/1114174/2.jpg
+  - /assets/img/1114174/3.jpg
+  - /assets/img/1114174/4.jpg
+
+- title: Bent Axen/Bent Jædig 6-5-4-3 - Let's Keep The Message
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Debut Records
+  catalog: DEB 133
+  year: 1960
+  discogs_url: https://www.discogs.com/release/5550170
+  front_image: /assets/img/5550170/1.jpg
+  other_images:
+  - /assets/img/5550170/2.jpg
+  - /assets/img/5550170/3.jpg
+  - /assets/img/5550170/4.jpg
+
+- title: Billy Harper - Black Saint
+  description:
+  condition_vinyl: NM
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Black Saint
+  catalog: BSR 0001
+  year: 1975
+  discogs_url: https://www.discogs.com/release/12148892
+  front_image: /assets/img/12148892/1.jpg
+  other_images:
+  - /assets/img/12148892/2.jpg
+  - /assets/img/12148892/3.jpg
+  - /assets/img/12148892/4.jpg
+
+- title: Billy Harper - Soran-Bushi, B.H.
+  description:
+  condition_vinyl: NM
+  condition_cover: NM
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Denon
+  catalog: YX-7522-ND
+  year: 1978
+  discogs_url: https://www.discogs.com/release/4590406
+  front_image: /assets/img/4590406/1.jpg
+  other_images:
+  - /assets/img/4590406/2.jpg
+  - /assets/img/4590406/3.jpg
+  - /assets/img/4590406/4.jpg
+  - /assets/img/4590406/5.jpg
+  - /assets/img/4590406/6.jpg
+  - /assets/img/4590406/7.jpg
+  - /assets/img/4590406/8.jpg
+  - /assets/img/4590406/9.jpg
+
+- title: Billy Harper Quintet - Love On The Sudan
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Denon Jazz
+  catalog: YX-7568-ND
+  year: 1977
+  discogs_url: https://www.discogs.com/release/2330903
+  front_image: /assets/img/2330903/1.jpg
+  other_images:
+  - /assets/img/2330903/2.jpg
+  - /assets/img/2330903/3.jpg
+  - /assets/img/2330903/4.jpg
+  - /assets/img/2330903/5.jpg
+  - /assets/img/2330903/6.jpg
+  - /assets/img/2330903/7.jpg
+  - /assets/img/2330903/8.jpg
+  - /assets/img/2330903/9.jpg
+
+- title: Chick Corea - Now He Sings, Now He Sobs
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Solid State Records
+  catalog: SS18039
+  year: 1968
+  discogs_url: https://www.discogs.com/release/12133853
+  front_image: /assets/img/12133853/1.jpg
+  other_images:
+  - /assets/img/12133853/2.jpg
+  - /assets/img/12133853/3.jpg
+
+- title: Eric Dolphy - In Europe, Vol. 2
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Prestige
+  catalog: PR 7350
+  year: 1965
+  discogs_url: https://www.discogs.com/release/3400211
+  front_image: /assets/img/3400211/1.jpg
+  other_images:
+  - /assets/img/3400211/2.jpg
+  - /assets/img/3400211/3.jpg
+  - /assets/img/3400211/4.jpg
+
+- title: Hank Mobley - Le Message De Hank Mobley
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Barclay
+  catalog: "84.056"
+  year: 1959
+  discogs_url: https://www.discogs.com/release/6663948
+  front_image: /assets/img/6663948/1.jpg
+  other_images:
+  - /assets/img/6663948/2.jpg
+  - /assets/img/6663948/3.jpg
+  - /assets/img/6663948/4.jpg
+  - /assets/img/6663948/5.jpg
+  - /assets/img/6663948/6.jpg
+
+- title: Horace Silver And Art Blakey & The Jazz Messengers - Horace Silver And The Jazz Messengers
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Blue Note
+  catalog: BLP 1518
+  year: 1956
+  discogs_url: https://www.discogs.com/release/2301336
+  front_image: /assets/img/2301336/1.jpg
+  other_images:
+  - /assets/img/2301336/2.jpg
+  - /assets/img/2301336/3.jpg
+  - /assets/img/2301336/4.jpg
+  - /assets/img/2301336/5.jpg
+  - /assets/img/2301336/6.jpg
+
+- title: Jimmy Smith - Crazy! Baby
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Blue Note
+  catalog: BLP 4030
+  year: 1962
+  discogs_url: https://www.discogs.com/release/23275340
+  front_image: /assets/img/23275340/1.jpg
+  other_images:
+  - /assets/img/23275340/2.jpg
+  - /assets/img/23275340/3.jpg
+  - /assets/img/23275340/4.jpg
+  - /assets/img/23275340/5.jpg
+  - /assets/img/23275340/6.jpg
+
+- title: John Coltrane - "Live" At The Village Vanguard
+  description:
+  condition_vinyl: NM
+  condition_cover: NM
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Impulse!
+  catalog: AS-10
+  year: 1967
+  discogs_url: https://www.discogs.com/release/7085686
+  front_image: /assets/img/7085686/1.jpg
+  other_images:
+  - /assets/img/7085686/2.jpg
+  - /assets/img/7085686/3.jpg
+  - /assets/img/7085686/4.jpg
+  - /assets/img/7085686/5.jpg
+
+- title: The John Coltrane Quartet - The John Coltrane Quartet Plays
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Impulse!
+  catalog: AS-85
+  year: 1965
+  discogs_url: https://www.discogs.com/release/2007863
+  front_image: /assets/img/2007863/1.jpg
+  other_images:
+  - /assets/img/2007863/2.jpg
+  - /assets/img/2007863/3.jpg
+  - /assets/img/2007863/4.jpg
+  - /assets/img/2007863/5.jpg
+  - /assets/img/2007863/6.jpg
+
+- title: Johnny Coles - Little Johnny C
+  description:
+  condition_vinyl: NM
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Blue Note
+  catalog: BLP 4144
+  year: 1963
+  discogs_url: https://www.discogs.com/release/15597081
+  front_image: /assets/img/15597081/1.jpg
+  other_images:
+  - /assets/img/15597081/2.jpg
+  - /assets/img/15597081/3.jpg
+  - /assets/img/15597081/4.jpg
+
+- title: Johnny Griffin - A Blowing Session
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Blue Note
+  catalog: BLP 1559
+  year: 1957
+  discogs_url: https://www.discogs.com/release/3382315
+  front_image: /assets/img/3382315/1.jpg
+  other_images:
+  - /assets/img/3382315/2.jpg
+  - /assets/img/3382315/3.jpg
+  - /assets/img/3382315/4.jpg
+
+- title: Nathan Davis - Happy Girl
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: SABA
+  catalog: SB 15025 ST
+  year: 1965
+  discogs_url: https://www.discogs.com/release/3362967
+  front_image: /assets/img/3362967/1.jpg
+  other_images:
+  - /assets/img/3362967/2.jpg
+  - /assets/img/3362967/3.jpg
+  - /assets/img/3362967/4.jpg
+  - /assets/img/3362967/5.jpg
+
+- title: Sahib Shihab - Sentiments
+  description:
+  condition_vinyl: NM
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Storyville
+  catalog: SLPS-1008
+  year: 1972
+  discogs_url: https://www.discogs.com/release/1942088
+  front_image: /assets/img/1942088/1.jpg
+  other_images:
+  - /assets/img/1942088/2.jpg
+  - /assets/img/1942088/3.jpg
+  - /assets/img/1942088/4.jpg
+
+- title: The Bud Powell Trio - Bouncing With Bud
+  description:
+  condition_vinyl: VG
+  condition_cover: VG
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Sonet
+  catalog: SLP 31
+  year: 1962
+  discogs_url: https://www.discogs.com/release/3815570
+  front_image: /assets/img/3815570/1.jpg
+  other_images:
+  - /assets/img/3815570/2.jpg
+  - /assets/img/3815570/3.jpg
+  - /assets/img/3815570/4.jpg
+  - /assets/img/3815570/5.jpg
+
+- title: Thelonious Monk - The Unique Thelonious Monk
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Riverside Records
+  catalog: RLP 12-209
+  year: 1956
+  discogs_url: https://www.discogs.com/release/4869746
+  front_image: /assets/img/4869746/1.jpg
+  other_images:
+  - /assets/img/4869746/2.jpg
+  - /assets/img/4869746/3.jpg
+  - /assets/img/4869746/4.jpg
+
+- title: Walt Dickerson - Relativity
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: New Jazz
+  catalog: NJ 8275
+  year: 1962
+  discogs_url: https://www.discogs.com/release/2155251
+  front_image: /assets/img/2155251/1.jpg
+  other_images:
+  - /assets/img/2155251/2.jpg
+  - /assets/img/2155251/3.jpg
+  - /assets/img/2155251/4.jpg
+
+- title: Edvard Grieg, Øivin Fjeldstad, London Symphony Orchestra - Peer Gynt (Incidental Music To Ibsen's Play)
+  description:
+  condition_vinyl: VG
+  condition_cover: VG
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Decca
+  catalog: SXL 2012
+  year: 1959
+  discogs_url: https://www.discogs.com/release/4045676
+  front_image: /assets/img/4045676/1.jpg
+  other_images:
+  - /assets/img/4045676/2.jpg
+  - /assets/img/4045676/3.jpg
+  - /assets/img/4045676/4.jpg
+
+- title: Pyotr Ilyich Tchaikovsky, Alfredo Campoli With London Symphony Orchestra Conducted By Ataúlfo Argenta - Concerto In D Major For Violin And Orchestra, Op. 35
+  description:
+  condition_vinyl: VG+
+  condition_cover: VG+
+  price: 9999
+  sold: false
+  for_sale: true
+  label: Decca
+  catalog: SXL 2029
+  year: 1958
+  discogs_url: https://www.discogs.com/release/2855761
+  front_image: /assets/img/2855761/1.jpg
+  other_images:
+  - /assets/img/2855761/2.jpg
+  - /assets/img/2855761/3.jpg
+  - /assets/img/2855761/4.jpg
+
 - title: Introducing Johnny Griffin
   description: 2nd press from 1958 with non-frame cover and beaded rim. Beautiful sounding VG+ vinyl  with some thin hairlines that doesn't. No skips or repetetive clicks. Some spindle wear on side 1. Cover has seams repaired very nicely, but originally a G+ grade.
   condition_vinyl: VG+

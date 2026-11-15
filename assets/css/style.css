@@ -327,9 +327,10 @@ main { max-width: 1240px; margin: 0 auto; padding: 3.5rem 1.25rem 2rem; }
   padding-top: .15rem;
   transform: rotate(-8deg);
 }
-.is-sold .sleeve__art img { filter: grayscale(.55) brightness(.96); opacity: .9; }
-.is-sold .sleeve__disc { display: none; }
-.is-sold .sleeve__link:hover .sleeve__art img { transform: none; filter: none; opacity: 1; }
+/* sold: solid (not transparent) old-photo sepia, colour returns on hover */
+.is-sold .sleeve__art img { filter: grayscale(1) sepia(.35) contrast(.92) brightness(.97); transition: transform .35s ease, filter .35s ease; }
+.is-sold .sleeve__link:hover .sleeve__art img,
+.is-sold .sleeve__link:focus-visible .sleeve__art img { filter: none; }
 .is-sold .sleeve__meta { opacity: .75; }
 
 .sleeve__meta { padding-top: 1rem; }
